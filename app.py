@@ -79,10 +79,10 @@ total_mem_kb = sum(a.get("memory_kb", 0) for a in agents)
 col_title, col_refresh = st.columns([5, 1])
 with col_title:
     st.markdown("""
-<div style="text-align:center; padding: 0.5rem 0 0.2rem 0;">
-<span style="font-size:2.5rem;">🔗</span><br>
-<span style="font-size:1.6rem; font-weight:700; letter-spacing:2px;">WINEGARDEN COMMAND</span><br>
-<span style="font-size:0.75rem; color:#888; letter-spacing:3px;">AGENT NETWORK OPERATIONS</span>
+<div style="text-align:center; padding: 0.2rem 0 0.1rem 0;">
+<span style="font-size:1.6rem;">🔗</span>
+<span style="font-size:1.1rem; font-weight:700; letter-spacing:2px;">WINEGARDEN COMMAND</span><br>
+<span style="font-size:0.65rem; color:#888; letter-spacing:2px;">AGENT NETWORK OPERATIONS</span>
 </div>
 """, unsafe_allow_html=True)
 with col_refresh:
