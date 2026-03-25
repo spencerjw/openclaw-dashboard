@@ -1,0 +1,1383 @@
+{
+  "collected_at": "2026-03-25T22:45:29.981440+00:00",
+  "system": {
+    "disk": {
+      "total": "19G",
+      "used": "15G",
+      "available": "3.6G",
+      "percent": "81%"
+    },
+    "ram": {
+      "total": "1.9Gi",
+      "used": "1.1Gi",
+      "available": "807Mi"
+    },
+    "uptime": "up 3 days, 3 hours, 0 minutes",
+    "openclaw_version": "v2026.3.13",
+    "instance": "AWS t3.small (2GB RAM)"
+  },
+  "agents": [
+    {
+      "id": "main",
+      "name": "Nexus",
+      "emoji": "\ud83d\udd17",
+      "domain": "Lead Agent & Coordinator",
+      "model": "claude-opus-4-6",
+      "workspace": "workspace",
+      "workspace_size_mb": 13,
+      "memory_bytes": 193991,
+      "memory_kb": 189.4,
+      "memory_files": [
+        {
+          "name": "MEMORY.md",
+          "bytes": 14521,
+          "chars": 14474
+        },
+        {
+          "name": "memory/2025-02-11.md",
+          "bytes": 464
+        },
+        {
+          "name": "memory/2026-02-10.md",
+          "bytes": 488
+        },
+        {
+          "name": "memory/2026-02-11.md",
+          "bytes": 2272
+        },
+        {
+          "name": "memory/2026-02-12.md",
+          "bytes": 4770
+        },
+        {
+          "name": "memory/2026-02-13.md",
+          "bytes": 5300
+        },
+        {
+          "name": "memory/2026-02-14.md",
+          "bytes": 1560
+        },
+        {
+          "name": "memory/2026-02-15.md",
+          "bytes": 3212
+        },
+        {
+          "name": "memory/2026-02-17.md",
+          "bytes": 2563
+        },
+        {
+          "name": "memory/2026-02-18.md",
+          "bytes": 6101
+        },
+        {
+          "name": "memory/2026-02-19.md",
+          "bytes": 8581
+        },
+        {
+          "name": "memory/2026-02-20.md",
+          "bytes": 4430
+        },
+        {
+          "name": "memory/2026-02-23.md",
+          "bytes": 3787
+        },
+        {
+          "name": "memory/2026-02-24.md",
+          "bytes": 207
+        },
+        {
+          "name": "memory/2026-02-25.md",
+          "bytes": 1950
+        },
+        {
+          "name": "memory/2026-02-27.md",
+          "bytes": 2213
+        },
+        {
+          "name": "memory/2026-02-28.md",
+          "bytes": 1376
+        },
+        {
+          "name": "memory/2026-03-02.md",
+          "bytes": 413
+        },
+        {
+          "name": "memory/2026-03-03.md",
+          "bytes": 5682
+        },
+        {
+          "name": "memory/2026-03-04.md",
+          "bytes": 1714
+        },
+        {
+          "name": "memory/2026-03-05.md",
+          "bytes": 1515
+        },
+        {
+          "name": "memory/2026-03-06.md",
+          "bytes": 1396
+        },
+        {
+          "name": "memory/2026-03-07.md",
+          "bytes": 671
+        },
+        {
+          "name": "memory/2026-03-08.md",
+          "bytes": 3944
+        },
+        {
+          "name": "memory/2026-03-09.md",
+          "bytes": 9171
+        },
+        {
+          "name": "memory/2026-03-10.md",
+          "bytes": 9375
+        },
+        {
+          "name": "memory/2026-03-12.md",
+          "bytes": 6353
+        },
+        {
+          "name": "memory/2026-03-13.md",
+          "bytes": 3374
+        },
+        {
+          "name": "memory/2026-03-14.md",
+          "bytes": 6958
+        },
+        {
+          "name": "memory/2026-03-15.md",
+          "bytes": 3088
+        },
+        {
+          "name": "memory/2026-03-16.md",
+          "bytes": 3440
+        },
+        {
+          "name": "memory/2026-03-17.md",
+          "bytes": 2903
+        },
+        {
+          "name": "memory/2026-03-18.md",
+          "bytes": 1399
+        },
+        {
+          "name": "memory/2026-03-19.md",
+          "bytes": 2332
+        },
+        {
+          "name": "memory/2026-03-20.md",
+          "bytes": 3018
+        },
+        {
+          "name": "memory/2026-03-21.md",
+          "bytes": 3497
+        },
+        {
+          "name": "memory/2026-03-22.md",
+          "bytes": 3982
+        },
+        {
+          "name": "memory/2026-03-24.md",
+          "bytes": 4184
+        },
+        {
+          "name": "memory/grocery-tracker.md",
+          "bytes": 2584
+        },
+        {
+          "name": "memory/gvtc-business-sales-map.md",
+          "bytes": 4316
+        },
+        {
+          "name": "memory/gvtc-maps.md",
+          "bytes": 3684
+        },
+        {
+          "name": "memory/improvement-ideas.md",
+          "bytes": 619
+        },
+        {
+          "name": "memory/moc-infrastructure.md",
+          "bytes": 6228
+        },
+        {
+          "name": "memory/nexusforge.md",
+          "bytes": 1196
+        },
+        {
+          "name": "memory/rank-and-rent.md",
+          "bytes": 1554
+        },
+        {
+          "name": "memory/reaction-feedback.md",
+          "bytes": 467
+        },
+        {
+          "name": "memory/resume-standards.md",
+          "bytes": 3586
+        },
+        {
+          "name": "memory/x-activity-log.md",
+          "bytes": 23486
+        },
+        {
+          "name": "memory/x-engagement-report.md",
+          "bytes": 4067
+        }
+      ],
+      "memory_file_count": 49
+    },
+    {
+      "id": "stratton",
+      "name": "Stratton",
+      "emoji": "\ud83d\udcca",
+      "domain": "Telecom (GVTC)",
+      "model": "claude-sonnet-4",
+      "workspace": "workspace-stratton",
+      "workspace_size_mb": 16,
+      "memory_bytes": 82161,
+      "memory_kb": 80.2,
+      "memory_files": [
+        {
+          "name": "memory/2026-02-14.md",
+          "bytes": 801
+        },
+        {
+          "name": "memory/2026-02-18.md",
+          "bytes": 1525
+        },
+        {
+          "name": "memory/2026-02-24.md",
+          "bytes": 1410
+        },
+        {
+          "name": "memory/2026-03-01.md",
+          "bytes": 1493
+        },
+        {
+          "name": "memory/2026-03-02.md",
+          "bytes": 1252
+        },
+        {
+          "name": "memory/2026-03-03.md",
+          "bytes": 6338
+        },
+        {
+          "name": "memory/2026-03-04.md",
+          "bytes": 4635
+        },
+        {
+          "name": "memory/2026-03-05.md",
+          "bytes": 19957
+        },
+        {
+          "name": "memory/2026-03-06.md",
+          "bytes": 10387
+        },
+        {
+          "name": "memory/2026-03-09.md",
+          "bytes": 1432
+        },
+        {
+          "name": "memory/2026-03-10.md",
+          "bytes": 5159
+        },
+        {
+          "name": "memory/2026-03-11.md",
+          "bytes": 2741
+        },
+        {
+          "name": "memory/2026-03-12.md",
+          "bytes": 5103
+        },
+        {
+          "name": "memory/2026-03-13.md",
+          "bytes": 5405
+        },
+        {
+          "name": "memory/2026-03-14.md",
+          "bytes": 3148
+        },
+        {
+          "name": "memory/2026-03-15.md",
+          "bytes": 3030
+        },
+        {
+          "name": "memory/2026-03-16.md",
+          "bytes": 1909
+        },
+        {
+          "name": "memory/2026-03-17.md",
+          "bytes": 2503
+        },
+        {
+          "name": "memory/2026-03-25.md",
+          "bytes": 3933
+        }
+      ],
+      "memory_file_count": 19
+    },
+    {
+      "id": "rosie",
+      "name": "Rosie",
+      "emoji": "\ud83c\udf39",
+      "domain": "HCFC (Wife's Biz)",
+      "model": "claude-sonnet-4",
+      "workspace": "workspace-rosie",
+      "workspace_size_mb": 1,
+      "memory_bytes": 14518,
+      "memory_kb": 14.2,
+      "memory_files": [
+        {
+          "name": "memory/2026-02-16.md",
+          "bytes": 3346
+        },
+        {
+          "name": "memory/2026-03-03.md",
+          "bytes": 426
+        },
+        {
+          "name": "memory/2026-03-04.md",
+          "bytes": 349
+        },
+        {
+          "name": "memory/2026-03-05.md",
+          "bytes": 347
+        },
+        {
+          "name": "memory/2026-03-06.md",
+          "bytes": 347
+        },
+        {
+          "name": "memory/2026-03-07.md",
+          "bytes": 604
+        },
+        {
+          "name": "memory/2026-03-08.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-09.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-10.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-11.md",
+          "bytes": 564
+        },
+        {
+          "name": "memory/2026-03-12.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-13.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-14.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-15.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-16.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-17.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-18.md",
+          "bytes": 338
+        },
+        {
+          "name": "memory/2026-03-19.md",
+          "bytes": 1594
+        },
+        {
+          "name": "memory/2026-03-20.md",
+          "bytes": 2183
+        },
+        {
+          "name": "memory/2026-03-21.md",
+          "bytes": 370
+        },
+        {
+          "name": "memory/2026-03-22.md",
+          "bytes": 335
+        },
+        {
+          "name": "memory/2026-03-23.md",
+          "bytes": 335
+        },
+        {
+          "name": "memory/2026-03-25.md",
+          "bytes": 338
+        }
+      ],
+      "memory_file_count": 23
+    },
+    {
+      "id": "sawyer",
+      "name": "Sawyer",
+      "emoji": "\ud83e\ude9a",
+      "domain": "Woodworking",
+      "model": "claude-sonnet-4",
+      "workspace": "workspace-sawyer",
+      "workspace_size_mb": 32,
+      "memory_bytes": 51486,
+      "memory_kb": 50.3,
+      "memory_files": [
+        {
+          "name": "memory/2026-02-12.md",
+          "bytes": 4015
+        },
+        {
+          "name": "memory/2026-02-13.md",
+          "bytes": 5962
+        },
+        {
+          "name": "memory/2026-02-14.md",
+          "bytes": 1784
+        },
+        {
+          "name": "memory/2026-02-16.md",
+          "bytes": 1056
+        },
+        {
+          "name": "memory/2026-02-17.md",
+          "bytes": 283
+        },
+        {
+          "name": "memory/2026-02-18.md",
+          "bytes": 720
+        },
+        {
+          "name": "memory/2026-02-23.md",
+          "bytes": 237
+        },
+        {
+          "name": "memory/2026-02-26.md",
+          "bytes": 1502
+        },
+        {
+          "name": "memory/2026-03-03.md",
+          "bytes": 4888
+        },
+        {
+          "name": "memory/2026-03-04.md",
+          "bytes": 2360
+        },
+        {
+          "name": "memory/2026-03-06.md",
+          "bytes": 3266
+        },
+        {
+          "name": "memory/2026-03-07.md",
+          "bytes": 2471
+        },
+        {
+          "name": "memory/2026-03-08.md",
+          "bytes": 5378
+        },
+        {
+          "name": "memory/2026-03-09.md",
+          "bytes": 2107
+        },
+        {
+          "name": "memory/2026-03-10.md",
+          "bytes": 1347
+        },
+        {
+          "name": "memory/2026-03-11.md",
+          "bytes": 1449
+        },
+        {
+          "name": "memory/2026-03-12.md",
+          "bytes": 788
+        },
+        {
+          "name": "memory/2026-03-13.md",
+          "bytes": 786
+        },
+        {
+          "name": "memory/2026-03-14.md",
+          "bytes": 882
+        },
+        {
+          "name": "memory/2026-03-15.md",
+          "bytes": 924
+        },
+        {
+          "name": "memory/2026-03-16.md",
+          "bytes": 954
+        },
+        {
+          "name": "memory/2026-03-17.md",
+          "bytes": 838
+        },
+        {
+          "name": "memory/2026-03-18.md",
+          "bytes": 914
+        },
+        {
+          "name": "memory/2026-03-19.md",
+          "bytes": 860
+        },
+        {
+          "name": "memory/2026-03-20.md",
+          "bytes": 891
+        },
+        {
+          "name": "memory/2026-03-21.md",
+          "bytes": 1020
+        },
+        {
+          "name": "memory/2026-03-22.md",
+          "bytes": 1018
+        },
+        {
+          "name": "memory/2026-03-23.md",
+          "bytes": 1006
+        },
+        {
+          "name": "memory/2026-03-24.md",
+          "bytes": 887
+        },
+        {
+          "name": "memory/2026-03-25.md",
+          "bytes": 893
+        }
+      ],
+      "memory_file_count": 30
+    },
+    {
+      "id": "sterling",
+      "name": "Sterling",
+      "emoji": "\ud83d\udcb0",
+      "domain": "Finance & Markets",
+      "model": "claude-sonnet-4",
+      "workspace": "workspace-sterling",
+      "workspace_size_mb": 1,
+      "memory_bytes": 7065,
+      "memory_kb": 6.9,
+      "memory_files": [
+        {
+          "name": "memory/2026-02-14.md",
+          "bytes": 1212
+        },
+        {
+          "name": "memory/2026-03-07.md",
+          "bytes": 221
+        },
+        {
+          "name": "memory/2026-03-08.md",
+          "bytes": 171
+        },
+        {
+          "name": "memory/2026-03-09.md",
+          "bytes": 584
+        },
+        {
+          "name": "memory/2026-03-10.md",
+          "bytes": 323
+        },
+        {
+          "name": "memory/2026-03-11.md",
+          "bytes": 304
+        },
+        {
+          "name": "memory/2026-03-12.md",
+          "bytes": 799
+        },
+        {
+          "name": "memory/2026-03-13.md",
+          "bytes": 359
+        },
+        {
+          "name": "memory/2026-03-14.md",
+          "bytes": 233
+        },
+        {
+          "name": "memory/2026-03-15.md",
+          "bytes": 220
+        },
+        {
+          "name": "memory/2026-03-16.md",
+          "bytes": 241
+        },
+        {
+          "name": "memory/2026-03-17.md",
+          "bytes": 267
+        },
+        {
+          "name": "memory/2026-03-18.md",
+          "bytes": 253
+        },
+        {
+          "name": "memory/2026-03-19.md",
+          "bytes": 261
+        },
+        {
+          "name": "memory/2026-03-20.md",
+          "bytes": 278
+        },
+        {
+          "name": "memory/2026-03-21.md",
+          "bytes": 263
+        },
+        {
+          "name": "memory/2026-03-22.md",
+          "bytes": 245
+        },
+        {
+          "name": "memory/2026-03-23.md",
+          "bytes": 269
+        },
+        {
+          "name": "memory/2026-03-24.md",
+          "bytes": 300
+        },
+        {
+          "name": "memory/2026-03-25.md",
+          "bytes": 262
+        }
+      ],
+      "memory_file_count": 20
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "emoji": "\ud83e\udd89",
+      "domain": "Family & Les",
+      "model": "claude-sonnet-4",
+      "workspace": "workspace-sage",
+      "workspace_size_mb": 1,
+      "memory_bytes": 2937,
+      "memory_kb": 2.9,
+      "memory_files": [
+        {
+          "name": "memory/2026-02-15.md",
+          "bytes": 239
+        },
+        {
+          "name": "memory/2026-02-16.md",
+          "bytes": 342
+        },
+        {
+          "name": "memory/2026-02-17.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-02-23.md",
+          "bytes": 120
+        },
+        {
+          "name": "memory/2026-02-24.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-02-26.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-02-27.md",
+          "bytes": 62
+        },
+        {
+          "name": "memory/2026-02-28.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-01.md",
+          "bytes": 62
+        },
+        {
+          "name": "memory/2026-03-02.md",
+          "bytes": 62
+        },
+        {
+          "name": "memory/2026-03-03.md",
+          "bytes": 63
+        },
+        {
+          "name": "memory/2026-03-04.md",
+          "bytes": 67
+        },
+        {
+          "name": "memory/2026-03-05.md",
+          "bytes": 66
+        },
+        {
+          "name": "memory/2026-03-06.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-07.md",
+          "bytes": 282
+        },
+        {
+          "name": "memory/2026-03-08.md",
+          "bytes": 62
+        },
+        {
+          "name": "memory/2026-03-09.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-10.md",
+          "bytes": 65
+        },
+        {
+          "name": "memory/2026-03-11.md",
+          "bytes": 214
+        },
+        {
+          "name": "memory/2026-03-12.md",
+          "bytes": 66
+        },
+        {
+          "name": "memory/2026-03-13.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-14.md",
+          "bytes": 66
+        },
+        {
+          "name": "memory/2026-03-15.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-16.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-17.md",
+          "bytes": 65
+        },
+        {
+          "name": "memory/2026-03-18.md",
+          "bytes": 67
+        },
+        {
+          "name": "memory/2026-03-19.md",
+          "bytes": 66
+        },
+        {
+          "name": "memory/2026-03-20.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-21.md",
+          "bytes": 66
+        },
+        {
+          "name": "memory/2026-03-22.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-23.md",
+          "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-25.md",
+          "bytes": 67
+        }
+      ],
+      "memory_file_count": 32
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "emoji": "\ud83d\udd25",
+      "domain": "Ventures & Revenue",
+      "model": "claude-opus-4-6",
+      "workspace": "workspace-forge",
+      "workspace_size_mb": 1,
+      "memory_bytes": 44735,
+      "memory_kb": 43.7,
+      "memory_files": [
+        {
+          "name": "memory/2026-02-21.md",
+          "bytes": 2526
+        },
+        {
+          "name": "memory/2026-03-22.md",
+          "bytes": 8550
+        },
+        {
+          "name": "memory/2026-03-23.md",
+          "bytes": 19094
+        },
+        {
+          "name": "memory/2026-03-24.md",
+          "bytes": 7436
+        },
+        {
+          "name": "memory/review-automation-business-plan.md",
+          "bytes": 4658
+        },
+        {
+          "name": "memory/review-automation-tech-plan.md",
+          "bytes": 2471
+        }
+      ],
+      "memory_file_count": 6
+    },
+    {
+      "id": "beacon",
+      "name": "Beacon",
+      "emoji": "\ud83d\udce1",
+      "domain": "Rank & Rent",
+      "model": "claude-sonnet-4",
+      "workspace": "workspace-beacon",
+      "workspace_size_mb": 9,
+      "memory_bytes": 3988,
+      "memory_kb": 3.9,
+      "memory_files": [
+        {
+          "name": "memory/2026-03-19.md",
+          "bytes": 3988
+        }
+      ],
+      "memory_file_count": 1
+    },
+    {
+      "id": "tribune",
+      "name": "Tribune",
+      "emoji": "\u2696\ufe0f",
+      "domain": "Politics & Religion",
+      "model": "claude-sonnet-4",
+      "workspace": "workspace-tribune",
+      "workspace_size_mb": 1,
+      "memory_bytes": 21127,
+      "memory_kb": 20.6,
+      "memory_files": [
+        {
+          "name": "memory/2026-03-08.md",
+          "bytes": 3346
+        },
+        {
+          "name": "memory/stance-profile-chatgpt.md",
+          "bytes": 7305
+        },
+        {
+          "name": "memory/stance-profile-grok.md",
+          "bytes": 10476
+        }
+      ],
+      "memory_file_count": 3
+    },
+    {
+      "id": "pearl",
+      "name": "Pearl",
+      "emoji": "\ud83e\uddaa",
+      "domain": "Elise (Personal)",
+      "model": "claude-sonnet-4",
+      "workspace": "workspace-pearl",
+      "workspace_size_mb": 1,
+      "memory_bytes": 2456,
+      "memory_kb": 2.4,
+      "memory_files": [
+        {
+          "name": "MEMORY.md",
+          "bytes": 2402,
+          "chars": 2392
+        },
+        {
+          "name": "memory/relationship-valence.md",
+          "bytes": 54
+        }
+      ],
+      "memory_file_count": 2
+    }
+  ],
+  "cron_jobs": [
+    {
+      "name": "Daily Notion Status Sync",
+      "agentId": "sawyer",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 92637,
+        "lastRunAtMs": 1774407600156,
+        "nextRunAtMs": 1774494000000
+      }
+    },
+    {
+      "name": "Forge Ventures Council (Wed)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "59 4 * * 4",
+        "tz": "UTC"
+      },
+      "state": {
+        "nextRunAtMs": 1774501140000
+      }
+    },
+    {
+      "name": "Daily Disk Cleanup",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "UTC"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 33946,
+        "lastRunAtMs": 1774425600111,
+        "nextRunAtMs": 1774512000000
+      }
+    },
+    {
+      "name": "Daily Sub-Agent Workspace Sync (Morning)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 5 * * *",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "lastStatus": "error",
+        "consecutiveErrors": 4,
+        "lastDurationMs": 108024,
+        "lastRunAtMs": 1774432800118,
+        "nextRunAtMs": 1774519200000,
+        "lastError": "Channel is required when multiple channels are configured: discord, slack"
+      }
+    },
+    {
+      "name": "Daily Watchlist Technical Check",
+      "agentId": "sterling",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 16 * * 1-5",
+        "tz": "America/New_York"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 63111,
+        "lastRunAtMs": 1774470600037,
+        "nextRunAtMs": 1774557000000
+      }
+    },
+    {
+      "name": "Google My Business Setup Reminder",
+      "agentId": "beacon",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-26T20:42:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1774557720000
+      }
+    },
+    {
+      "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 17 * * 5",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1774648800000
+      }
+    },
+    {
+      "name": "Friday Fire: Workshop Space vs Tools - March 27",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-28T01:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1774659600000
+      }
+    },
+    {
+      "name": "Forge Ventures Council (Fri)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "59 4 * * 6",
+        "tz": "UTC"
+      },
+      "state": {
+        "nextRunAtMs": 1774673940000
+      }
+    },
+    {
+      "name": "Etsy Ads Performance Check",
+      "agentId": "forge",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 16 * * 6",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 90047,
+        "lastRunAtMs": 1774126800126,
+        "nextRunAtMs": 1774731600000
+      }
+    },
+    {
+      "name": "Weekly Competitive Price Tracker (Sun 9pm CT)",
+      "agentId": "stratton",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21 * * 0",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 311040,
+        "lastRunAtMs": 1774231200090,
+        "nextRunAtMs": 1774836000000
+      }
+    },
+    {
+      "name": "Tool Review: Festool Sander - March 29",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-30T02:15:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1774836900000
+      }
+    },
+    {
+      "name": "Forge Ventures Council (Sun)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "59 4 * * 1",
+        "tz": "UTC"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 169318,
+        "lastRunAtMs": 1774241940286,
+        "nextRunAtMs": 1774846740000
+      }
+    },
+    {
+      "name": "Weekly CWV Report (Mon 8am CT)",
+      "agentId": "stratton",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * 1",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 62422,
+        "lastRunAtMs": 1774270800081,
+        "nextRunAtMs": 1774875600000
+      }
+    },
+    {
+      "name": "Wedding Season Content Planning",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-30T15:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1774882800000
+      }
+    },
+    {
+      "name": "ZAG Bi-Weekly Meeting Prep Reminder",
+      "agentId": "stratton",
+      "enabled": true,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1209600000
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 25246,
+        "lastRunAtMs": 1773675000076,
+        "nextRunAtMs": 1774884600076
+      }
+    },
+    {
+      "name": "Etsy Ads Follow-Up Nag",
+      "agentId": "forge",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11 * * 1",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 49963,
+        "lastRunAtMs": 1774281600067,
+        "nextRunAtMs": 1774886400000
+      }
+    },
+    {
+      "name": "Weekly OpenClaw Update Check",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 14 * * 1",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
+        "lastDurationMs": 74009,
+        "lastRunAtMs": 1774292400061,
+        "nextRunAtMs": 1774897200000
+      }
+    },
+    {
+      "name": "Tool Review: Flush Cut Saw - March 30",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-31T01:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1774918800000
+      }
+    },
+    {
+      "name": "Friday Fire: Chisel Sharpening - April 3",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-04-04T01:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1775264400000
+      }
+    },
+    {
+      "name": "Friday Fire: Pocket Holes - April 10",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-04-11T01:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1775869200000
+      }
+    },
+    {
+      "name": "Mother's Day Content Planning",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-04-13T15:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1776092400000
+      }
+    },
+    {
+      "name": "Graduation Season Content Planning",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-04-20T15:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1776697200000
+      }
+    },
+    {
+      "name": "Father's Day Content Planning",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-05-18T15:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1779116400000
+      }
+    },
+    {
+      "name": "4th of July Content Planning",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-06-08T15:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1780930800000
+      }
+    },
+    {
+      "name": "Football/Tailgate Season Content Planning",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-08-10T15:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1786374000000
+      }
+    },
+    {
+      "name": "Christmas/Holiday Season Content Planning",
+      "agentId": "sawyer",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-10-15T15:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1792076400000
+      }
+    },
+    {
+      "name": "W3 Thu Mar 5 - Cheese Slicer",
+      "agentId": "sawyer",
+      "enabled": false,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-06T01:00:00.000Z"
+      },
+      "state": {
+        "lastStatus": "error",
+        "consecutiveErrors": 1,
+        "lastError": "cron: job execution timed out"
+      }
+    },
+    {
+      "name": "Tools I Trust #5 - Nitrile Gloves",
+      "agentId": "sawyer",
+      "enabled": false,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-04T18:00:00.000Z"
+      },
+      "state": {
+        "lastStatus": "error",
+        "consecutiveErrors": 1,
+        "lastError": "cron: job execution timed out"
+      }
+    },
+    {
+      "name": "Friday Fire: Dovetail Hot Take",
+      "agentId": "sawyer",
+      "enabled": false,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-21T01:00:00.000Z"
+      },
+      "state": {
+        "lastStatus": "error",
+        "consecutiveErrors": 1,
+        "lastError": "cron: job execution timed out"
+      }
+    },
+    {
+      "name": "GrowReviews Tomorrow Docket Reminder",
+      "agentId": "forge",
+      "enabled": false,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-23T13:00:00.000Z"
+      },
+      "state": {
+        "lastStatus": "error",
+        "consecutiveErrors": 1,
+        "lastError": "Discord recipient is required."
+      }
+    },
+    {
+      "name": "Daily Sub-Agent Workspace Sync (Afternoon)",
+      "agentId": "main",
+      "enabled": false,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13 * * *",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "name": "onboard-les",
+      "agentId": "main",
+      "enabled": false,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000
+      },
+      "state": {
+        "lastStatus": "ok",
+        "consecutiveErrors": 0
+      }
+    }
+  ]
+}

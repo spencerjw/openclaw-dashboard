@@ -1,0 +1,480 @@
+[
+  {
+    "name": "Daily Notion Status Sync",
+    "agentId": "sawyer",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 22 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 92637,
+      "lastRunAtMs": 1774407600156,
+      "nextRunAtMs": 1774494000000
+    }
+  },
+  {
+    "name": "Forge Ventures Council (Wed)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "59 4 * * 4",
+      "tz": "UTC"
+    },
+    "state": {
+      "nextRunAtMs": 1774501140000
+    }
+  },
+  {
+    "name": "Daily Disk Cleanup",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 8 * * *",
+      "tz": "UTC"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 33946,
+      "lastRunAtMs": 1774425600111,
+      "nextRunAtMs": 1774512000000
+    }
+  },
+  {
+    "name": "Daily Sub-Agent Workspace Sync (Morning)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 5 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 4,
+      "lastDurationMs": 108024,
+      "lastRunAtMs": 1774432800118,
+      "nextRunAtMs": 1774519200000,
+      "lastError": "Channel is required when multiple channels are configured: discord, slack"
+    }
+  },
+  {
+    "name": "Daily Watchlist Technical Check",
+    "agentId": "sterling",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "30 16 * * 1-5",
+      "tz": "America/New_York"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 63111,
+      "lastRunAtMs": 1774470600037,
+      "nextRunAtMs": 1774557000000
+    }
+  },
+  {
+    "name": "Google My Business Setup Reminder",
+    "agentId": "beacon",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-26T20:42:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1774557720000
+    }
+  },
+  {
+    "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 17 * * 5",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1774648800000
+    }
+  },
+  {
+    "name": "Friday Fire: Workshop Space vs Tools - March 27",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-28T01:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1774659600000
+    }
+  },
+  {
+    "name": "Forge Ventures Council (Fri)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "59 4 * * 6",
+      "tz": "UTC"
+    },
+    "state": {
+      "nextRunAtMs": 1774673940000
+    }
+  },
+  {
+    "name": "Etsy Ads Performance Check",
+    "agentId": "forge",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 16 * * 6",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 90047,
+      "lastRunAtMs": 1774126800126,
+      "nextRunAtMs": 1774731600000
+    }
+  },
+  {
+    "name": "Weekly Competitive Price Tracker (Sun 9pm CT)",
+    "agentId": "stratton",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 21 * * 0",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 311040,
+      "lastRunAtMs": 1774231200090,
+      "nextRunAtMs": 1774836000000
+    }
+  },
+  {
+    "name": "Tool Review: Festool Sander - March 29",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-30T02:15:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1774836900000
+    }
+  },
+  {
+    "name": "Forge Ventures Council (Sun)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "59 4 * * 1",
+      "tz": "UTC"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 169318,
+      "lastRunAtMs": 1774241940286,
+      "nextRunAtMs": 1774846740000
+    }
+  },
+  {
+    "name": "Weekly CWV Report (Mon 8am CT)",
+    "agentId": "stratton",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 8 * * 1",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 62422,
+      "lastRunAtMs": 1774270800081,
+      "nextRunAtMs": 1774875600000
+    }
+  },
+  {
+    "name": "Wedding Season Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-30T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1774882800000
+    }
+  },
+  {
+    "name": "ZAG Bi-Weekly Meeting Prep Reminder",
+    "agentId": "stratton",
+    "enabled": true,
+    "schedule": {
+      "kind": "every",
+      "everyMs": 1209600000
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 25246,
+      "lastRunAtMs": 1773675000076,
+      "nextRunAtMs": 1774884600076
+    }
+  },
+  {
+    "name": "Etsy Ads Follow-Up Nag",
+    "agentId": "forge",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 11 * * 1",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 49963,
+      "lastRunAtMs": 1774281600067,
+      "nextRunAtMs": 1774886400000
+    }
+  },
+  {
+    "name": "Weekly OpenClaw Update Check",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 14 * * 1",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
+      "lastDurationMs": 74009,
+      "lastRunAtMs": 1774292400061,
+      "nextRunAtMs": 1774897200000
+    }
+  },
+  {
+    "name": "Tool Review: Flush Cut Saw - March 30",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-31T01:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1774918800000
+    }
+  },
+  {
+    "name": "Friday Fire: Chisel Sharpening - April 3",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-04-04T01:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1775264400000
+    }
+  },
+  {
+    "name": "Friday Fire: Pocket Holes - April 10",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-04-11T01:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1775869200000
+    }
+  },
+  {
+    "name": "Mother's Day Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-04-13T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1776092400000
+    }
+  },
+  {
+    "name": "Graduation Season Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-04-20T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1776697200000
+    }
+  },
+  {
+    "name": "Father's Day Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-05-18T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1779116400000
+    }
+  },
+  {
+    "name": "4th of July Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-06-08T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1780930800000
+    }
+  },
+  {
+    "name": "Football/Tailgate Season Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-08-10T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1786374000000
+    }
+  },
+  {
+    "name": "Christmas/Holiday Season Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-10-15T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1792076400000
+    }
+  },
+  {
+    "name": "W3 Thu Mar 5 - Cheese Slicer",
+    "agentId": "sawyer",
+    "enabled": false,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-06T01:00:00.000Z"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 1,
+      "lastError": "cron: job execution timed out"
+    }
+  },
+  {
+    "name": "Tools I Trust #5 - Nitrile Gloves",
+    "agentId": "sawyer",
+    "enabled": false,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-04T18:00:00.000Z"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 1,
+      "lastError": "cron: job execution timed out"
+    }
+  },
+  {
+    "name": "Friday Fire: Dovetail Hot Take",
+    "agentId": "sawyer",
+    "enabled": false,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-21T01:00:00.000Z"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 1,
+      "lastError": "cron: job execution timed out"
+    }
+  },
+  {
+    "name": "GrowReviews Tomorrow Docket Reminder",
+    "agentId": "forge",
+    "enabled": false,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-23T13:00:00.000Z"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 1,
+      "lastError": "Discord recipient is required."
+    }
+  },
+  {
+    "name": "Daily Sub-Agent Workspace Sync (Afternoon)",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 13 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0
+    }
+  },
+  {
+    "name": "onboard-les",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "every",
+      "everyMs": 1800000
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0
+    }
+  }
+]
