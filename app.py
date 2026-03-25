@@ -74,23 +74,55 @@ error_jobs = [j for j in enabled_jobs if j.get("state", {}).get("consecutiveErro
 total_mem_kb = sum(a.get("memory_kb", 0) for a in agents)
 
 # ============================
-# HEADER
+# HEADER — Command Center Style
 # ============================
-st.title("🔗 OpenClaw Dashboard")
-st.caption(f"Updated {time_ago(collected_at)} | {system.get('openclaw_version', '?')}")
+st.markdown("""
+<div style="text-align:center; padding: 0.5rem 0 0.2rem 0;">
+<span style="font-size:2.5rem;">🔗</span><br>
+<span style="font-size:1.6rem; font-weight:700; letter-spacing:2px;">WINEGARDEN COMMAND</span><br>
+<span style="font-size:0.75rem; color:#888; letter-spacing:3px;">AGENT NETWORK OPERATIONS</span>
+</div>
+""", unsafe_allow_html=True)
 
-# ============================
-# TOP METRICS
-# ============================
-c1, c2, c3 = st.columns(3)
-c1.metric("Agents", len(agents))
-c2.metric("Cron Jobs", len(enabled_jobs))
-c3.metric("Errors", len(error_jobs))
+# Status bar
+error_color = "#ff4b4b" if error_jobs else "#00c853"
+error_label = f"🔴 {len(error_jobs)} ERROR{'S' if len(error_jobs)!=1 else ''}" if error_jobs else "🟢 ALL SYSTEMS GO"
+disk_pct_val = int(disk.get("percent", "0%").replace("%", ""))
+disk_color = "#ff4b4b" if disk_pct_val > 90 else "#ff9800" if disk_pct_val > 80 else "#00c853"
 
-c1, c2, c3 = st.columns(3)
-c1.metric("Disk", disk.get("percent", "?"))
-c2.metric("RAM", ram.get("used", "?"))
-c3.metric("Memory", f"{total_mem_kb:.0f}KB")
+st.markdown(f"""
+<div style="text-align:center; padding:0.4rem; margin:0.3rem 0; border-radius:8px; background:linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border:1px solid #333;">
+<span style="color:{error_color}; font-weight:700; font-size:0.9rem;">{error_label}</span>
+<span style="color:#666; margin:0 0.5rem;">|</span>
+<span style="color:{disk_color}; font-size:0.85rem;">💾 {disk.get('percent','?')}</span>
+<span style="color:#666; margin:0 0.5rem;">|</span>
+<span style="color:#4fc3f7; font-size:0.85rem;">⏰ {len(enabled_jobs)} jobs</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.caption(f"📡 Updated {time_ago(collected_at)} | {system.get('openclaw_version', '?')} | {system.get('uptime', '?')}")
+
+# Agent fleet — compact visual grid
+agent_icons = ""
+for agent in agents:
+    has_err = any(j.get("state", {}).get("consecutiveErrors", 0) > 0 for j in enabled_jobs if j.get("agentId") == agent["id"])
+    border = "2px solid #ff4b4b" if has_err else "2px solid #333"
+    agent_icons += f"""<div style="display:inline-block; text-align:center; margin:4px; padding:6px 8px; border-radius:10px; border:{border}; background:#1a1a2e; min-width:55px;">
+<div style="font-size:1.4rem;">{agent.get('emoji','')}</div>
+<div style="font-size:0.6rem; color:#aaa; margin-top:2px;">{agent.get('name','')}</div>
+</div>"""
+
+st.markdown(f"""<div style="text-align:center; padding:0.3rem 0; overflow-x:auto; white-space:nowrap;">{agent_icons}</div>""", unsafe_allow_html=True)
+
+# Quick stats row
+st.markdown(f"""
+<div style="display:flex; justify-content:space-around; padding:0.5rem 0; text-align:center;">
+<div><span style="font-size:1.5rem; font-weight:700; color:#4fc3f7;">{len(agents)}</span><br><span style="font-size:0.65rem; color:#888;">AGENTS</span></div>
+<div><span style="font-size:1.5rem; font-weight:700; color:#ce93d8;">{len(enabled_jobs)}</span><br><span style="font-size:0.65rem; color:#888;">CRON JOBS</span></div>
+<div><span style="font-size:1.5rem; font-weight:700; color:#{'ff4b4b' if error_jobs else '00c853'};">{len(error_jobs)}</span><br><span style="font-size:0.65rem; color:#888;">ERRORS</span></div>
+<div><span style="font-size:1.5rem; font-weight:700; color:#ffb74d;">{total_mem_kb:.0f}</span><br><span style="font-size:0.65rem; color:#888;">KB MEMORY</span></div>
+</div>
+""", unsafe_allow_html=True)
 
 # ============================
 # CRON ERRORS (if any)
