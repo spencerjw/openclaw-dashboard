@@ -89,6 +89,7 @@ with col_refresh:
     st.markdown("<div style='padding-top:1.2rem;'></div>", unsafe_allow_html=True)
     if st.button("🔄", help="Refresh data"):
         st.cache_data.clear()
+        st.toast("🔄 Refreshing dashboard...", icon="🔗")
         st.rerun()
 
 # Status bar
