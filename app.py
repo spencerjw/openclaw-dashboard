@@ -76,13 +76,20 @@ total_mem_kb = sum(a.get("memory_kb", 0) for a in agents)
 # ============================
 # HEADER — Command Center Style
 # ============================
-st.markdown("""
+col_title, col_refresh = st.columns([5, 1])
+with col_title:
+    st.markdown("""
 <div style="text-align:center; padding: 0.5rem 0 0.2rem 0;">
 <span style="font-size:2.5rem;">🔗</span><br>
 <span style="font-size:1.6rem; font-weight:700; letter-spacing:2px;">WINEGARDEN COMMAND</span><br>
 <span style="font-size:0.75rem; color:#888; letter-spacing:3px;">AGENT NETWORK OPERATIONS</span>
 </div>
 """, unsafe_allow_html=True)
+with col_refresh:
+    st.markdown("<div style='padding-top:1.2rem;'></div>", unsafe_allow_html=True)
+    if st.button("🔄", help="Refresh data"):
+        st.cache_data.clear()
+        st.rerun()
 
 # Status bar
 error_color = "#ff4b4b" if error_jobs else "#00c853"
