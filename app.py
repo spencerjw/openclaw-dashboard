@@ -77,20 +77,38 @@ total_mem_kb = sum(a.get("memory_kb", 0) for a in agents)
 # HEADER — Command Center Style
 # ============================
 st.markdown("""
-<div style="text-align:center; padding: 0.5rem 0 0.2rem 0; position:relative;">
+<div style="text-align:center; padding: 0.5rem 0 0.2rem 0;">
 <span style="font-size:2.5rem;">🔗</span><br>
 <span style="font-size:1.6rem; font-weight:700; letter-spacing:2px;">WINEGARDEN COMMAND</span><br>
 <span style="font-size:0.75rem; color:#888; letter-spacing:3px;">AGENT NETWORK OPERATIONS</span>
 </div>
 """, unsafe_allow_html=True)
 
-# Refresh button - right-aligned, doesn't affect header centering
-_r1, _r2, _r3 = st.columns([4, 1, 4])
-with _r2:
-    if st.button("🔄", help="Refresh data", use_container_width=True):
-        st.cache_data.clear()
-        st.toast("🔄 Refreshing dashboard...", icon="🔗")
-        st.rerun()
+# Floating refresh button - bottom right corner
+st.markdown("""
+<style>
+div[data-testid="stVerticalBlock"] > div:has(> div > div > button#fab_refresh) {
+    position: fixed; bottom: 24px; right: 24px; z-index: 999;
+}
+button#fab_refresh {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+    border: 1px solid rgba(96,165,250,0.4) !important;
+    border-radius: 50% !important; width: 48px !important; height: 48px !important;
+    padding: 0 !important; font-size: 20px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important;
+    min-height: 0 !important;
+}
+button#fab_refresh:hover {
+    border-color: rgba(96,165,250,0.8) !important;
+    box-shadow: 0 4px 25px rgba(96,165,250,0.3) !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+if st.button("🔄", key="fab_refresh", help="Refresh data"):
+    st.cache_data.clear()
+    st.toast("🔄 Refreshing dashboard...", icon="🔗")
+    st.rerun()
 
 # Status bar
 error_color = "#ff4b4b" if error_jobs else "#00c853"
