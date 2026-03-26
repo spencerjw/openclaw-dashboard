@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-25T22:45:29.981440+00:00",
+  "collected_at": "2026-03-26T00:50:40.179158+00:00",
   "system": {
     "disk": {
       "total": "19G",
@@ -9,10 +9,10 @@
     },
     "ram": {
       "total": "1.9Gi",
-      "used": "1.1Gi",
-      "available": "807Mi"
+      "used": "888Mi",
+      "available": "1.0Gi"
     },
-    "uptime": "up 3 days, 3 hours, 0 minutes",
+    "uptime": "up 3 days, 5 hours, 5 minutes",
     "openclaw_version": "v2026.3.13",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -25,8 +25,8 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace",
       "workspace_size_mb": 13,
-      "memory_bytes": 193991,
-      "memory_kb": 189.4,
+      "memory_bytes": 197735,
+      "memory_kb": 193.1,
       "memory_files": [
         {
           "name": "MEMORY.md",
@@ -182,6 +182,10 @@
           "bytes": 4184
         },
         {
+          "name": "memory/2026-03-25.md",
+          "bytes": 3489
+        },
+        {
           "name": "memory/grocery-tracker.md",
           "bytes": 2584
         },
@@ -199,7 +203,7 @@
         },
         {
           "name": "memory/moc-infrastructure.md",
-          "bytes": 6228
+          "bytes": 6483
         },
         {
           "name": "memory/nexusforge.md",
@@ -226,7 +230,7 @@
           "bytes": 4067
         }
       ],
-      "memory_file_count": 49
+      "memory_file_count": 50
     },
     {
       "id": "stratton",
@@ -236,8 +240,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-stratton",
       "workspace_size_mb": 16,
-      "memory_bytes": 82161,
-      "memory_kb": 80.2,
+      "memory_bytes": 82984,
+      "memory_kb": 81.0,
       "memory_files": [
         {
           "name": "memory/2026-02-14.md",
@@ -313,7 +317,7 @@
         },
         {
           "name": "memory/2026-03-25.md",
-          "bytes": 3933
+          "bytes": 4756
         }
       ],
       "memory_file_count": 19
@@ -660,7 +664,7 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sage",
       "workspace_size_mb": 1,
-      "memory_bytes": 2937,
+      "memory_bytes": 2979,
       "memory_kb": 2.9,
       "memory_files": [
         {
@@ -789,7 +793,7 @@
         },
         {
           "name": "memory/2026-03-25.md",
-          "bytes": 67
+          "bytes": 109
         }
       ],
       "memory_file_count": 32
@@ -958,12 +962,13 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "lastStatus": "error",
-        "consecutiveErrors": 4,
+        "lastStatus": "ok",
+        "consecutiveErrors": 0,
         "lastDurationMs": 108024,
         "lastRunAtMs": 1774432800118,
         "nextRunAtMs": 1774519200000,
-        "lastError": "Channel is required when multiple channels are configured: discord, slack"
+        "lastError": null,
+        "lastRunStatus": "ok"
       }
     },
     {

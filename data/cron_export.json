@@ -56,12 +56,13 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "lastStatus": "error",
-      "consecutiveErrors": 4,
+      "lastStatus": "ok",
+      "consecutiveErrors": 0,
       "lastDurationMs": 108024,
       "lastRunAtMs": 1774432800118,
       "nextRunAtMs": 1774519200000,
-      "lastError": "Channel is required when multiple channels are configured: discord, slack"
+      "lastError": null,
+      "lastRunStatus": "ok"
     }
   },
   {
