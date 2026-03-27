@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-03-27T11:01:41.240593+00:00",
+  "collected_at": "2026-03-27T23:01:16.309829+00:00",
   "system": {
     "disk": {
       "total": "19G",
-      "used": "15G",
-      "available": "3.5G",
-      "percent": "82%"
+      "used": "16G",
+      "available": "3.0G",
+      "percent": "84%"
     },
     "ram": {
       "total": "1.9Gi",
       "used": "1.3Gi",
-      "available": "620Mi"
+      "available": "577Mi"
     },
-    "uptime": "up 4 days, 15 hours, 16 minutes",
+    "uptime": "up 5 days, 3 hours, 16 minutes",
     "openclaw_version": "v2026.3.13",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -25,8 +25,8 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace",
       "workspace_size_mb": 14,
-      "memory_bytes": 195123,
-      "memory_kb": 190.5,
+      "memory_bytes": 196554,
+      "memory_kb": 191.9,
       "memory_files": [
         {
           "name": "MEMORY.md",
@@ -186,6 +186,10 @@
           "bytes": 3489
         },
         {
+          "name": "memory/2026-03-27.md",
+          "bytes": 1431
+        },
+        {
           "name": "memory/agent-roster.md",
           "bytes": 2262
         },
@@ -242,7 +246,7 @@
           "bytes": 4067
         }
       ],
-      "memory_file_count": 53
+      "memory_file_count": 54
     },
     {
       "id": "stratton",
@@ -947,56 +951,26 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774609200000,
-        "lastRunAtMs": 1774566000043,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 92817,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1774609200163
+        "nextRunAtMs": 1774652400000,
+        "lastRunAtMs": 1774630800038,
+        "lastRunStatus": "error",
+        "consecutiveErrors": 1
       },
       "delivery": {
         "mode": "none"
       }
     },
     {
-      "name": "Daily Watchlist Technical Check",
-      "agentId": "sterling",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "30 16 * * 1-5",
-        "tz": "America/New_York"
-      },
-      "state": {
-        "nextRunAtMs": 1774643400000,
-        "lastRunAtMs": 1774557000021,
-        "lastStatus": "ok",
-        "lastDurationMs": 155306,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471481648347615439"
-      }
-    },
-    {
-      "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
+      "name": "Daily Receipt Processing",
       "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
-        "expr": "0 17 * * 5",
+        "expr": "0 19 * * *",
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774648800000
+        "nextRunAtMs": 1774656000000
       },
       "delivery": {
         "mode": "none"
@@ -1015,9 +989,7 @@
         "nextRunAtMs": 1774659600000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1032,17 +1004,11 @@
       "state": {
         "nextRunAtMs": 1774666800000,
         "lastRunAtMs": 1774580400064,
-        "lastStatus": "ok",
-        "lastDurationMs": 162095,
-        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered"
+        "consecutiveErrors": 0
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1074,10 +1040,6 @@
         "nextRunAtMs": 1774684800000,
         "lastRunAtMs": 1774598400222,
         "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 35447,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1096,19 +1058,11 @@
       "state": {
         "nextRunAtMs": 1774692000000,
         "lastRunAtMs": 1774605600048,
-        "lastStatus": "error",
-        "lastDurationMs": 25947,
-        "consecutiveErrors": 1,
         "lastRunStatus": "error",
-        "lastDeliveryStatus": "delivered",
-        "lastDelivered": true,
-        "lastError": "The AI service is temporarily overloaded. Please try again in a moment.",
-        "lastErrorReason": "overloaded"
+        "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471194552290377991"
+        "mode": "announce"
       }
     },
     {
@@ -1123,17 +1077,11 @@
       "state": {
         "nextRunAtMs": 1774731600000,
         "lastRunAtMs": 1774126800126,
-        "lastStatus": "ok",
-        "lastDurationMs": 90047,
-        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "consecutiveErrors": 0
       },
       "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1474055043497070862"
+        "mode": "none"
       }
     },
     {
@@ -1148,12 +1096,8 @@
       "state": {
         "nextRunAtMs": 1774836000000,
         "lastRunAtMs": 1774231200090,
-        "lastStatus": "ok",
-        "lastDurationMs": 311040,
-        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "lastDeliveryStatus": "not-delivered",
-        "lastDelivered": false
+        "consecutiveErrors": 0
       },
       "delivery": {
         "mode": "none"
@@ -1172,9 +1116,7 @@
         "nextRunAtMs": 1774836900000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1190,10 +1132,6 @@
         "nextRunAtMs": 1774846740000,
         "lastRunAtMs": 1774241940286,
         "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 169318,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1212,12 +1150,8 @@
       "state": {
         "nextRunAtMs": 1774875600000,
         "lastRunAtMs": 1774270800081,
-        "lastStatus": "ok",
-        "lastDurationMs": 62422,
-        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "consecutiveErrors": 0
       },
       "delivery": {
         "mode": "none"
@@ -1236,9 +1170,7 @@
         "nextRunAtMs": 1774882800000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196032196149278"
+        "mode": "announce"
       }
     },
     {
@@ -1254,16 +1186,10 @@
         "nextRunAtMs": 1774884600076,
         "lastRunAtMs": 1773675000076,
         "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 25246,
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471194625367867445"
+        "mode": "announce"
       }
     },
     {
@@ -1278,17 +1204,11 @@
       "state": {
         "nextRunAtMs": 1774886400000,
         "lastRunAtMs": 1774281600067,
-        "lastStatus": "ok",
-        "lastDurationMs": 49963,
-        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "consecutiveErrors": 0
       },
       "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1474055043497070862"
+        "mode": "none"
       }
     },
     {
@@ -1303,17 +1223,30 @@
       "state": {
         "nextRunAtMs": 1774897200000,
         "lastRunAtMs": 1774292400061,
-        "lastStatus": "ok",
-        "lastDurationMs": 74009,
-        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
+        "consecutiveErrors": 0
       },
       "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471193473955664024"
+        "mode": "none"
+      }
+    },
+    {
+      "name": "Daily Watchlist Technical Check",
+      "agentId": "sterling",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 16 * * 1-5",
+        "tz": "America/New_York"
+      },
+      "state": {
+        "nextRunAtMs": 1774902600000,
+        "lastRunAtMs": 1774643400137,
+        "lastRunStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
       }
     },
     {
@@ -1329,9 +1262,7 @@
         "nextRunAtMs": 1774918800000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1347,10 +1278,25 @@
         "nextRunAtMs": 1775105940000,
         "lastRunAtMs": 1774501140120,
         "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 99440,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 17 * * 5",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1775253600000,
+        "lastRunAtMs": 1774648800035,
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1370,9 +1316,7 @@
         "nextRunAtMs": 1775264400000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1388,9 +1332,7 @@
         "nextRunAtMs": 1775869200000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1406,9 +1348,7 @@
         "nextRunAtMs": 1776092400000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196032196149278"
+        "mode": "announce"
       }
     },
     {
@@ -1424,9 +1364,7 @@
         "nextRunAtMs": 1776697200000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196032196149278"
+        "mode": "announce"
       }
     },
     {
@@ -1442,9 +1380,7 @@
         "nextRunAtMs": 1779116400000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196032196149278"
+        "mode": "announce"
       }
     },
     {
@@ -1460,9 +1396,7 @@
         "nextRunAtMs": 1780930800000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196032196149278"
+        "mode": "announce"
       }
     },
     {
@@ -1478,9 +1412,7 @@
         "nextRunAtMs": 1786374000000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196032196149278"
+        "mode": "announce"
       }
     },
     {
@@ -1496,9 +1428,7 @@
         "nextRunAtMs": 1792076400000
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196032196149278"
+        "mode": "announce"
       }
     },
     {
@@ -1513,16 +1443,10 @@
       "state": {
         "lastRunAtMs": 1772758800096,
         "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 60053,
-        "lastError": "cron: job execution timed out",
-        "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1537,16 +1461,10 @@
       "state": {
         "lastRunAtMs": 1772647200060,
         "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 120037,
-        "lastError": "cron: job execution timed out",
-        "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1561,17 +1479,10 @@
       "state": {
         "lastRunAtMs": 1774054800134,
         "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 120033,
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout",
-        "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1586,15 +1497,10 @@
       "state": {
         "lastRunAtMs": 1774270862503,
         "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 12359,
-        "lastError": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs.",
-        "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord"
+        "mode": "announce"
       }
     },
     {
@@ -1608,9 +1514,11 @@
       },
       "state": {
         "lastRunAtMs": 1771959600132,
-        "lastStatus": "ok",
-        "lastDurationMs": 102051,
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
       }
     },
     {
@@ -1624,9 +1532,11 @@
       },
       "state": {
         "lastRunAtMs": 1770925903100,
-        "lastStatus": "ok",
-        "lastDurationMs": 17310,
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
       }
     }
   ]
