@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-03-27T23:01:16.309829+00:00",
+  "collected_at": "2026-03-28T11:01:26.714497+00:00",
   "system": {
     "disk": {
       "total": "19G",
       "used": "16G",
-      "available": "3.0G",
-      "percent": "84%"
+      "available": "2.7G",
+      "percent": "86%"
     },
     "ram": {
       "total": "1.9Gi",
-      "used": "1.3Gi",
-      "available": "577Mi"
+      "used": "900Mi",
+      "available": "1.0Gi"
     },
-    "uptime": "up 5 days, 3 hours, 16 minutes",
+    "uptime": "up 5 days, 15 hours, 16 minutes",
     "openclaw_version": "v2026.3.13",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -25,8 +25,8 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace",
       "workspace_size_mb": 14,
-      "memory_bytes": 196554,
-      "memory_kb": 191.9,
+      "memory_bytes": 200706,
+      "memory_kb": 196.0,
       "memory_files": [
         {
           "name": "MEMORY.md",
@@ -187,7 +187,11 @@
         },
         {
           "name": "memory/2026-03-27.md",
-          "bytes": 1431
+          "bytes": 4364
+        },
+        {
+          "name": "memory/2026-03-28.md",
+          "bytes": 1219
         },
         {
           "name": "memory/agent-roster.md",
@@ -246,7 +250,7 @@
           "bytes": 4067
         }
       ],
-      "memory_file_count": 54
+      "memory_file_count": 55
     },
     {
       "id": "stratton",
@@ -346,8 +350,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-rosie",
       "workspace_size_mb": 1,
-      "memory_bytes": 14855,
-      "memory_kb": 14.5,
+      "memory_bytes": 15192,
+      "memory_kb": 14.8,
       "memory_files": [
         {
           "name": "memory/2026-02-16.md",
@@ -444,9 +448,13 @@
         {
           "name": "memory/2026-03-26.md",
           "bytes": 337
+        },
+        {
+          "name": "memory/2026-03-28.md",
+          "bytes": 337
         }
       ],
-      "memory_file_count": 24
+      "memory_file_count": 25
     },
     {
       "id": "sawyer",
@@ -455,9 +463,9 @@
       "domain": "Woodworking",
       "model": "claude-sonnet-4",
       "workspace": "workspace-sawyer",
-      "workspace_size_mb": 32,
-      "memory_bytes": 52411,
-      "memory_kb": 51.2,
+      "workspace_size_mb": 33,
+      "memory_bytes": 53593,
+      "memory_kb": 52.3,
       "memory_files": [
         {
           "name": "memory/2026-02-12.md",
@@ -582,9 +590,13 @@
         {
           "name": "memory/2026-03-26.md",
           "bytes": 925
+        },
+        {
+          "name": "memory/2026-03-28.md",
+          "bytes": 1182
         }
       ],
-      "memory_file_count": 31
+      "memory_file_count": 32
     },
     {
       "id": "sterling",
@@ -594,8 +606,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sterling",
       "workspace_size_mb": 1,
-      "memory_bytes": 7315,
-      "memory_kb": 7.1,
+      "memory_bytes": 7553,
+      "memory_kb": 7.4,
       "memory_files": [
         {
           "name": "memory/2026-02-14.md",
@@ -680,9 +692,13 @@
         {
           "name": "memory/2026-03-26.md",
           "bytes": 250
+        },
+        {
+          "name": "memory/2026-03-28.md",
+          "bytes": 238
         }
       ],
-      "memory_file_count": 21
+      "memory_file_count": 22
     },
     {
       "id": "sage",
@@ -692,7 +708,7 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sage",
       "workspace_size_mb": 1,
-      "memory_bytes": 3045,
+      "memory_bytes": 3111,
       "memory_kb": 3.0,
       "memory_files": [
         {
@@ -826,9 +842,13 @@
         {
           "name": "memory/2026-03-26.md",
           "bytes": 66
+        },
+        {
+          "name": "memory/2026-03-28.md",
+          "bytes": 66
         }
       ],
-      "memory_file_count": 33
+      "memory_file_count": 34
     },
     {
       "id": "forge",
@@ -837,7 +857,7 @@
       "domain": "Ventures & Revenue",
       "model": "claude-opus-4-6",
       "workspace": "workspace-forge",
-      "workspace_size_mb": 1,
+      "workspace_size_mb": 2,
       "memory_bytes": 46107,
       "memory_kb": 45.0,
       "memory_files": [
@@ -924,8 +944,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-pearl",
       "workspace_size_mb": 1,
-      "memory_bytes": 2456,
-      "memory_kb": 2.4,
+      "memory_bytes": 3657,
+      "memory_kb": 3.6,
       "memory_files": [
         {
           "name": "MEMORY.md",
@@ -933,11 +953,15 @@
           "chars": 2392
         },
         {
+          "name": "memory/2026-03-28.md",
+          "bytes": 1201
+        },
+        {
           "name": "memory/relationship-valence.md",
           "bytes": 54
         }
       ],
-      "memory_file_count": 2
+      "memory_file_count": 3
     }
   ],
   "cron_jobs": [
@@ -951,13 +975,43 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774652400000,
-        "lastRunAtMs": 1774630800038,
-        "lastRunStatus": "error",
-        "consecutiveErrors": 1
+        "nextRunAtMs": 1774695600000,
+        "lastRunAtMs": 1774652400148,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 80839,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false,
+        "runningAtMs": 1774695600169
       },
       "delivery": {
         "mode": "none"
+      }
+    },
+    {
+      "name": "Etsy Ads Performance Check",
+      "agentId": "forge",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 16 * * 6",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1774731600000,
+        "lastRunAtMs": 1774126800126,
+        "lastStatus": "ok",
+        "lastDurationMs": 90047,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1474055043497070862"
       }
     },
     {
@@ -970,26 +1024,17 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774656000000
+        "nextRunAtMs": 1774742400000,
+        "lastRunAtMs": 1774656000098,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 223936,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
       },
       "delivery": {
         "mode": "none"
-      }
-    },
-    {
-      "name": "Friday Fire: Workshop Space vs Tools - March 27",
-      "agentId": "sawyer",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-03-28T01:00:00.000Z"
-      },
-      "state": {
-        "nextRunAtMs": 1774659600000
-      },
-      "delivery": {
-        "mode": "announce"
       }
     },
     {
@@ -1002,29 +1047,19 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774666800000,
-        "lastRunAtMs": 1774580400064,
+        "nextRunAtMs": 1774753200000,
+        "lastRunAtMs": 1774666800135,
+        "lastStatus": "ok",
+        "lastDurationMs": 120537,
+        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered"
       },
       "delivery": {
-        "mode": "announce"
-      }
-    },
-    {
-      "name": "Forge Ventures Council (Fri)",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "59 4 * * 6",
-        "tz": "UTC"
-      },
-      "state": {
-        "nextRunAtMs": 1774673940000
-      },
-      "delivery": {
-        "mode": "none"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
       }
     },
     {
@@ -1037,9 +1072,13 @@
         "tz": "UTC"
       },
       "state": {
-        "nextRunAtMs": 1774684800000,
-        "lastRunAtMs": 1774598400222,
+        "nextRunAtMs": 1774771200000,
+        "lastRunAtMs": 1774684800173,
         "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 62231,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1056,32 +1095,19 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774692000000,
-        "lastRunAtMs": 1774605600048,
-        "lastRunStatus": "error",
-        "consecutiveErrors": 1
-      },
-      "delivery": {
-        "mode": "announce"
-      }
-    },
-    {
-      "name": "Etsy Ads Performance Check",
-      "agentId": "forge",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 16 * * 6",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1774731600000,
-        "lastRunAtMs": 1774126800126,
+        "nextRunAtMs": 1774778400000,
+        "lastRunAtMs": 1774692000203,
+        "lastStatus": "ok",
+        "lastDurationMs": 227149,
+        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastDeliveryStatus": "delivered",
+        "lastDelivered": true
       },
       "delivery": {
-        "mode": "none"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
       }
     },
     {
@@ -1096,8 +1122,12 @@
       "state": {
         "nextRunAtMs": 1774836000000,
         "lastRunAtMs": 1774231200090,
+        "lastStatus": "ok",
+        "lastDurationMs": 311040,
+        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastDeliveryStatus": "not-delivered",
+        "lastDelivered": false
       },
       "delivery": {
         "mode": "none"
@@ -1116,7 +1146,9 @@
         "nextRunAtMs": 1774836900000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
       }
     },
     {
@@ -1132,6 +1164,10 @@
         "nextRunAtMs": 1774846740000,
         "lastRunAtMs": 1774241940286,
         "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 169318,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1150,8 +1186,12 @@
       "state": {
         "nextRunAtMs": 1774875600000,
         "lastRunAtMs": 1774270800081,
+        "lastStatus": "ok",
+        "lastDurationMs": 62422,
+        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
       },
       "delivery": {
         "mode": "none"
@@ -1170,7 +1210,9 @@
         "nextRunAtMs": 1774882800000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196032196149278"
       }
     },
     {
@@ -1186,10 +1228,16 @@
         "nextRunAtMs": 1774884600076,
         "lastRunAtMs": 1773675000076,
         "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 25246,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471194625367867445"
       }
     },
     {
@@ -1204,11 +1252,17 @@
       "state": {
         "nextRunAtMs": 1774886400000,
         "lastRunAtMs": 1774281600067,
+        "lastStatus": "ok",
+        "lastDurationMs": 49963,
+        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
       },
       "delivery": {
-        "mode": "none"
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1474055043497070862"
       }
     },
     {
@@ -1223,11 +1277,17 @@
       "state": {
         "nextRunAtMs": 1774897200000,
         "lastRunAtMs": 1774292400061,
+        "lastStatus": "ok",
+        "lastDurationMs": 74009,
+        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
       },
       "delivery": {
-        "mode": "none"
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471193473955664024"
       }
     },
     {
@@ -1242,11 +1302,17 @@
       "state": {
         "nextRunAtMs": 1774902600000,
         "lastRunAtMs": 1774643400137,
+        "lastStatus": "ok",
+        "lastDurationMs": 70975,
+        "consecutiveErrors": 0,
         "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
       },
       "delivery": {
-        "mode": "none"
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471481648347615439"
       }
     },
     {
@@ -1262,7 +1328,9 @@
         "nextRunAtMs": 1774918800000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
       }
     },
     {
@@ -1278,6 +1346,10 @@
         "nextRunAtMs": 1775105940000,
         "lastRunAtMs": 1774501140120,
         "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 99440,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1297,6 +1369,10 @@
         "nextRunAtMs": 1775253600000,
         "lastRunAtMs": 1774648800035,
         "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 120618,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1316,7 +1392,32 @@
         "nextRunAtMs": 1775264400000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
+      }
+    },
+    {
+      "name": "Forge Ventures Council (Fri)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "59 4 * * 6",
+        "tz": "UTC"
+      },
+      "state": {
+        "nextRunAtMs": 1775278740000,
+        "lastRunAtMs": 1774673940039,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 105758,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
       }
     },
     {
@@ -1332,7 +1433,9 @@
         "nextRunAtMs": 1775869200000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
       }
     },
     {
@@ -1348,7 +1451,9 @@
         "nextRunAtMs": 1776092400000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196032196149278"
       }
     },
     {
@@ -1364,7 +1469,9 @@
         "nextRunAtMs": 1776697200000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196032196149278"
       }
     },
     {
@@ -1380,7 +1487,9 @@
         "nextRunAtMs": 1779116400000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196032196149278"
       }
     },
     {
@@ -1396,7 +1505,9 @@
         "nextRunAtMs": 1780930800000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196032196149278"
       }
     },
     {
@@ -1412,7 +1523,9 @@
         "nextRunAtMs": 1786374000000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196032196149278"
       }
     },
     {
@@ -1428,7 +1541,9 @@
         "nextRunAtMs": 1792076400000
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196032196149278"
       }
     },
     {
@@ -1443,10 +1558,16 @@
       "state": {
         "lastRunAtMs": 1772758800096,
         "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 60053,
+        "lastError": "cron: job execution timed out",
+        "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
       }
     },
     {
@@ -1461,10 +1582,16 @@
       "state": {
         "lastRunAtMs": 1772647200060,
         "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 120037,
+        "lastError": "cron: job execution timed out",
+        "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
       }
     },
     {
@@ -1479,10 +1606,17 @@
       "state": {
         "lastRunAtMs": 1774054800134,
         "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 120033,
+        "lastError": "cron: job execution timed out",
+        "lastErrorReason": "timeout",
+        "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
       }
     },
     {
@@ -1497,10 +1631,15 @@
       "state": {
         "lastRunAtMs": 1774270862503,
         "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 12359,
+        "lastError": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs.",
+        "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "announce",
+        "channel": "discord"
       }
     },
     {
@@ -1514,12 +1653,11 @@
       },
       "state": {
         "lastRunAtMs": 1771959600132,
-        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 102051,
         "consecutiveErrors": 0
       },
-      "delivery": {
-        "mode": "none"
-      }
+      "delivery": {}
     },
     {
       "name": "onboard-les",
@@ -1532,11 +1670,35 @@
       },
       "state": {
         "lastRunAtMs": 1770925903100,
-        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 17310,
         "consecutiveErrors": 0
       },
+      "delivery": {}
+    },
+    {
+      "name": "Friday Fire: Workshop Space vs Tools - March 27",
+      "agentId": "sawyer",
+      "enabled": false,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-03-28T01:00:00.000Z"
+      },
+      "state": {
+        "lastRunAtMs": 1774659600169,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 120017,
+        "lastError": "cron: job execution timed out",
+        "lastErrorReason": "timeout",
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1
+      },
       "delivery": {
-        "mode": "none"
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
       }
     }
   ]

@@ -9,13 +9,43 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774652400000,
-      "lastRunAtMs": 1774630800038,
-      "lastRunStatus": "error",
-      "consecutiveErrors": 1
+      "nextRunAtMs": 1774695600000,
+      "lastRunAtMs": 1774652400148,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 80839,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0,
+      "lastDelivered": false,
+      "runningAtMs": 1774695600169
     },
     "delivery": {
       "mode": "none"
+    }
+  },
+  {
+    "name": "Etsy Ads Performance Check",
+    "agentId": "forge",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 16 * * 6",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1774731600000,
+      "lastRunAtMs": 1774126800126,
+      "lastStatus": "ok",
+      "lastDurationMs": 90047,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1474055043497070862"
     }
   },
   {
@@ -28,26 +58,17 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774656000000
+      "nextRunAtMs": 1774742400000,
+      "lastRunAtMs": 1774656000098,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 223936,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "none"
-    }
-  },
-  {
-    "name": "Friday Fire: Workshop Space vs Tools - March 27",
-    "agentId": "sawyer",
-    "enabled": true,
-    "deleteAfterRun": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-28T01:00:00.000Z"
-    },
-    "state": {
-      "nextRunAtMs": 1774659600000
-    },
-    "delivery": {
-      "mode": "announce"
     }
   },
   {
@@ -60,29 +81,19 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774666800000,
-      "lastRunAtMs": 1774580400064,
+      "nextRunAtMs": 1774753200000,
+      "lastRunAtMs": 1774666800135,
+      "lastStatus": "ok",
+      "lastDurationMs": 120537,
+      "consecutiveErrors": 0,
       "lastRunStatus": "ok",
-      "consecutiveErrors": 0
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered"
     },
     "delivery": {
-      "mode": "announce"
-    }
-  },
-  {
-    "name": "Forge Ventures Council (Fri)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "59 4 * * 6",
-      "tz": "UTC"
-    },
-    "state": {
-      "nextRunAtMs": 1774673940000
-    },
-    "delivery": {
-      "mode": "none"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
     }
   },
   {
@@ -95,9 +106,13 @@
       "tz": "UTC"
     },
     "state": {
-      "nextRunAtMs": 1774684800000,
-      "lastRunAtMs": 1774598400222,
+      "nextRunAtMs": 1774771200000,
+      "lastRunAtMs": 1774684800173,
       "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 62231,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -114,32 +129,19 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774692000000,
-      "lastRunAtMs": 1774605600048,
-      "lastRunStatus": "error",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce"
-    }
-  },
-  {
-    "name": "Etsy Ads Performance Check",
-    "agentId": "forge",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 16 * * 6",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1774731600000,
-      "lastRunAtMs": 1774126800126,
+      "nextRunAtMs": 1774778400000,
+      "lastRunAtMs": 1774692000203,
+      "lastStatus": "ok",
+      "lastDurationMs": 227149,
+      "consecutiveErrors": 0,
       "lastRunStatus": "ok",
-      "consecutiveErrors": 0
+      "lastDeliveryStatus": "delivered",
+      "lastDelivered": true
     },
     "delivery": {
-      "mode": "none"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
     }
   },
   {
@@ -154,8 +156,12 @@
     "state": {
       "nextRunAtMs": 1774836000000,
       "lastRunAtMs": 1774231200090,
+      "lastStatus": "ok",
+      "lastDurationMs": 311040,
+      "consecutiveErrors": 0,
       "lastRunStatus": "ok",
-      "consecutiveErrors": 0
+      "lastDeliveryStatus": "not-delivered",
+      "lastDelivered": false
     },
     "delivery": {
       "mode": "none"
@@ -174,7 +180,9 @@
       "nextRunAtMs": 1774836900000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
     }
   },
   {
@@ -190,6 +198,10 @@
       "nextRunAtMs": 1774846740000,
       "lastRunAtMs": 1774241940286,
       "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 169318,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -208,8 +220,12 @@
     "state": {
       "nextRunAtMs": 1774875600000,
       "lastRunAtMs": 1774270800081,
+      "lastStatus": "ok",
+      "lastDurationMs": 62422,
+      "consecutiveErrors": 0,
       "lastRunStatus": "ok",
-      "consecutiveErrors": 0
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered"
     },
     "delivery": {
       "mode": "none"
@@ -228,7 +244,9 @@
       "nextRunAtMs": 1774882800000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
     }
   },
   {
@@ -244,10 +262,16 @@
       "nextRunAtMs": 1774884600076,
       "lastRunAtMs": 1773675000076,
       "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 25246,
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471194625367867445"
     }
   },
   {
@@ -262,11 +286,17 @@
     "state": {
       "nextRunAtMs": 1774886400000,
       "lastRunAtMs": 1774281600067,
+      "lastStatus": "ok",
+      "lastDurationMs": 49963,
+      "consecutiveErrors": 0,
       "lastRunStatus": "ok",
-      "consecutiveErrors": 0
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered"
     },
     "delivery": {
-      "mode": "none"
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1474055043497070862"
     }
   },
   {
@@ -281,11 +311,17 @@
     "state": {
       "nextRunAtMs": 1774897200000,
       "lastRunAtMs": 1774292400061,
+      "lastStatus": "ok",
+      "lastDurationMs": 74009,
+      "consecutiveErrors": 0,
       "lastRunStatus": "ok",
-      "consecutiveErrors": 0
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered"
     },
     "delivery": {
-      "mode": "none"
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471193473955664024"
     }
   },
   {
@@ -300,11 +336,17 @@
     "state": {
       "nextRunAtMs": 1774902600000,
       "lastRunAtMs": 1774643400137,
+      "lastStatus": "ok",
+      "lastDurationMs": 70975,
+      "consecutiveErrors": 0,
       "lastRunStatus": "ok",
-      "consecutiveErrors": 0
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered"
     },
     "delivery": {
-      "mode": "none"
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471481648347615439"
     }
   },
   {
@@ -320,7 +362,9 @@
       "nextRunAtMs": 1774918800000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
     }
   },
   {
@@ -336,6 +380,10 @@
       "nextRunAtMs": 1775105940000,
       "lastRunAtMs": 1774501140120,
       "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 99440,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -355,6 +403,10 @@
       "nextRunAtMs": 1775253600000,
       "lastRunAtMs": 1774648800035,
       "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 120618,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -374,7 +426,32 @@
       "nextRunAtMs": 1775264400000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "Forge Ventures Council (Fri)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "59 4 * * 6",
+      "tz": "UTC"
+    },
+    "state": {
+      "nextRunAtMs": 1775278740000,
+      "lastRunAtMs": 1774673940039,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 105758,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
     }
   },
   {
@@ -390,7 +467,9 @@
       "nextRunAtMs": 1775869200000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
     }
   },
   {
@@ -406,7 +485,9 @@
       "nextRunAtMs": 1776092400000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
     }
   },
   {
@@ -422,7 +503,9 @@
       "nextRunAtMs": 1776697200000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
     }
   },
   {
@@ -438,7 +521,9 @@
       "nextRunAtMs": 1779116400000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
     }
   },
   {
@@ -454,7 +539,9 @@
       "nextRunAtMs": 1780930800000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
     }
   },
   {
@@ -470,7 +557,9 @@
       "nextRunAtMs": 1786374000000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
     }
   },
   {
@@ -486,7 +575,9 @@
       "nextRunAtMs": 1792076400000
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
     }
   },
   {
@@ -501,10 +592,16 @@
     "state": {
       "lastRunAtMs": 1772758800096,
       "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 60053,
+      "lastError": "cron: job execution timed out",
+      "lastDeliveryStatus": "unknown",
       "consecutiveErrors": 1
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
     }
   },
   {
@@ -519,10 +616,16 @@
     "state": {
       "lastRunAtMs": 1772647200060,
       "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 120037,
+      "lastError": "cron: job execution timed out",
+      "lastDeliveryStatus": "unknown",
       "consecutiveErrors": 1
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
     }
   },
   {
@@ -537,10 +640,17 @@
     "state": {
       "lastRunAtMs": 1774054800134,
       "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 120033,
+      "lastError": "cron: job execution timed out",
+      "lastErrorReason": "timeout",
+      "lastDeliveryStatus": "unknown",
       "consecutiveErrors": 1
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
     }
   },
   {
@@ -555,10 +665,15 @@
     "state": {
       "lastRunAtMs": 1774270862503,
       "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 12359,
+      "lastError": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs.",
+      "lastDeliveryStatus": "unknown",
       "consecutiveErrors": 1
     },
     "delivery": {
-      "mode": "announce"
+      "mode": "announce",
+      "channel": "discord"
     }
   },
   {
@@ -572,12 +687,11 @@
     },
     "state": {
       "lastRunAtMs": 1771959600132,
-      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 102051,
       "consecutiveErrors": 0
     },
-    "delivery": {
-      "mode": "none"
-    }
+    "delivery": {}
   },
   {
     "name": "onboard-les",
@@ -590,11 +704,35 @@
     },
     "state": {
       "lastRunAtMs": 1770925903100,
-      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 17310,
       "consecutiveErrors": 0
     },
+    "delivery": {}
+  },
+  {
+    "name": "Friday Fire: Workshop Space vs Tools - March 27",
+    "agentId": "sawyer",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-28T01:00:00.000Z"
+    },
+    "state": {
+      "lastRunAtMs": 1774659600169,
+      "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 120017,
+      "lastError": "cron: job execution timed out",
+      "lastErrorReason": "timeout",
+      "lastDeliveryStatus": "unknown",
+      "consecutiveErrors": 1
+    },
     "delivery": {
-      "mode": "none"
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
     }
   }
 ]
