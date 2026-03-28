@@ -9,15 +9,15 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774695600000,
-      "lastRunAtMs": 1774652400148,
+      "nextRunAtMs": 1774717200000,
+      "lastRunAtMs": 1774695600169,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 80839,
+      "lastDurationMs": 92616,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0,
       "lastDelivered": false,
-      "runningAtMs": 1774695600169
+      "runningAtMs": 1774717200181
     },
     "delivery": {
       "mode": "none"
@@ -691,7 +691,9 @@
       "lastDurationMs": 102051,
       "consecutiveErrors": 0
     },
-    "delivery": {}
+    "delivery": {
+      "mode": "systemEvent"
+    }
   },
   {
     "name": "onboard-les",
@@ -708,7 +710,9 @@
       "lastDurationMs": 17310,
       "consecutiveErrors": 0
     },
-    "delivery": {}
+    "delivery": {
+      "mode": "systemEvent"
+    }
   },
   {
     "name": "Friday Fire: Workshop Space vs Tools - March 27",

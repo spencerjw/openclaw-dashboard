@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-28T11:01:26.714497+00:00",
+  "collected_at": "2026-03-28T17:01:40.509043+00:00",
   "system": {
     "disk": {
       "total": "19G",
@@ -9,10 +9,10 @@
     },
     "ram": {
       "total": "1.9Gi",
-      "used": "900Mi",
-      "available": "1.0Gi"
+      "used": "958Mi",
+      "available": "949Mi"
     },
-    "uptime": "up 5 days, 15 hours, 16 minutes",
+    "uptime": "up 5 days, 21 hours, 16 minutes",
     "openclaw_version": "v2026.3.13",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -25,8 +25,8 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace",
       "workspace_size_mb": 14,
-      "memory_bytes": 200706,
-      "memory_kb": 196.0,
+      "memory_bytes": 201508,
+      "memory_kb": 196.8,
       "memory_files": [
         {
           "name": "MEMORY.md",
@@ -191,7 +191,7 @@
         },
         {
           "name": "memory/2026-03-28.md",
-          "bytes": 1219
+          "bytes": 2021
         },
         {
           "name": "memory/agent-roster.md",
@@ -975,15 +975,15 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774695600000,
-        "lastRunAtMs": 1774652400148,
+        "nextRunAtMs": 1774717200000,
+        "lastRunAtMs": 1774695600169,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 80839,
+        "lastDurationMs": 92616,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false,
-        "runningAtMs": 1774695600169
+        "runningAtMs": 1774717200181
       },
       "delivery": {
         "mode": "none"
@@ -1657,7 +1657,9 @@
         "lastDurationMs": 102051,
         "consecutiveErrors": 0
       },
-      "delivery": {}
+      "delivery": {
+        "mode": "systemEvent"
+      }
     },
     {
       "name": "onboard-les",
@@ -1674,7 +1676,9 @@
         "lastDurationMs": 17310,
         "consecutiveErrors": 0
       },
-      "delivery": {}
+      "delivery": {
+        "mode": "systemEvent"
+      }
     },
     {
       "name": "Friday Fire: Workshop Space vs Tools - March 27",
