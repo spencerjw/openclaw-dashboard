@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-29T11:01:25.046902+00:00",
+  "collected_at": "2026-03-29T17:01:18.528442+00:00",
   "system": {
     "disk": {
       "total": "19G",
@@ -9,10 +9,10 @@
     },
     "ram": {
       "total": "1.9Gi",
-      "used": "1.1Gi",
-      "available": "797Mi"
+      "used": "950Mi",
+      "available": "957Mi"
     },
-    "uptime": "up 6 days, 15 hours, 16 minutes",
+    "uptime": "up 6 days, 21 hours, 16 minutes",
     "openclaw_version": "v2026.3.13",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -25,13 +25,13 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace",
       "workspace_size_mb": 23,
-      "memory_bytes": 231800,
-      "memory_kb": 226.4,
+      "memory_bytes": 213795,
+      "memory_kb": 208.8,
       "memory_files": [
         {
           "name": "MEMORY.md",
-          "bytes": 5643,
-          "chars": 5640
+          "bytes": 5763,
+          "chars": 5760
         },
         {
           "name": "memory/2025-02-11.md",
@@ -195,11 +195,11 @@
         },
         {
           "name": "memory/2026-03-29.md",
-          "bytes": 7254
+          "bytes": 8677
         },
         {
           "name": "memory/agent-roster.md",
-          "bytes": 2262
+          "bytes": 2819
         },
         {
           "name": "memory/dashboards.md",
@@ -212,18 +212,6 @@
         {
           "name": "memory/grocery-tracker.md",
           "bytes": 2584
-        },
-        {
-          "name": "memory/growreviews-code-backup-2026-03-29.md",
-          "bytes": 6261
-        },
-        {
-          "name": "memory/growreviews-full-backup-2026-03-29.md",
-          "bytes": 6006
-        },
-        {
-          "name": "memory/growreviews-reconstruction-plan.md",
-          "bytes": 7838
         },
         {
           "name": "memory/gvtc-business-sales-map.md",
@@ -270,7 +258,7 @@
           "bytes": 4067
         }
       ],
-      "memory_file_count": 60
+      "memory_file_count": 57
     },
     {
       "id": "stratton",
@@ -898,8 +886,8 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace-forge",
       "workspace_size_mb": 45,
-      "memory_bytes": 53568,
-      "memory_kb": 52.3,
+      "memory_bytes": 53968,
+      "memory_kb": 52.7,
       "memory_files": [
         {
           "name": "memory/2026-02-21.md",
@@ -923,7 +911,7 @@
         },
         {
           "name": "memory/2026-03-29.md",
-          "bytes": 5008
+          "bytes": 5408
         },
         {
           "name": "memory/git-deploy-sop.md",
@@ -1017,19 +1005,16 @@
       "name": "Dashboard Snapshot Refresh",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 6,12,18 * * *",
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774782000000,
-        "lastRunAtMs": 1774738800052,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "consecutiveErrors": 1,
-        "lastErrorReason": "timeout"
+        "nextRunAtMs": 1774803600000,
+        "lastRunAtMs": 1774782000123,
+        "lastRunStatus": "ok",
+        "runningAtMs": 1774803600022
       },
       "delivery": {
         "mode": "none"
@@ -1039,7 +1024,6 @@
       "name": "Daily Receipt Processing",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 19 * * *",
@@ -1048,9 +1032,7 @@
       "state": {
         "nextRunAtMs": 1774828800000,
         "lastRunAtMs": 1774742400156,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none"
@@ -1060,7 +1042,6 @@
       "name": "Weekly Competitive Price Tracker (Sun 9pm CT)",
       "agentId": "stratton",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 21 * * 0",
@@ -1069,8 +1050,7 @@
       "state": {
         "nextRunAtMs": 1774836000000,
         "lastRunAtMs": 1774231200090,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none"
@@ -1098,7 +1078,6 @@
       "name": "Daily Notion Status Sync",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 22 * * *",
@@ -1107,8 +1086,7 @@
       "state": {
         "nextRunAtMs": 1774839600000,
         "lastRunAtMs": 1774753200059,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "announce",
@@ -1120,7 +1098,6 @@
       "name": "Forge Ventures Council (Sun)",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "59 4 * * 1",
@@ -1129,8 +1106,7 @@
       "state": {
         "nextRunAtMs": 1774846740000,
         "lastRunAtMs": 1774241940286,
-        "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none"
@@ -1140,7 +1116,6 @@
       "name": "Daily Disk Cleanup",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * *",
@@ -1149,8 +1124,7 @@
       "state": {
         "nextRunAtMs": 1774857600000,
         "lastRunAtMs": 1774771200036,
-        "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none"
@@ -1160,7 +1134,6 @@
       "name": "Daily Sub-Agent Workspace Sync (Morning)",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 5 * * *",
@@ -1169,8 +1142,7 @@
       "state": {
         "nextRunAtMs": 1774864800000,
         "lastRunAtMs": 1774778400144,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "announce",
@@ -1182,7 +1154,6 @@
       "name": "Weekly CWV Report (Mon 8am CT)",
       "agentId": "stratton",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * 1",
@@ -1191,8 +1162,7 @@
       "state": {
         "nextRunAtMs": 1774875600000,
         "lastRunAtMs": 1774270800081,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none"
@@ -1220,7 +1190,6 @@
       "name": "ZAG Bi-Weekly Meeting Prep Reminder",
       "agentId": "stratton",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "every",
         "everyMs": 1209600000,
@@ -1229,8 +1198,7 @@
       "state": {
         "nextRunAtMs": 1774884600076,
         "lastRunAtMs": 1773675000076,
-        "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "announce",
@@ -1242,7 +1210,6 @@
       "name": "Etsy Ads Follow-Up Nag",
       "agentId": "forge",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 11 * * 1",
@@ -1251,8 +1218,7 @@
       "state": {
         "nextRunAtMs": 1774886400000,
         "lastRunAtMs": 1774281600067,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none",
@@ -1264,7 +1230,6 @@
       "name": "Weekly OpenClaw Update Check",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 14 * * 1",
@@ -1273,8 +1238,7 @@
       "state": {
         "nextRunAtMs": 1774897200000,
         "lastRunAtMs": 1774292400061,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none",
@@ -1286,7 +1250,6 @@
       "name": "Daily Watchlist Technical Check",
       "agentId": "sterling",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "30 16 * * 1-5",
@@ -1295,8 +1258,7 @@
       "state": {
         "nextRunAtMs": 1774902600000,
         "lastRunAtMs": 1774643400137,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none",
@@ -1326,7 +1288,6 @@
       "name": "Forge Ventures Council (Wed)",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "59 4 * * 4",
@@ -1335,8 +1296,7 @@
       "state": {
         "nextRunAtMs": 1775105940000,
         "lastRunAtMs": 1774501140120,
-        "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none"
@@ -1346,7 +1306,6 @@
       "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 17 * * 5",
@@ -1355,8 +1314,7 @@
       "state": {
         "nextRunAtMs": 1775253600000,
         "lastRunAtMs": 1774648800035,
-        "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none"
@@ -1384,7 +1342,6 @@
       "name": "Forge Ventures Council (Fri)",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "59 4 * * 6",
@@ -1393,8 +1350,7 @@
       "state": {
         "nextRunAtMs": 1775278740000,
         "lastRunAtMs": 1774673940039,
-        "lastRunStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none"
@@ -1404,7 +1360,6 @@
       "name": "Etsy Ads Performance Check",
       "agentId": "forge",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 16 * * 6",
@@ -1413,13 +1368,28 @@
       "state": {
         "nextRunAtMs": 1775336400000,
         "lastRunAtMs": 1774731600151,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {
         "mode": "none",
         "channel": "discord",
         "to": "channel:1474055043497070862"
+      }
+    },
+    {
+      "name": "FB User Token Expiration Reminder",
+      "agentId": "main",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-04-10T14:00:00.000Z"
+      },
+      "state": {
+        "nextRunAtMs": 1775829600000
+      },
+      "delivery": {
+        "mode": "none"
       }
     },
     {
@@ -1559,9 +1529,7 @@
       },
       "state": {
         "lastRunAtMs": 1772758800096,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "consecutiveErrors": 1
+        "lastRunStatus": "error"
       },
       "delivery": {
         "mode": "announce",
@@ -1580,9 +1548,7 @@
       },
       "state": {
         "lastRunAtMs": 1772647200060,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "consecutiveErrors": 1
+        "lastRunStatus": "error"
       },
       "delivery": {
         "mode": "announce",
@@ -1601,9 +1567,7 @@
       },
       "state": {
         "lastRunAtMs": 1774054800134,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "consecutiveErrors": 1
+        "lastRunStatus": "error"
       },
       "delivery": {
         "mode": "announce",
@@ -1622,9 +1586,7 @@
       },
       "state": {
         "lastRunAtMs": 1774270862503,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "consecutiveErrors": 1
+        "lastRunStatus": "error"
       },
       "delivery": {
         "mode": "announce",
@@ -1635,7 +1597,6 @@
       "name": "Daily Sub-Agent Workspace Sync (Afternoon)",
       "agentId": "main",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
@@ -1643,8 +1604,7 @@
       },
       "state": {
         "lastRunAtMs": 1771959600132,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {}
     },
@@ -1652,7 +1612,6 @@
       "name": "onboard-les",
       "agentId": "main",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -1660,8 +1619,7 @@
       },
       "state": {
         "lastRunAtMs": 1770925903100,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
+        "lastRunStatus": "ok"
       },
       "delivery": {}
     },
@@ -1676,9 +1634,7 @@
       },
       "state": {
         "lastRunAtMs": 1774659600169,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "consecutiveErrors": 1
+        "lastRunStatus": "error"
       },
       "delivery": {
         "mode": "announce",
