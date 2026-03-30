@@ -9,68 +9,12 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774890000000,
-      "lastRunAtMs": 1774868400030,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 120029,
-      "lastDeliveryStatus": "not-requested",
-      "consecutiveErrors": 2,
-      "lastErrorReason": "timeout",
-      "runningAtMs": 1774890000222
+      "nextRunAtMs": 1774911600000,
+      "lastStatus": "ok",
+      "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "none"
-    }
-  },
-  {
-    "name": "Weekly OpenClaw Update Check",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 14 * * 1",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1774897200000,
-      "lastRunAtMs": 1774292400061,
-      "lastStatus": "ok",
-      "lastDurationMs": 74009,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered"
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471193473955664024"
-    }
-  },
-  {
-    "name": "Daily Watchlist Technical Check",
-    "agentId": "sterling",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "30 16 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
-      "nextRunAtMs": 1774902600000,
-      "lastRunAtMs": 1774643400137,
-      "lastStatus": "ok",
-      "lastDurationMs": 70975,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered"
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471481648347615439"
     }
   },
   {
@@ -84,12 +28,7 @@
     },
     "state": {
       "nextRunAtMs": 1774915200000,
-      "lastRunAtMs": 1774828800166,
-      "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 23337,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -125,13 +64,8 @@
     },
     "state": {
       "nextRunAtMs": 1774926000000,
-      "lastRunAtMs": 1774839600025,
       "lastStatus": "ok",
-      "lastDurationMs": 103999,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered"
+      "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "announce",
@@ -150,16 +84,9 @@
     },
     "state": {
       "nextRunAtMs": 1774944000000,
-      "lastRunAtMs": 1774857600070,
-      "lastRunStatus": "error",
       "lastStatus": "error",
-      "lastDurationMs": 29499,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 1,
-      "lastError": "The AI service is temporarily overloaded. Please try again in a moment.",
-      "lastErrorReason": "overloaded",
-      "lastDeliveryError": "The AI service is temporarily overloaded. Please try again in a moment."
+      "lastError": "AI service temporarily overloaded"
     },
     "delivery": {
       "mode": "none"
@@ -176,13 +103,8 @@
     },
     "state": {
       "nextRunAtMs": 1774951200000,
-      "lastRunAtMs": 1774864800032,
       "lastStatus": "ok",
-      "lastDurationMs": 128734,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "delivered",
-      "lastDelivered": true
+      "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "announce",
@@ -191,13 +113,30 @@
     }
   },
   {
+    "name": "Daily Watchlist Technical Check",
+    "agentId": "sterling",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "30 16 * * 1-5",
+      "tz": "America/New_York"
+    },
+    "state": {
+      "nextRunAtMs": 1774989000000,
+      "lastStatus": "ok",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    }
+  },
+  {
     "name": "Grocery Receipt Import (Every 3 Days)",
     "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "every",
-      "everyMs": 259200000,
-      "anchorMs": 1774817485488
+      "everyMs": 259200000
     },
     "state": {
       "nextRunAtMs": 1775076685488
@@ -217,12 +156,7 @@
     },
     "state": {
       "nextRunAtMs": 1775105940000,
-      "lastRunAtMs": 1774501140120,
-      "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 99440,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -240,12 +174,7 @@
     },
     "state": {
       "nextRunAtMs": 1775253600000,
-      "lastRunAtMs": 1774648800035,
-      "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 120618,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -281,12 +210,7 @@
     },
     "state": {
       "nextRunAtMs": 1775278740000,
-      "lastRunAtMs": 1774673940039,
-      "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 105758,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -320,18 +244,11 @@
     },
     "state": {
       "nextRunAtMs": 1775336400000,
-      "lastRunAtMs": 1774731600151,
       "lastStatus": "ok",
-      "lastDurationMs": 57722,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered"
+      "consecutiveErrors": 0
     },
     "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1474055043497070862"
+      "mode": "none"
     }
   },
   {
@@ -345,13 +262,8 @@
     },
     "state": {
       "nextRunAtMs": 1775440800000,
-      "lastRunAtMs": 1774836000036,
       "lastStatus": "ok",
-      "lastDurationMs": 215957,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-delivered",
-      "lastDelivered": false
+      "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "none"
@@ -368,12 +280,7 @@
     },
     "state": {
       "nextRunAtMs": 1775451540000,
-      "lastRunAtMs": 1774846740057,
-      "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 125528,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -391,16 +298,9 @@
     },
     "state": {
       "nextRunAtMs": 1775480400000,
-      "lastRunAtMs": 1774875600033,
       "lastStatus": "error",
-      "lastDurationMs": 27918,
       "consecutiveErrors": 1,
-      "lastRunStatus": "error",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "lastError": "The AI service is temporarily overloaded. Please try again in a moment.",
-      "lastErrorReason": "overloaded",
-      "lastDeliveryError": "The AI service is temporarily overloaded. Please try again in a moment."
+      "lastError": "AI service temporarily overloaded"
     },
     "delivery": {
       "mode": "none"
@@ -417,18 +317,29 @@
     },
     "state": {
       "nextRunAtMs": 1775491200000,
-      "lastRunAtMs": 1774886400179,
       "lastStatus": "ok",
-      "lastDurationMs": 68640,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered"
+      "consecutiveErrors": 0
     },
     "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1474055043497070862"
+      "mode": "none"
+    }
+  },
+  {
+    "name": "Weekly OpenClaw Update Check",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 14 * * 1",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1775502000000,
+      "lastStatus": "ok",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
     }
   },
   {
@@ -466,7 +377,7 @@
     }
   },
   {
-    "name": "👩 Mother's Day Content Planning Reminder",
+    "name": "Mother's Day Content Planning Reminder",
     "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
@@ -489,17 +400,11 @@
     "enabled": true,
     "schedule": {
       "kind": "every",
-      "everyMs": 1209600000,
-      "anchorMs": 1773675000000
+      "everyMs": 1209600000
     },
     "state": {
       "nextRunAtMs": 1776094200106,
-      "lastRunAtMs": 1774884600106,
-      "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 13514,
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -519,6 +424,327 @@
     },
     "state": {
       "nextRunAtMs": 1776272400000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "Graduation Season Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-04-20T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1776697200000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
+    }
+  },
+  {
+    "name": "Wedding Season: Cutting Board V1 - Apr 23",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-04-23T17:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1776963600000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "Wedding Season: Cheese Board V1 - May 1",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-05-01T17:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1777654800000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "Wedding Season: Family Sign V2 - May 6",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-05-06T17:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1778086800000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "Wedding Season: Cutting Board V2 - May 13",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-05-13T17:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1778691600000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "Father's Day Content Planning Reminder",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-05-18T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1779116400000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
+    }
+  },
+  {
+    "name": "Wedding Season: Cutting Board V3 - Jun 3",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-06-03T17:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1780506000000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "4th of July Content Planning Reminder",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-06-08T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1780930800000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
+    }
+  },
+  {
+    "name": "Wedding Season: Cheese Board V2 - Jun 10",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-06-10T17:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1781110800000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "Football/Tailgate Season Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-08-10T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1786374000000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
+    }
+  },
+  {
+    "name": "Christmas/Holiday Season Content Planning",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-10-15T15:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1792076400000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196032196149278"
+    }
+  },
+  {
+    "name": "W3 Thu Mar 5 - Cheese Slicer",
+    "agentId": "sawyer",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-06T01:00:00.000Z"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 1
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "Tools I Trust #5 \u2014 Nitrile Gloves",
+    "agentId": "sawyer",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-04T18:00:00.000Z"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 1
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "Friday Fire: Dovetail Hot Take - March 20",
+    "agentId": "sawyer",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-21T01:00:00.000Z"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 1
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
+    "name": "GrowReviews Tomorrow Docket Reminder",
+    "agentId": "forge",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-23T13:00:00.000Z"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 1
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord"
+    }
+  },
+  {
+    "name": "Daily Sub-Agent Workspace Sync (Afternoon)",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 13 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0
+    },
+    "delivery": {}
+  },
+  {
+    "name": "onboard-les",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "every",
+      "everyMs": 1800000
+    },
+    "state": {
+      "lastStatus": "ok",
+      "consecutiveErrors": 0
+    },
+    "delivery": {}
+  },
+  {
+    "name": "Friday Fire: Workshop Space vs Tools - March 27",
+    "agentId": "sawyer",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-28T01:00:00.000Z"
+    },
+    "state": {
+      "lastStatus": "error",
+      "consecutiveErrors": 1
     },
     "delivery": {
       "mode": "announce",
