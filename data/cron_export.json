@@ -9,7 +9,27 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774911600000,
+      "nextRunAtMs": 1774954800000,
+      "lastRunAtMs": 1774911600022,
+      "lastStatus": "ok",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    }
+  },
+  {
+    "name": "Daily Watchlist Technical Check",
+    "agentId": "sterling",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "30 16 * * 1-5",
+      "tz": "America/New_York"
+    },
+    "state": {
+      "nextRunAtMs": 1774989000000,
+      "lastRunAtMs": 1774902600148,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -27,30 +47,13 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774915200000,
+      "nextRunAtMs": 1775001600000,
+      "lastRunAtMs": 1774915200121,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "none"
-    }
-  },
-  {
-    "name": "Tool Review: Flush Cut Saw - March 30",
-    "agentId": "sawyer",
-    "enabled": true,
-    "deleteAfterRun": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-31T01:00:00.000Z"
-    },
-    "state": {
-      "nextRunAtMs": 1774918800000
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
     }
   },
   {
@@ -63,7 +66,8 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774926000000,
+      "nextRunAtMs": 1775012400000,
+      "lastRunAtMs": 1774926000032,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -83,10 +87,10 @@
       "tz": "UTC"
     },
     "state": {
-      "nextRunAtMs": 1774944000000,
-      "lastStatus": "error",
-      "consecutiveErrors": 1,
-      "lastError": "AI service temporarily overloaded"
+      "nextRunAtMs": 1775030400000,
+      "lastRunAtMs": 1774944000065,
+      "lastStatus": "ok",
+      "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "none"
@@ -102,7 +106,8 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774951200000,
+      "nextRunAtMs": 1775037600000,
+      "lastRunAtMs": 1774951200027,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -110,24 +115,6 @@
       "mode": "announce",
       "channel": "discord",
       "to": "channel:1471194552290377991"
-    }
-  },
-  {
-    "name": "Daily Watchlist Technical Check",
-    "agentId": "sterling",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "30 16 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
-      "nextRunAtMs": 1774989000000,
-      "lastStatus": "ok",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
     }
   },
   {
@@ -156,6 +143,7 @@
     },
     "state": {
       "nextRunAtMs": 1775105940000,
+      "lastRunAtMs": 1774501140120,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -174,6 +162,7 @@
     },
     "state": {
       "nextRunAtMs": 1775253600000,
+      "lastRunAtMs": 1774648800035,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -210,6 +199,7 @@
     },
     "state": {
       "nextRunAtMs": 1775278740000,
+      "lastRunAtMs": 1774673940039,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -244,6 +234,7 @@
     },
     "state": {
       "nextRunAtMs": 1775336400000,
+      "lastRunAtMs": 1774731600151,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -262,6 +253,7 @@
     },
     "state": {
       "nextRunAtMs": 1775440800000,
+      "lastRunAtMs": 1774836000036,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -280,6 +272,7 @@
     },
     "state": {
       "nextRunAtMs": 1775451540000,
+      "lastRunAtMs": 1774846740057,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -298,9 +291,10 @@
     },
     "state": {
       "nextRunAtMs": 1775480400000,
+      "lastRunAtMs": 1774875600033,
       "lastStatus": "error",
       "consecutiveErrors": 1,
-      "lastError": "AI service temporarily overloaded"
+      "lastError": "The AI service is temporarily overloaded."
     },
     "delivery": {
       "mode": "none"
@@ -317,6 +311,7 @@
     },
     "state": {
       "nextRunAtMs": 1775491200000,
+      "lastRunAtMs": 1774886400179,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -335,6 +330,7 @@
     },
     "state": {
       "nextRunAtMs": 1775502000000,
+      "lastRunAtMs": 1774897200064,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -404,6 +400,7 @@
     },
     "state": {
       "nextRunAtMs": 1776094200106,
+      "lastRunAtMs": 1774884600106,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -643,13 +640,11 @@
       "consecutiveErrors": 1
     },
     "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
+      "mode": "announce"
     }
   },
   {
-    "name": "Tools I Trust #5 \u2014 Nitrile Gloves",
+    "name": "Tools I Trust #5 - Nitrile Gloves",
     "agentId": "sawyer",
     "enabled": false,
     "deleteAfterRun": true,
@@ -662,9 +657,7 @@
       "consecutiveErrors": 1
     },
     "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
+      "mode": "announce"
     }
   },
   {
@@ -681,9 +674,7 @@
       "consecutiveErrors": 1
     },
     "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
+      "mode": "announce"
     }
   },
   {
@@ -700,8 +691,7 @@
       "consecutiveErrors": 1
     },
     "delivery": {
-      "mode": "announce",
-      "channel": "discord"
+      "mode": "announce"
     }
   },
   {
@@ -747,9 +737,7 @@
       "consecutiveErrors": 1
     },
     "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
+      "mode": "announce"
     }
   }
 ]

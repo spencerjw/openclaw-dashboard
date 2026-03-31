@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-30T23:01:08.895458+00:00",
+  "collected_at": "2026-03-31T11:01:56.716044+00:00",
   "system": {
     "disk": {
       "total": "19G",
@@ -9,10 +9,10 @@
     },
     "ram": {
       "total": "1.9Gi",
-      "used": "889Mi",
-      "available": "1.0Gi"
+      "used": "1.0Gi",
+      "available": "836Mi"
     },
-    "uptime": "up 1 week, 1 day, 3 hours, 16 minutes",
+    "uptime": "up 1 week, 1 day, 15 hours, 16 minutes",
     "openclaw_version": "v2026.3.13",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -25,7 +25,7 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace",
       "workspace_size_mb": 23,
-      "memory_bytes": 215459,
+      "memory_bytes": 215442,
       "memory_kb": 210.4,
       "memory_files": [
         {
@@ -231,7 +231,7 @@
         },
         {
           "name": "memory/moc-infrastructure.md",
-          "bytes": 7526
+          "bytes": 7509
         },
         {
           "name": "memory/nexusforge.md",
@@ -358,8 +358,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-rosie",
       "workspace_size_mb": 1,
-      "memory_bytes": 18759,
-      "memory_kb": 18.3,
+      "memory_bytes": 19166,
+      "memory_kb": 18.7,
       "memory_files": [
         {
           "name": "memory/2026-02-16.md",
@@ -470,11 +470,15 @@
           "bytes": 779
         },
         {
+          "name": "memory/2026-03-31.md",
+          "bytes": 407
+        },
+        {
           "name": "memory/git-deploy-sop.md",
           "bytes": 2453
         }
       ],
-      "memory_file_count": 28
+      "memory_file_count": 29
     },
     {
       "id": "sawyer",
@@ -484,8 +488,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sawyer",
       "workspace_size_mb": 39,
-      "memory_bytes": 58719,
-      "memory_kb": 57.3,
+      "memory_bytes": 59703,
+      "memory_kb": 58.3,
       "memory_files": [
         {
           "name": "memory/2026-02-12.md",
@@ -622,9 +626,13 @@
         {
           "name": "memory/2026-03-30.md",
           "bytes": 3933
+        },
+        {
+          "name": "memory/2026-03-31.md",
+          "bytes": 984
         }
       ],
-      "memory_file_count": 34
+      "memory_file_count": 35
     },
     {
       "id": "sterling",
@@ -634,8 +642,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sterling",
       "workspace_size_mb": 1,
-      "memory_bytes": 8034,
-      "memory_kb": 7.8,
+      "memory_bytes": 8228,
+      "memory_kb": 8.0,
       "memory_files": [
         {
           "name": "memory/2026-02-14.md",
@@ -732,9 +740,13 @@
         {
           "name": "memory/2026-03-30.md",
           "bytes": 201
+        },
+        {
+          "name": "memory/2026-03-31.md",
+          "bytes": 194
         }
       ],
-      "memory_file_count": 24
+      "memory_file_count": 25
     },
     {
       "id": "sage",
@@ -744,7 +756,7 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sage",
       "workspace_size_mb": 1,
-      "memory_bytes": 3239,
+      "memory_bytes": 3304,
       "memory_kb": 3.2,
       "memory_files": [
         {
@@ -890,9 +902,13 @@
         {
           "name": "memory/2026-03-30.md",
           "bytes": 64
+        },
+        {
+          "name": "memory/2026-03-31.md",
+          "bytes": 65
         }
       ],
-      "memory_file_count": 36
+      "memory_file_count": 37
     },
     {
       "id": "forge",
@@ -902,8 +918,8 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace-forge",
       "workspace_size_mb": 45,
-      "memory_bytes": 55633,
-      "memory_kb": 54.3,
+      "memory_bytes": 59913,
+      "memory_kb": 58.5,
       "memory_files": [
         {
           "name": "memory/2026-02-21.md",
@@ -934,6 +950,10 @@
           "bytes": 1665
         },
         {
+          "name": "memory/2026-03-31.md",
+          "bytes": 4280
+        },
+        {
           "name": "memory/git-deploy-sop.md",
           "bytes": 2453
         },
@@ -946,7 +966,7 @@
           "bytes": 2471
         }
       ],
-      "memory_file_count": 10
+      "memory_file_count": 11
     },
     {
       "id": "beacon",
@@ -1031,7 +1051,27 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774911600000,
+        "nextRunAtMs": 1774954800000,
+        "lastRunAtMs": 1774911600022,
+        "lastStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "name": "Daily Watchlist Technical Check",
+      "agentId": "sterling",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 16 * * 1-5",
+        "tz": "America/New_York"
+      },
+      "state": {
+        "nextRunAtMs": 1774989000000,
+        "lastRunAtMs": 1774902600148,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1049,30 +1089,13 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774915200000,
+        "nextRunAtMs": 1775001600000,
+        "lastRunAtMs": 1774915200121,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
         "mode": "none"
-      }
-    },
-    {
-      "name": "Tool Review: Flush Cut Saw - March 30",
-      "agentId": "sawyer",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-03-31T01:00:00.000Z"
-      },
-      "state": {
-        "nextRunAtMs": 1774918800000
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
       }
     },
     {
@@ -1085,7 +1108,8 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774926000000,
+        "nextRunAtMs": 1775012400000,
+        "lastRunAtMs": 1774926000032,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1105,10 +1129,10 @@
         "tz": "UTC"
       },
       "state": {
-        "nextRunAtMs": 1774944000000,
-        "lastStatus": "error",
-        "consecutiveErrors": 1,
-        "lastError": "AI service temporarily overloaded"
+        "nextRunAtMs": 1775030400000,
+        "lastRunAtMs": 1774944000065,
+        "lastStatus": "ok",
+        "consecutiveErrors": 0
       },
       "delivery": {
         "mode": "none"
@@ -1124,7 +1148,8 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774951200000,
+        "nextRunAtMs": 1775037600000,
+        "lastRunAtMs": 1774951200027,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1132,24 +1157,6 @@
         "mode": "announce",
         "channel": "discord",
         "to": "channel:1471194552290377991"
-      }
-    },
-    {
-      "name": "Daily Watchlist Technical Check",
-      "agentId": "sterling",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "30 16 * * 1-5",
-        "tz": "America/New_York"
-      },
-      "state": {
-        "nextRunAtMs": 1774989000000,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none"
       }
     },
     {
@@ -1178,6 +1185,7 @@
       },
       "state": {
         "nextRunAtMs": 1775105940000,
+        "lastRunAtMs": 1774501140120,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1196,6 +1204,7 @@
       },
       "state": {
         "nextRunAtMs": 1775253600000,
+        "lastRunAtMs": 1774648800035,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1232,6 +1241,7 @@
       },
       "state": {
         "nextRunAtMs": 1775278740000,
+        "lastRunAtMs": 1774673940039,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1266,6 +1276,7 @@
       },
       "state": {
         "nextRunAtMs": 1775336400000,
+        "lastRunAtMs": 1774731600151,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1284,6 +1295,7 @@
       },
       "state": {
         "nextRunAtMs": 1775440800000,
+        "lastRunAtMs": 1774836000036,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1302,6 +1314,7 @@
       },
       "state": {
         "nextRunAtMs": 1775451540000,
+        "lastRunAtMs": 1774846740057,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1320,9 +1333,10 @@
       },
       "state": {
         "nextRunAtMs": 1775480400000,
+        "lastRunAtMs": 1774875600033,
         "lastStatus": "error",
         "consecutiveErrors": 1,
-        "lastError": "AI service temporarily overloaded"
+        "lastError": "The AI service is temporarily overloaded."
       },
       "delivery": {
         "mode": "none"
@@ -1339,6 +1353,7 @@
       },
       "state": {
         "nextRunAtMs": 1775491200000,
+        "lastRunAtMs": 1774886400179,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1357,6 +1372,7 @@
       },
       "state": {
         "nextRunAtMs": 1775502000000,
+        "lastRunAtMs": 1774897200064,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1426,6 +1442,7 @@
       },
       "state": {
         "nextRunAtMs": 1776094200106,
+        "lastRunAtMs": 1774884600106,
         "lastStatus": "ok",
         "consecutiveErrors": 0
       },
@@ -1665,13 +1682,11 @@
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
-      "name": "Tools I Trust #5 \u2014 Nitrile Gloves",
+      "name": "Tools I Trust #5 - Nitrile Gloves",
       "agentId": "sawyer",
       "enabled": false,
       "deleteAfterRun": true,
@@ -1684,9 +1699,7 @@
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1703,9 +1716,7 @@
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     },
     {
@@ -1722,8 +1733,7 @@
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord"
+        "mode": "announce"
       }
     },
     {
@@ -1769,9 +1779,7 @@
         "consecutiveErrors": 1
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
+        "mode": "announce"
       }
     }
   ]
