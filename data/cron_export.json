@@ -1,8 +1,7 @@
 [
   {
-    "id": "02073740-01ab-4b91-bc77-32025a513928",
-    "agentId": "main",
     "name": "Dashboard Snapshot Refresh",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -10,25 +9,7 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "lastStatus": "error",
-      "consecutiveErrors": 1,
-      "lastErrorReason": "timeout"
-    },
-    "delivery": {
-      "mode": "none"
-    }
-  },
-  {
-    "id": "c0452f64-5994-4ea2-816f-9d768e2f0a3c",
-    "agentId": "sterling",
-    "name": "Daily Watchlist Technical Check",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "30 16 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
+      "nextRunAtMs": 1774998000000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -37,9 +18,8 @@
     }
   },
   {
-    "id": "11ea68b2-600b-41f8-8b79-5423e8daf6b6",
-    "agentId": "main",
     "name": "Daily Receipt Processing",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -47,6 +27,7 @@
       "tz": "America/Chicago"
     },
     "state": {
+      "nextRunAtMs": 1775001600000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -55,9 +36,8 @@
     }
   },
   {
-    "id": "a6421c45-7e45-425b-a4ad-215c8beca46a",
-    "agentId": "sawyer",
     "name": "Daily Notion Status Sync",
+    "agentId": "sawyer",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -65,6 +45,7 @@
       "tz": "America/Chicago"
     },
     "state": {
+      "nextRunAtMs": 1775012400000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -75,9 +56,8 @@
     }
   },
   {
-    "id": "b69c2813-755b-4ecf-9ade-622a875a3c80",
-    "agentId": "main",
     "name": "Daily Disk Cleanup",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -85,6 +65,7 @@
       "tz": "UTC"
     },
     "state": {
+      "nextRunAtMs": 1775030400000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -93,9 +74,8 @@
     }
   },
   {
-    "id": "57db703f-f742-4365-82f0-b062dc2d3fdb",
-    "agentId": "main",
     "name": "Daily Sub-Agent Workspace Sync (Morning)",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -103,6 +83,7 @@
       "tz": "America/Chicago"
     },
     "state": {
+      "nextRunAtMs": 1775037600000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -113,23 +94,42 @@
     }
   },
   {
-    "id": "1bf95266-b686-4a2b-a2ba-aa0e88938081",
-    "agentId": "main",
-    "name": "Grocery Receipt Import (Every 3 Days)",
+    "name": "Daily Watchlist Technical Check",
+    "agentId": "sterling",
     "enabled": true,
     "schedule": {
-      "kind": "every",
-      "everyMs": 259200000
+      "kind": "cron",
+      "expr": "30 16 * * 1-5",
+      "tz": "America/New_York"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1775075400000,
+      "lastStatus": "error",
+      "consecutiveErrors": 1,
+      "lastError": "The AI service is temporarily overloaded."
+    },
     "delivery": {
       "mode": "none"
     }
   },
   {
-    "id": "3d5e478d-a427-4307-b337-cb0bc2a2bf8b",
+    "name": "Grocery Receipt Import (Every 3 Days)",
     "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "every",
+      "everyMs": 259200000
+    },
+    "state": {
+      "nextRunAtMs": 1775076685488
+    },
+    "delivery": {
+      "mode": "none"
+    }
+  },
+  {
     "name": "Forge Ventures Council (Wed)",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -137,6 +137,7 @@
       "tz": "UTC"
     },
     "state": {
+      "nextRunAtMs": 1775105940000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -145,9 +146,8 @@
     }
   },
   {
-    "id": "08be88b7-0c5b-4d89-85ff-0a28533ef402",
-    "agentId": "main",
     "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -155,6 +155,7 @@
       "tz": "America/Chicago"
     },
     "state": {
+      "nextRunAtMs": 1775253600000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -163,16 +164,17 @@
     }
   },
   {
-    "id": "667171a9-aab0-482a-b0f0-0861c3c6b902",
-    "agentId": "sawyer",
     "name": "Friday Fire: Chisel Sharpening Confession - April 3",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-04T01:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1775264400000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -180,9 +182,8 @@
     }
   },
   {
-    "id": "11156f74-b188-4228-8546-c0f13a6a3066",
-    "agentId": "main",
     "name": "Forge Ventures Council (Fri)",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -190,6 +191,7 @@
       "tz": "UTC"
     },
     "state": {
+      "nextRunAtMs": 1775278740000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -198,24 +200,24 @@
     }
   },
   {
-    "id": "2a4a9dbe-2be2-4e67-a3d6-84415c24a55b",
-    "agentId": "main",
     "name": "Grocery Receipt Import (Saturday)",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
       "expr": "0 14 * * 6",
       "tz": "America/Chicago"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1775329200000
+    },
     "delivery": {
       "mode": "none"
     }
   },
   {
-    "id": "1f29af2a-4265-434f-81ce-0eb6571f23e0",
-    "agentId": "forge",
     "name": "Etsy Ads Performance Check",
+    "agentId": "forge",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -223,6 +225,7 @@
       "tz": "America/Chicago"
     },
     "state": {
+      "nextRunAtMs": 1775336400000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -231,9 +234,8 @@
     }
   },
   {
-    "id": "8bd740f6-bfec-49d6-aef7-dbe5270af636",
-    "agentId": "stratton",
     "name": "Weekly Competitive Price Tracker (Sun 9pm CT)",
+    "agentId": "stratton",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -241,6 +243,7 @@
       "tz": "America/Chicago"
     },
     "state": {
+      "nextRunAtMs": 1775440800000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -249,9 +252,8 @@
     }
   },
   {
-    "id": "df03c401-2911-43e9-9707-b6ad03b00341",
-    "agentId": "main",
     "name": "Forge Ventures Council (Sun)",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -259,6 +261,7 @@
       "tz": "UTC"
     },
     "state": {
+      "nextRunAtMs": 1775451540000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -267,9 +270,8 @@
     }
   },
   {
-    "id": "cc769109-44d1-4374-bd6c-6a3399cc6cfe",
-    "agentId": "stratton",
     "name": "Weekly CWV Report (Mon 8am CT)",
+    "agentId": "stratton",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -277,18 +279,18 @@
       "tz": "America/Chicago"
     },
     "state": {
+      "nextRunAtMs": 1775480400000,
       "lastStatus": "error",
       "consecutiveErrors": 1,
-      "lastErrorReason": "overloaded"
+      "lastError": "The AI service is temporarily overloaded."
     },
     "delivery": {
       "mode": "none"
     }
   },
   {
-    "id": "faf3466e-0577-45a9-ab5d-3d76695a9045",
-    "agentId": "forge",
     "name": "Etsy Ads Follow-Up Nag",
+    "agentId": "forge",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -296,6 +298,7 @@
       "tz": "America/Chicago"
     },
     "state": {
+      "nextRunAtMs": 1775491200000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -304,9 +307,8 @@
     }
   },
   {
-    "id": "7372f5fe-c7ad-4e32-9d57-ec25f452b953",
-    "agentId": "main",
     "name": "Weekly OpenClaw Update Check",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
@@ -314,6 +316,7 @@
       "tz": "America/Chicago"
     },
     "state": {
+      "nextRunAtMs": 1775502000000,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -322,31 +325,33 @@
     }
   },
   {
-    "id": "ecb112cb-5cfb-472e-b608-6b31474b05a0",
-    "agentId": "main",
     "name": "FB User Token Expiration Reminder",
+    "agentId": "main",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-10T14:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1775829600000
+    },
     "delivery": {
       "mode": "none"
     }
   },
   {
-    "id": "0ff4ab57-701e-4c32-8211-fa821bbeff0c",
-    "agentId": "sawyer",
     "name": "Friday Fire: Pocket Holes Debate - April 10",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-11T01:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1775869200000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -354,16 +359,17 @@
     }
   },
   {
-    "id": "25a2102e-c3e9-4bf7-b4ba-9bb2ca623fa9",
-    "agentId": "sawyer",
     "name": "Mother's Day Content Planning Reminder",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-13T15:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1776092400000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -371,15 +377,15 @@
     }
   },
   {
-    "id": "bbe09c38-2a6d-492c-acdc-fd7246961231",
-    "agentId": "stratton",
     "name": "ZAG Bi-Weekly Meeting Prep Reminder",
+    "agentId": "stratton",
     "enabled": true,
     "schedule": {
       "kind": "every",
       "everyMs": 1209600000
     },
     "state": {
+      "nextRunAtMs": 1776094200106,
       "lastStatus": "ok",
       "consecutiveErrors": 0
     },
@@ -390,16 +396,17 @@
     }
   },
   {
-    "id": "f14ab670-2263-401f-9e78-54d7b2bd52b1",
-    "agentId": "sawyer",
     "name": "Wedding Season: Family Sign V1 - Apr 15",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-15T17:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1776272400000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -407,16 +414,17 @@
     }
   },
   {
-    "id": "e13a6791-ce82-4367-890c-8ae2ce6c85d5",
-    "agentId": "sawyer",
     "name": "Graduation Season Content Planning",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-20T15:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1776697200000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -424,16 +432,17 @@
     }
   },
   {
-    "id": "2db371e0-b849-4401-9f91-341effef978e",
-    "agentId": "sawyer",
     "name": "Wedding Season: Cutting Board V1 - Apr 23",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-23T17:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1776963600000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -441,16 +450,17 @@
     }
   },
   {
-    "id": "d6f9fd26-557b-4315-9707-96cffa598686",
-    "agentId": "sawyer",
     "name": "Wedding Season: Cheese Board V1 - May 1",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-01T17:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1777654800000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -458,16 +468,17 @@
     }
   },
   {
-    "id": "304f3299-a521-47f9-97c9-503128661896",
-    "agentId": "sawyer",
     "name": "Wedding Season: Family Sign V2 - May 6",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-06T17:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1778086800000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -475,16 +486,17 @@
     }
   },
   {
-    "id": "ccae3189-977c-47e1-91f3-3de7a9ecbb11",
-    "agentId": "sawyer",
     "name": "Wedding Season: Cutting Board V2 - May 13",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-13T17:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1778691600000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -492,16 +504,17 @@
     }
   },
   {
-    "id": "fa216a3e-682d-44c6-b551-d139873c31e6",
-    "agentId": "sawyer",
     "name": "Father's Day Content Planning Reminder",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-18T15:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1779116400000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -509,16 +522,17 @@
     }
   },
   {
-    "id": "7feebc36-e12b-4174-8619-5d182542ede0",
-    "agentId": "sawyer",
     "name": "Wedding Season: Cutting Board V3 - Jun 3",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-06-03T17:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1780506000000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -526,16 +540,17 @@
     }
   },
   {
-    "id": "dd6ceb30-d7fa-4709-a8fb-705bfa84af97",
-    "agentId": "sawyer",
     "name": "4th of July Content Planning Reminder",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-06-08T15:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1780930800000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -543,16 +558,17 @@
     }
   },
   {
-    "id": "c7a15070-3e70-46ac-893a-3ba31eef4320",
-    "agentId": "sawyer",
     "name": "Wedding Season: Cheese Board V2 - Jun 10",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-06-10T17:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1781110800000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -560,16 +576,17 @@
     }
   },
   {
-    "id": "e240c3e8-de89-47f6-84be-510ceecda6ea",
-    "agentId": "sawyer",
     "name": "Football/Tailgate Season Content Planning",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-08-10T15:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1786374000000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -577,16 +594,17 @@
     }
   },
   {
-    "id": "73ca5ea7-8da1-4041-8606-c64750c5b9f9",
-    "agentId": "sawyer",
     "name": "Christmas/Holiday Season Content Planning",
+    "agentId": "sawyer",
     "enabled": true,
     "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-10-15T15:00:00.000Z"
     },
-    "state": {},
+    "state": {
+      "nextRunAtMs": 1792076400000
+    },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
@@ -594,9 +612,8 @@
     }
   },
   {
-    "id": "1bb766c6-b869-48ec-a119-7bec269689d2",
-    "agentId": "sawyer",
     "name": "W3 Thu Mar 5 - Cheese Slicer",
+    "agentId": "sawyer",
     "enabled": false,
     "deleteAfterRun": true,
     "schedule": {
@@ -614,9 +631,8 @@
     }
   },
   {
-    "id": "4b81874d-a27a-4ce7-a2a8-66a79e87ce1a",
-    "agentId": "sawyer",
     "name": "Tools I Trust #5 \u2014 Nitrile Gloves - Tue Mar 4 12pm",
+    "agentId": "sawyer",
     "enabled": false,
     "deleteAfterRun": true,
     "schedule": {
@@ -634,9 +650,8 @@
     }
   },
   {
-    "id": "6e5f464b-6c23-484f-9da8-17dbb2a74d0b",
-    "agentId": "sawyer",
     "name": "Friday Fire: Dovetail Hot Take - March 20",
+    "agentId": "sawyer",
     "enabled": false,
     "deleteAfterRun": true,
     "schedule": {
@@ -654,9 +669,8 @@
     }
   },
   {
-    "id": "9da04fd1-8596-45e6-b4c1-d7c1c71ff704",
-    "agentId": "forge",
     "name": "GrowReviews Tomorrow Docket Reminder",
+    "agentId": "forge",
     "enabled": false,
     "deleteAfterRun": true,
     "schedule": {
@@ -673,9 +687,8 @@
     }
   },
   {
-    "id": "cb4f4ec8-1f08-4b1f-b80b-5accb35f1f89",
-    "agentId": "main",
     "name": "Daily Sub-Agent Workspace Sync (Afternoon)",
+    "agentId": "main",
     "enabled": false,
     "schedule": {
       "kind": "cron",
@@ -689,9 +702,8 @@
     "delivery": {}
   },
   {
-    "id": "da327d99-493a-45ac-8529-0fe1ac489d30",
-    "agentId": "main",
     "name": "onboard-les",
+    "agentId": "main",
     "enabled": false,
     "schedule": {
       "kind": "every",
@@ -704,9 +716,8 @@
     "delivery": {}
   },
   {
-    "id": "eafbd419-b569-4177-a63b-04ce048b7677",
-    "agentId": "sawyer",
     "name": "Friday Fire: Workshop Space vs Tools - March 27",
+    "agentId": "sawyer",
     "enabled": false,
     "deleteAfterRun": true,
     "schedule": {
