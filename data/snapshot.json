@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-31T23:01:04.993075+00:00",
+  "collected_at": "2026-04-01T11:01:33.310669+00:00",
   "system": {
     "disk": {
       "total": "19G",
@@ -9,10 +9,10 @@
     },
     "ram": {
       "total": "1.9Gi",
-      "used": "1.2Gi",
-      "available": "642Mi"
+      "used": "996Mi",
+      "available": "911Mi"
     },
-    "uptime": "up 1 week, 2 days, 3 hours, 16 minutes",
+    "uptime": "up 1 week, 2 days, 15 hours, 16 minutes",
     "openclaw_version": "v2026.3.13",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -25,8 +25,8 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace",
       "workspace_size_mb": 23,
-      "memory_bytes": 219008,
-      "memory_kb": 213.9,
+      "memory_bytes": 220018,
+      "memory_kb": 214.9,
       "memory_files": [
         {
           "name": "MEMORY.md",
@@ -202,6 +202,10 @@
           "bytes": 3566
         },
         {
+          "name": "memory/2026-04-01.md",
+          "bytes": 698
+        },
+        {
           "name": "memory/agent-roster.md",
           "bytes": 2819
         },
@@ -235,7 +239,7 @@
         },
         {
           "name": "memory/moc-infrastructure.md",
-          "bytes": 7509
+          "bytes": 7821
         },
         {
           "name": "memory/nexusforge.md",
@@ -262,7 +266,7 @@
           "bytes": 4067
         }
       ],
-      "memory_file_count": 58
+      "memory_file_count": 59
     },
     {
       "id": "stratton",
@@ -272,8 +276,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-stratton",
       "workspace_size_mb": 17,
-      "memory_bytes": 82984,
-      "memory_kb": 81.0,
+      "memory_bytes": 84930,
+      "memory_kb": 82.9,
       "memory_files": [
         {
           "name": "memory/2026-02-14.md",
@@ -350,9 +354,13 @@
         {
           "name": "memory/2026-03-25.md",
           "bytes": 4756
+        },
+        {
+          "name": "memory/2026-04-01.md",
+          "bytes": 1946
         }
       ],
-      "memory_file_count": 19
+      "memory_file_count": 20
     },
     {
       "id": "rosie",
@@ -362,8 +370,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-rosie",
       "workspace_size_mb": 1,
-      "memory_bytes": 19166,
-      "memory_kb": 18.7,
+      "memory_bytes": 19650,
+      "memory_kb": 19.2,
       "memory_files": [
         {
           "name": "memory/2026-02-16.md",
@@ -478,11 +486,15 @@
           "bytes": 407
         },
         {
+          "name": "memory/2026-04-01.md",
+          "bytes": 484
+        },
+        {
           "name": "memory/git-deploy-sop.md",
           "bytes": 2453
         }
       ],
-      "memory_file_count": 29
+      "memory_file_count": 30
     },
     {
       "id": "sawyer",
@@ -492,8 +504,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sawyer",
       "workspace_size_mb": 39,
-      "memory_bytes": 59703,
-      "memory_kb": 58.3,
+      "memory_bytes": 60704,
+      "memory_kb": 59.3,
       "memory_files": [
         {
           "name": "memory/2026-02-12.md",
@@ -634,9 +646,13 @@
         {
           "name": "memory/2026-03-31.md",
           "bytes": 984
+        },
+        {
+          "name": "memory/2026-04-01.md",
+          "bytes": 1001
         }
       ],
-      "memory_file_count": 35
+      "memory_file_count": 36
     },
     {
       "id": "sterling",
@@ -646,8 +662,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sterling",
       "workspace_size_mb": 1,
-      "memory_bytes": 8228,
-      "memory_kb": 8.0,
+      "memory_bytes": 8426,
+      "memory_kb": 8.2,
       "memory_files": [
         {
           "name": "memory/2026-02-14.md",
@@ -748,9 +764,13 @@
         {
           "name": "memory/2026-03-31.md",
           "bytes": 194
+        },
+        {
+          "name": "memory/2026-04-01.md",
+          "bytes": 198
         }
       ],
-      "memory_file_count": 25
+      "memory_file_count": 26
     },
     {
       "id": "sage",
@@ -760,8 +780,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sage",
       "workspace_size_mb": 1,
-      "memory_bytes": 3304,
-      "memory_kb": 3.2,
+      "memory_bytes": 3371,
+      "memory_kb": 3.3,
       "memory_files": [
         {
           "name": "memory/2026-02-15.md",
@@ -910,9 +930,13 @@
         {
           "name": "memory/2026-03-31.md",
           "bytes": 65
+        },
+        {
+          "name": "memory/2026-04-01.md",
+          "bytes": 67
         }
       ],
-      "memory_file_count": 37
+      "memory_file_count": 38
     },
     {
       "id": "forge",
@@ -1055,88 +1079,12 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1774998000000,
-        "lastStatus": "ok",
+        "nextRunAtMs": 1775041200000,
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
         "mode": "none"
-      }
-    },
-    {
-      "name": "Daily Receipt Processing",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 19 * * *",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1775001600000,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none"
-      }
-    },
-    {
-      "name": "Daily Notion Status Sync",
-      "agentId": "sawyer",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 22 * * *",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1775012400000,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
-      }
-    },
-    {
-      "name": "Daily Disk Cleanup",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 8 * * *",
-        "tz": "UTC"
-      },
-      "state": {
-        "nextRunAtMs": 1775030400000,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none"
-      }
-    },
-    {
-      "name": "Daily Sub-Agent Workspace Sync (Morning)",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 5 * * *",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1775037600000,
-        "lastStatus": "ok",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471194552290377991"
       }
     },
     {
@@ -1150,7 +1098,7 @@
       },
       "state": {
         "nextRunAtMs": 1775075400000,
-        "lastStatus": "error",
+        "lastRunStatus": "error",
         "consecutiveErrors": 1,
         "lastError": "The AI service is temporarily overloaded."
       },
@@ -1174,6 +1122,44 @@
       }
     },
     {
+      "name": "Daily Receipt Processing",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 19 * * *",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1775088000000,
+        "lastRunStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "name": "Daily Notion Status Sync",
+      "agentId": "sawyer",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1775098800000,
+        "lastRunStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
+      }
+    },
+    {
       "name": "Forge Ventures Council (Wed)",
       "agentId": "main",
       "enabled": true,
@@ -1184,11 +1170,49 @@
       },
       "state": {
         "nextRunAtMs": 1775105940000,
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
         "mode": "none"
+      }
+    },
+    {
+      "name": "Daily Disk Cleanup",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "UTC"
+      },
+      "state": {
+        "nextRunAtMs": 1775116800000,
+        "lastRunStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "name": "Daily Sub-Agent Workspace Sync (Morning)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 5 * * *",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1775124000000,
+        "lastRunStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
       }
     },
     {
@@ -1202,7 +1226,7 @@
       },
       "state": {
         "nextRunAtMs": 1775253600000,
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1238,7 +1262,7 @@
       },
       "state": {
         "nextRunAtMs": 1775278740000,
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1272,7 +1296,7 @@
       },
       "state": {
         "nextRunAtMs": 1775336400000,
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1290,7 +1314,7 @@
       },
       "state": {
         "nextRunAtMs": 1775440800000,
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1308,7 +1332,7 @@
       },
       "state": {
         "nextRunAtMs": 1775451540000,
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1326,7 +1350,7 @@
       },
       "state": {
         "nextRunAtMs": 1775480400000,
-        "lastStatus": "error",
+        "lastRunStatus": "error",
         "consecutiveErrors": 1,
         "lastError": "The AI service is temporarily overloaded."
       },
@@ -1345,7 +1369,7 @@
       },
       "state": {
         "nextRunAtMs": 1775491200000,
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1363,7 +1387,7 @@
       },
       "state": {
         "nextRunAtMs": 1775502000000,
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1432,7 +1456,7 @@
       },
       "state": {
         "nextRunAtMs": 1776094200106,
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {
@@ -1667,7 +1691,7 @@
         "at": "2026-03-06T01:00:00.000Z"
       },
       "state": {
-        "lastStatus": "error",
+        "lastRunStatus": "error",
         "consecutiveErrors": 1
       },
       "delivery": {
@@ -1686,7 +1710,7 @@
         "at": "2026-03-04T18:00:00.000Z"
       },
       "state": {
-        "lastStatus": "error",
+        "lastRunStatus": "error",
         "consecutiveErrors": 1
       },
       "delivery": {
@@ -1705,7 +1729,7 @@
         "at": "2026-03-21T01:00:00.000Z"
       },
       "state": {
-        "lastStatus": "error",
+        "lastRunStatus": "error",
         "consecutiveErrors": 1
       },
       "delivery": {
@@ -1724,7 +1748,7 @@
         "at": "2026-03-23T13:00:00.000Z"
       },
       "state": {
-        "lastStatus": "error",
+        "lastRunStatus": "error",
         "consecutiveErrors": 1
       },
       "delivery": {
@@ -1742,7 +1766,7 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {}
@@ -1756,7 +1780,7 @@
         "everyMs": 1800000
       },
       "state": {
-        "lastStatus": "ok",
+        "lastRunStatus": "ok",
         "consecutiveErrors": 0
       },
       "delivery": {}
@@ -1771,7 +1795,7 @@
         "at": "2026-03-28T01:00:00.000Z"
       },
       "state": {
-        "lastStatus": "error",
+        "lastRunStatus": "error",
         "consecutiveErrors": 1
       },
       "delivery": {

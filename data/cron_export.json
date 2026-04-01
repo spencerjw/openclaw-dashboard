@@ -9,88 +9,12 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1774998000000,
-      "lastStatus": "ok",
+      "nextRunAtMs": 1775041200000,
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "none"
-    }
-  },
-  {
-    "name": "Daily Receipt Processing",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 19 * * *",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1775001600000,
-      "lastStatus": "ok",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    }
-  },
-  {
-    "name": "Daily Notion Status Sync",
-    "agentId": "sawyer",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 22 * * *",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1775012400000,
-      "lastStatus": "ok",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    }
-  },
-  {
-    "name": "Daily Disk Cleanup",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 8 * * *",
-      "tz": "UTC"
-    },
-    "state": {
-      "nextRunAtMs": 1775030400000,
-      "lastStatus": "ok",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    }
-  },
-  {
-    "name": "Daily Sub-Agent Workspace Sync (Morning)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 5 * * *",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1775037600000,
-      "lastStatus": "ok",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
     }
   },
   {
@@ -104,7 +28,7 @@
     },
     "state": {
       "nextRunAtMs": 1775075400000,
-      "lastStatus": "error",
+      "lastRunStatus": "error",
       "consecutiveErrors": 1,
       "lastError": "The AI service is temporarily overloaded."
     },
@@ -128,6 +52,44 @@
     }
   },
   {
+    "name": "Daily Receipt Processing",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 19 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1775088000000,
+      "lastRunStatus": "ok",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    }
+  },
+  {
+    "name": "Daily Notion Status Sync",
+    "agentId": "sawyer",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 22 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1775098800000,
+      "lastRunStatus": "ok",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    }
+  },
+  {
     "name": "Forge Ventures Council (Wed)",
     "agentId": "main",
     "enabled": true,
@@ -138,11 +100,49 @@
     },
     "state": {
       "nextRunAtMs": 1775105940000,
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "none"
+    }
+  },
+  {
+    "name": "Daily Disk Cleanup",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 8 * * *",
+      "tz": "UTC"
+    },
+    "state": {
+      "nextRunAtMs": 1775116800000,
+      "lastRunStatus": "ok",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    }
+  },
+  {
+    "name": "Daily Sub-Agent Workspace Sync (Morning)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 5 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1775124000000,
+      "lastRunStatus": "ok",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
     }
   },
   {
@@ -156,7 +156,7 @@
     },
     "state": {
       "nextRunAtMs": 1775253600000,
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -192,7 +192,7 @@
     },
     "state": {
       "nextRunAtMs": 1775278740000,
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -226,7 +226,7 @@
     },
     "state": {
       "nextRunAtMs": 1775336400000,
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -244,7 +244,7 @@
     },
     "state": {
       "nextRunAtMs": 1775440800000,
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -262,7 +262,7 @@
     },
     "state": {
       "nextRunAtMs": 1775451540000,
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -280,7 +280,7 @@
     },
     "state": {
       "nextRunAtMs": 1775480400000,
-      "lastStatus": "error",
+      "lastRunStatus": "error",
       "consecutiveErrors": 1,
       "lastError": "The AI service is temporarily overloaded."
     },
@@ -299,7 +299,7 @@
     },
     "state": {
       "nextRunAtMs": 1775491200000,
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -317,7 +317,7 @@
     },
     "state": {
       "nextRunAtMs": 1775502000000,
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -386,7 +386,7 @@
     },
     "state": {
       "nextRunAtMs": 1776094200106,
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -621,7 +621,7 @@
       "at": "2026-03-06T01:00:00.000Z"
     },
     "state": {
-      "lastStatus": "error",
+      "lastRunStatus": "error",
       "consecutiveErrors": 1
     },
     "delivery": {
@@ -640,7 +640,7 @@
       "at": "2026-03-04T18:00:00.000Z"
     },
     "state": {
-      "lastStatus": "error",
+      "lastRunStatus": "error",
       "consecutiveErrors": 1
     },
     "delivery": {
@@ -659,7 +659,7 @@
       "at": "2026-03-21T01:00:00.000Z"
     },
     "state": {
-      "lastStatus": "error",
+      "lastRunStatus": "error",
       "consecutiveErrors": 1
     },
     "delivery": {
@@ -678,7 +678,7 @@
       "at": "2026-03-23T13:00:00.000Z"
     },
     "state": {
-      "lastStatus": "error",
+      "lastRunStatus": "error",
       "consecutiveErrors": 1
     },
     "delivery": {
@@ -696,7 +696,7 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {}
@@ -710,7 +710,7 @@
       "everyMs": 1800000
     },
     "state": {
-      "lastStatus": "ok",
+      "lastRunStatus": "ok",
       "consecutiveErrors": 0
     },
     "delivery": {}
@@ -725,7 +725,7 @@
       "at": "2026-03-28T01:00:00.000Z"
     },
     "state": {
-      "lastStatus": "error",
+      "lastRunStatus": "error",
       "consecutiveErrors": 1
     },
     "delivery": {
