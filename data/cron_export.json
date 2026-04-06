@@ -9,73 +9,37 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1775473200000,
-      "lastRunAtMs": 1775430000101,
+      "nextRunAtMs": 1775494800000,
+      "lastRunAtMs": 1775473200032,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 161311,
+      "lastDurationMs": 155421,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0,
       "lastDelivered": false,
-      "runningAtMs": 1775473200032
+      "runningAtMs": 1775494800022
     },
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. List all cron jobs (include..."
+    "payloadMessage": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. List all cron jobs (include..."
   },
   {
-    "name": "Weekly CWV Report (Mon 8am CT)",
-    "agentId": "stratton",
+    "name": "Weekly Starred Repo Watch",
+    "agentId": "main",
     "enabled": true,
     "schedule": {
       "kind": "cron",
-      "expr": "0 8 * * 1",
+      "expr": "0 14 * * 1",
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1775480400000,
-      "lastRunAtMs": 1774875600033,
-      "lastStatus": "error",
-      "lastDurationMs": 27918,
-      "consecutiveErrors": 1,
-      "lastRunStatus": "error",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "lastError": "The AI service is temporarily overloaded. Please try again in a moment.",
-      "lastErrorReason": "overloaded",
-      "lastDeliveryError": "The AI service is temporarily overloaded. Please try again in a moment."
+      "nextRunAtMs": 1775502000000
     },
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Run the Core Web Vitals check:\n\nexport PATH=\"/home/clawuser/.local/bin:$PATH..."
-  },
-  {
-    "name": "Etsy Ads Follow-Up Nag",
-    "agentId": "forge",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 11 * * 1",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1775491200000,
-      "lastRunAtMs": 1774886400179,
-      "lastStatus": "ok",
-      "lastDurationMs": 68640,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered"
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1474055043497070862"
-    },
-    "messagePreview": "Check if Spencer responded to the last Saturday Etsy Ads performance report in..."
+    "payloadMessage": "Check Spencer's starred GitHub repos for major updates. Read /home/clawuser/.o..."
   },
   {
     "name": "Weekly OpenClaw Update Check",
@@ -101,7 +65,7 @@
       "channel": "discord",
       "to": "channel:1471193473955664024"
     },
-    "messagePreview": "Check for OpenClaw updates. Run `npm view openclaw versions --json` and compare..."
+    "payloadMessage": "Check for OpenClaw updates. Run `npm view openclaw versions --json` and compare..."
   },
   {
     "name": "OpenClaw version check",
@@ -125,7 +89,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Check if there's a newer version of OpenClaw than what's currently installed..."
+    "payloadMessage": "Check if there's a newer version of OpenClaw than what's currently installed ..."
   },
   {
     "name": "Watchlist 1/3: Core Data Center Power",
@@ -151,7 +115,7 @@
       "channel": "discord",
       "to": "channel:1471194552290377991"
     },
-    "messagePreview": "Run technical analysis for Core Data Center Power tickers: BW, APLD, GEV, CAT..."
+    "payloadMessage": "Run technical analysis for Core Data Center Power tickers: BW, APLD, GEV, CAT,..."
   },
   {
     "name": "Watchlist 2/3: Growth & Tech",
@@ -177,7 +141,7 @@
       "channel": "discord",
       "to": "channel:1471194552290377991"
     },
-    "messagePreview": "Run technical analysis for Growth & Tech tickers: AMPX, BE, VSEC, ORCL\n\nexpo..."
+    "payloadMessage": "Run technical analysis for Growth & Tech tickers: AMPX, BE, VSEC, ORCL\n\nexp..."
   },
   {
     "name": "Watchlist 3/3: BYOP & Utilities",
@@ -203,7 +167,7 @@
       "channel": "discord",
       "to": "channel:1471194552290377991"
     },
-    "messagePreview": "Run technical analysis for BYOP & Utilities tickers: ETN, VST, OKLO, SMR, NEE..."
+    "payloadMessage": "Run technical analysis for BYOP & Utilities tickers: ETN, VST, OKLO, SMR, NEE..."
   },
   {
     "name": "Watchlist Failure Monitor",
@@ -228,7 +192,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Check if Sterling's 3 watchlist cron jobs ran successfully today. List all cron..."
+    "payloadMessage": "Check if Sterling's 3 watchlist cron jobs ran successfully today. List all cron..."
   },
   {
     "name": "Daily Receipt Processing",
@@ -252,7 +216,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Process new receipts and update family budget dashboard.\n\n1. Run the family bud..."
+    "payloadMessage": "Process new receipts and update family budget dashboard.\n\n1. Run the family bud..."
   },
   {
     "name": "Daily Notion Status Sync",
@@ -278,7 +242,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "messagePreview": "DAILY NOTION SYNC: Check all Winegarden Workshop social posts and make sure N..."
+    "payloadMessage": "DAILY NOTION SYNC: Check all Winegarden Workshop social posts and make sure Not..."
   },
   {
     "name": "Daily Disk Cleanup",
@@ -302,7 +266,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Run the disk cleanup script: `python3 /home/clawuser/.openclaw/workspace/scri..."
+    "payloadMessage": "Run the disk cleanup script: `python3 /home/clawuser/.openclaw/workspace/scri..."
   },
   {
     "name": "Archer Session Cleanup (Daily)",
@@ -326,7 +290,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Clean up Archer's stale sessions. Run:\n\nrm -f /home/clawuser/.openclaw/age..."
+    "payloadMessage": "Clean up Archer's stale sessions. Run:\n\nrm -f /home/clawuser/.openclaw/agen..."
   },
   {
     "name": "Daily Sub-Agent Workspace Sync (Morning)",
@@ -352,7 +316,7 @@
       "channel": "discord",
       "to": "channel:1471194552290377991"
     },
-    "messagePreview": "DAILY SYNC (MORNING): Three tasks.\n\n1) CRON ERROR CHECK: List all cron jobs..."
+    "payloadMessage": "DAILY SYNC (MORNING): Three tasks.\n\n1) CRON ERROR CHECK: List all cron jobs..."
   },
   {
     "name": "Grocery Receipt Import (Every 3 Days)",
@@ -376,49 +340,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Check for new grocery receipt PDFs in Google Drive and import them.\n\n1. Use th..."
-  },
-  {
-    "name": "Forge Ventures Council — Research (Wed)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "59 4 * * 4",
-      "tz": "UTC"
-    },
-    "state": {
-      "nextRunAtMs": 1775710740000,
-      "lastRunAtMs": 1775105940042,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 600046,
-      "lastDeliveryStatus": "not-requested",
-      "consecutiveErrors": 1,
-      "lastError": "cron: job execution timed out",
-      "lastErrorReason": "timeout"
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "messagePreview": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventu..."
-  },
-  {
-    "name": "Forge Ventures Council — Deliver (Wed)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "14 5 * * 4",
-      "tz": "UTC"
-    },
-    "state": {
-      "nextRunAtMs": 1775711640000
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "messagePreview": "Deliver the Ventures Council Memo that was written by the research job 15 minu..."
+    "payloadMessage": "Check for new grocery receipt PDFs in Google Drive and import them.\n\n1. Use t..."
   },
   {
     "name": "FB User Token Expiration Reminder",
@@ -435,7 +357,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "REMINDER: The Meta/Facebook User Token expires around April 13, 2026 (3 days..."
+    "payloadMessage": "REMINDER: The Meta/Facebook User Token expires around April 13, 2026 (3 days f..."
   },
   {
     "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
@@ -462,7 +384,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Scan GitHub for the most starred/trending repos from the past week related to..."
+    "payloadMessage": "Scan GitHub for the most starred/trending repos from the past week related to C..."
   },
   {
     "name": "Friday Fire: Pocket Holes Debate - April 10",
@@ -481,7 +403,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "messagePreview": "Execute Friday Fire: Pocket Holes Debate post.\n\npython3 /home/clawuser/.ope..."
+    "payloadMessage": "Execute Friday Fire: Pocket Holes Debate post.\n\npython3 /home/clawuser/.opencl..."
   },
   {
     "name": "Forge Ventures Council — Research (Fri)",
@@ -508,7 +430,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventu..."
+    "payloadMessage": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read venture..."
   },
   {
     "name": "Forge Ventures Council — Deliver (Fri)",
@@ -525,7 +447,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Deliver the Ventures Council Memo that was written by the research job 15 minu..."
+    "payloadMessage": "Deliver the Ventures Council Memo that was written by the research job 15 minut..."
   },
   {
     "name": "Grocery Receipt Import (Saturday)",
@@ -552,33 +474,7 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Check for new grocery receipt PDFs in Google Drive and import them.\n\n1. Use th..."
-  },
-  {
-    "name": "Etsy Ads Performance Check",
-    "agentId": "forge",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 16 * * 6",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1775941200000,
-      "lastRunAtMs": 1775336400036,
-      "lastStatus": "ok",
-      "lastDurationMs": 48729,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered"
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1474055043497070862"
-    },
-    "messagePreview": "Weekly Etsy Ads check. Go to https://winegardenworkshop.etsy.com and check wh..."
+    "payloadMessage": "Check for new grocery receipt PDFs in Google Drive and import them.\n\n1. Use t..."
   },
   {
     "name": "Weekly Competitive Price Tracker (Sun 9pm CT)",
@@ -602,55 +498,31 @@
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "Weekly competitive price tracker run. Do the following:\n1. Scrape current int..."
+    "payloadMessage": "Weekly competitive price tracker run. Do the following:\n1. Scrape current inter..."
   },
   {
-    "name": "Forge Ventures Council — Research (Sun)",
-    "agentId": "main",
+    "name": "Weekly CWV Report (Mon 8am CT)",
+    "agentId": "stratton",
     "enabled": true,
     "schedule": {
       "kind": "cron",
-      "expr": "59 4 * * 1",
-      "tz": "UTC"
+      "expr": "0 8 * * 1",
+      "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776056340000,
-      "lastRunAtMs": 1775451540051,
-      "lastRunStatus": "ok",
+      "nextRunAtMs": 1776085200000,
+      "lastRunAtMs": 1775480400024,
       "lastStatus": "ok",
-      "lastDurationMs": 108728,
+      "lastDurationMs": 60285,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
       "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
+      "lastDeliveryStatus": "not-delivered"
     },
     "delivery": {
       "mode": "none"
     },
-    "messagePreview": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventu..."
-  },
-  {
-    "name": "Forge Ventures Council — Deliver (Sun)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "14 5 * * 1",
-      "tz": "UTC"
-    },
-    "state": {
-      "nextRunAtMs": 1776057240000,
-      "lastRunAtMs": 1775452440021,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 28002,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "messagePreview": "Deliver the Ventures Council Memo that was written by the research job 15 minu..."
+    "payloadMessage": "Run the Core Web Vitals check:\n\nexport PATH=\"/home/clawuser/.local/bin:$PAT..."
   },
   {
     "name": "👩 Mother's Day Content Planning Reminder",
@@ -669,7 +541,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "messagePreview": "SEASONAL PLANNING REMINDER: Mother's Day is May 11 (4 weeks away). This is a..."
+    "payloadMessage": "SEASONAL PLANNING REMINDER: Mother's Day is May 11 (4 weeks away). This is a BI..."
   },
   {
     "name": "ZAG Bi-Weekly Meeting Prep Reminder",
@@ -695,7 +567,7 @@
       "channel": "discord",
       "to": "channel:1471194625367867445"
     },
-    "messagePreview": "ZAG Meeting Prep Reminder - 30 minutes until Spencer's bi-weekly LeighAnn sta..."
+    "payloadMessage": "ZAG Meeting Prep Reminder - 30 minutes until Spencer's bi-weekly LeighAnn statu..."
   },
   {
     "name": "Wedding Season: Family Sign V1 - Apr 15",
@@ -714,7 +586,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "messagePreview": "Execute Wedding Season post: Family Sign V1.\n\npython3 /home/clawuser/.opencl..."
+    "payloadMessage": "Execute Wedding Season post: Family Sign V1.\n\npython3 /home/clawuser/.opencl..."
   },
   {
     "name": "🎓 Graduation Season Content Planning",
@@ -733,7 +605,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "messagePreview": "SEASONAL PLANNING REMINDER: Graduation season is May-June. Time to start pla..."
+    "payloadMessage": "SEASONAL PLANNING REMINDER: Graduation season is May-June. Time to start planni..."
   },
   {
     "name": "Wedding Season: Cutting Board V1 - Apr 23",
@@ -752,7 +624,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "messagePreview": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.open..."
+    "payloadMessage": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.opencl..."
   },
   {
     "name": "Wedding Season: Cheese Board V1 - May 1",
@@ -771,7 +643,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "messagePreview": "Execute Wedding Season post: Cheese Board V1.\n\npython3 /home/clawuser/.openc..."
+    "payloadMessage": "Execute Wedding Season post: Cheese Board V1.\n\npython3 /home/clawuser/.opencl..."
   },
   {
     "name": "Wedding Season: Family Sign V2 - May 6",
@@ -790,7 +662,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "messagePreview": "Execute Wedding Season post: Family Sign V2.\n\npython3 /home/clawuser/.openc..."
+    "payloadMessage": "Execute Wedding Season post: Family Sign V2.\n\npython3 /home/clawuser/.opencl..."
   },
   {
     "name": "Wedding Season: Cutting Board V2 - May 13",
@@ -809,7 +681,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "messagePreview": "Execute Wedding Season post: Cutting Board V2.\n\npython3 /home/clawuser/.open..."
+    "payloadMessage": "Execute Wedding Season post: Cutting Board V2.\n\npython3 /home/clawuser/.opencl..."
   },
   {
     "name": "👨 Father's Day Content Planning Reminder",
@@ -828,7 +700,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "messagePreview": "SEASONAL PLANNING REMINDER: Father's Day is June 15 (4 weeks away). Another..."
+    "payloadMessage": "SEASONAL PLANNING REMINDER: Father's Day is June 15 (4 weeks away). Another BI..."
   },
   {
     "name": "Wedding Season: Cutting Board V3 - Jun 3",
@@ -847,7 +719,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "messagePreview": "Execute Wedding Season post: Cutting Board V3.\n\npython3 /home/clawuser/.open..."
+    "payloadMessage": "Execute Wedding Season post: Cutting Board V3.\n\npython3 /home/clawuser/.opencl..."
   },
   {
     "name": "🇺🇸 4th of July Content Planning Reminder",
@@ -866,7 +738,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "messagePreview": "SEASONAL PLANNING REMINDER: 4th of July is July 4 (4 weeks away). HUGE oppo..."
+    "payloadMessage": "SEASONAL PLANNING REMINDER: 4th of July is July 4 (4 weeks away). HUGE opportu..."
   },
   {
     "name": "Wedding Season: Cheese Board V2 - Jun 10",
@@ -885,7 +757,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "messagePreview": "Execute Wedding Season post: Cheese Board V2.\n\npython3 /home/clawuser/.openc..."
+    "payloadMessage": "Execute Wedding Season post: Cheese Board V2.\n\npython3 /home/clawuser/.opencl..."
   },
   {
     "name": "🏈 Football/Tailgate Season Content Planning",
@@ -904,7 +776,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "messagePreview": "SEASONAL PLANNING REMINDER: Football/tailgate season starts in September.\n\nR..."
+    "payloadMessage": "SEASONAL PLANNING REMINDER: Football/tailgate season starts in September.\n\nRem..."
   },
   {
     "name": "🎄 Christmas/Holiday Season Content Planning",
@@ -923,192 +795,6 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "messagePreview": "SEASONAL PLANNING REMINDER: Christmas is December 25. Holiday shopping starts..."
-  },
-  {
-    "name": "W3 Thu Mar 5 - Cheese Slicer",
-    "agentId": "sawyer",
-    "enabled": false,
-    "deleteAfterRun": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-06T01:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1772758800096,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 60053,
-      "lastError": "cron: job execution timed out",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "messagePreview": "Run this command:\n\nexport PATH=\"/home/clawuser/.local/bin:$PATH\"\npython3 ..."
-  },
-  {
-    "name": "Tools I Trust #5 — Nitrile Gloves - Tue Mar 4 12pm",
-    "agentId": "sawyer",
-    "enabled": false,
-    "deleteAfterRun": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-04T18:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1772647200060,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 120037,
-      "lastError": "cron: job execution timed out",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "messagePreview": "Time to publish Tools I Trust #5 — Nitrile Gloves. Post to FB + IG at 12pm C..."
-  },
-  {
-    "name": "Friday Fire: Dovetail Hot Take - March 20",
-    "agentId": "sawyer",
-    "enabled": false,
-    "deleteAfterRun": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-21T01:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1774054800134,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 120033,
-      "lastError": "cron: job execution timed out",
-      "lastErrorReason": "timeout",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "messagePreview": "Execute Friday Fire: Dovetail Hot Take post.\n\npython3 /home/clawuser/.openc..."
-  },
-  {
-    "name": "GrowReviews Tomorrow Docket Reminder",
-    "agentId": "forge",
-    "enabled": false,
-    "deleteAfterRun": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-23T13:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1774270862503,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 12359,
-      "lastError": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs.",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord"
-    },
-    "messagePreview": "Reminder: Send Spencer a message in #ventures-general about today's GrowRevie..."
-  },
-  {
-    "name": "Daily Watchlist Technical Check (RETIRED - split into 3)",
-    "agentId": "sterling",
-    "enabled": false,
-    "schedule": {
-      "kind": "cron",
-      "expr": "30 16 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
-      "lastRunAtMs": 1775075400036,
-      "lastStatus": "error",
-      "lastDurationMs": 480012,
-      "consecutiveErrors": 2,
-      "lastRunStatus": "error",
-      "lastDeliveryStatus": "not-requested",
-      "lastErrorReason": "timeout",
-      "lastError": "cron: job execution timed out"
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471481648347615439"
-    },
-    "messagePreview": "Daily market close technical analysis for Les's watchlist. Run this command:..."
-  },
-  {
-    "name": "Daily Sub-Agent Workspace Sync (Afternoon)",
-    "agentId": "main",
-    "enabled": false,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 13 * * *",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "lastRunAtMs": 1771959600132,
-      "lastStatus": "ok",
-      "lastDurationMs": 102051,
-      "consecutiveErrors": 0
-    },
-    "messagePreview": "DAILY SYNC (AFTERNOON): Three tasks.\n\n1) CRON ERROR CHECK: List all cron jo..."
-  },
-  {
-    "name": "onboard-les",
-    "agentId": "main",
-    "enabled": false,
-    "schedule": {
-      "kind": "every",
-      "everyMs": 1800000,
-      "anchorMs": 1770913303087
-    },
-    "state": {
-      "lastRunAtMs": 1770925903100,
-      "lastStatus": "ok",
-      "lastDurationMs": 17310,
-      "consecutiveErrors": 0
-    },
-    "messagePreview": "Run the Les onboarding check: execute /home/clawuser/.openclaw/workspace/scri..."
-  },
-  {
-    "name": "Friday Fire: Workshop Space vs Tools - March 27",
-    "agentId": "sawyer",
-    "enabled": false,
-    "deleteAfterRun": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-28T01:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1774659600169,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 120017,
-      "lastError": "cron: job execution timed out",
-      "lastErrorReason": "timeout",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "messagePreview": "Execute Friday Fire: Workshop Space vs Tools post.\n\npython3 /home/clawuser..."
+    "payloadMessage": "SEASONAL PLANNING REMINDER: Christmas is December 25. Holiday shopping starts e..."
   }
 ]
