@@ -9,190 +9,20 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1775494800000,
-      "lastRunAtMs": 1775473200032,
+      "nextRunAtMs": 1775516400000,
+      "lastRunAtMs": 1775494800022,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 155421,
+      "lastDurationMs": 123155,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0,
       "lastDelivered": false,
-      "runningAtMs": 1775494800022
+      "runningAtMs": 1775516400184
     },
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. List all cron jobs (include..."
-  },
-  {
-    "name": "Weekly Starred Repo Watch",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 14 * * 1",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1775502000000
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payloadMessage": "Check Spencer's starred GitHub repos for major updates. Read /home/clawuser/.o..."
-  },
-  {
-    "name": "Weekly OpenClaw Update Check",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 14 * * 1",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1775502000000,
-      "lastRunAtMs": 1774897200064,
-      "lastStatus": "ok",
-      "lastDurationMs": 104772,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered"
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471193473955664024"
-    },
-    "payloadMessage": "Check for OpenClaw updates. Run `npm view openclaw versions --json` and compare..."
-  },
-  {
-    "name": "OpenClaw version check",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 14 * * *",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1775502000000,
-      "lastRunAtMs": 1775415600022,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 34533,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payloadMessage": "Check if there's a newer version of OpenClaw than what's currently installed ..."
-  },
-  {
-    "name": "Watchlist 1/3: Core Data Center Power",
-    "agentId": "sterling",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "20 16 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
-      "nextRunAtMs": 1775506800000,
-      "lastRunAtMs": 1775249390281,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 45301,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payloadMessage": "Run technical analysis for Core Data Center Power tickers: BW, APLD, GEV, CAT,..."
-  },
-  {
-    "name": "Watchlist 2/3: Growth & Tech",
-    "agentId": "sterling",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "35 16 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
-      "nextRunAtMs": 1775507700000,
-      "lastRunAtMs": 1775248500017,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 42036,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payloadMessage": "Run technical analysis for Growth & Tech tickers: AMPX, BE, VSEC, ORCL\n\nexp..."
-  },
-  {
-    "name": "Watchlist 3/3: BYOP & Utilities",
-    "agentId": "sterling",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "40 16 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
-      "nextRunAtMs": 1775508000000,
-      "lastRunAtMs": 1775248800042,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 42522,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payloadMessage": "Run technical analysis for BYOP & Utilities tickers: ETN, VST, OKLO, SMR, NEE..."
-  },
-  {
-    "name": "Watchlist Failure Monitor",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "30 17 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
-      "nextRunAtMs": 1775511000000,
-      "lastRunAtMs": 1775251800059,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 60035,
-      "lastErrorReason": "timeout",
-      "lastDeliveryStatus": "not-requested",
-      "consecutiveErrors": 3,
-      "lastError": "cron: job execution timed out"
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payloadMessage": "Check if Sterling's 3 watchlist cron jobs ran successfully today. List all cron..."
+    "payload_message_short": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. List all cron jobs (include"
   },
   {
     "name": "Daily Receipt Processing",
@@ -216,7 +46,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Process new receipts and update family budget dashboard.\n\n1. Run the family bud..."
+    "payload_message_short": "Process new receipts and update family budget dashboard.\n\n1. Run the family budg"
   },
   {
     "name": "Daily Notion Status Sync",
@@ -242,7 +72,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "payloadMessage": "DAILY NOTION SYNC: Check all Winegarden Workshop social posts and make sure Not..."
+    "payload_message_short": "DAILY NOTION SYNC: Check all Winegarden Workshop social posts and make sure Not"
   },
   {
     "name": "Daily Disk Cleanup",
@@ -266,7 +96,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Run the disk cleanup script: `python3 /home/clawuser/.openclaw/workspace/scri..."
+    "payload_message_short": "Run the disk cleanup script: `python3 /home/clawuser/.openclaw/workspace/scrip"
   },
   {
     "name": "Archer Session Cleanup (Daily)",
@@ -290,7 +120,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Clean up Archer's stale sessions. Run:\n\nrm -f /home/clawuser/.openclaw/agen..."
+    "payload_message_short": "Clean up Archer's stale sessions. Run:\n\nrm -f /home/clawuser/.openclaw/agents/"
   },
   {
     "name": "Daily Sub-Agent Workspace Sync (Morning)",
@@ -316,7 +146,109 @@
       "channel": "discord",
       "to": "channel:1471194552290377991"
     },
-    "payloadMessage": "DAILY SYNC (MORNING): Three tasks.\n\n1) CRON ERROR CHECK: List all cron jobs..."
+    "payload_message_short": "DAILY SYNC (MORNING): Three tasks.\n\n1) CRON ERROR CHECK: List all cron jobs. F"
+  },
+  {
+    "name": "OpenClaw version check",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 14 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1775588400000,
+      "lastRunAtMs": 1775502052823,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 10387,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload_message_short": "Check if there's a newer version of OpenClaw than what's currently installed (2"
+  },
+  {
+    "name": "Watchlist 1/3: Core Data Center Power",
+    "agentId": "sterling",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "20 16 * * 1-5",
+      "tz": "America/New_York"
+    },
+    "state": {
+      "nextRunAtMs": 1775593200000,
+      "lastRunAtMs": 1775506800022,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 50862,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
+    },
+    "payload_message_short": "Run technical analysis for Core Data Center Power tickers: BW, APLD, GEV, CAT,"
+  },
+  {
+    "name": "Watchlist 2/3: Growth & Tech",
+    "agentId": "sterling",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "35 16 * * 1-5",
+      "tz": "America/New_York"
+    },
+    "state": {
+      "nextRunAtMs": 1775594100000,
+      "lastRunAtMs": 1775507700046,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 31253,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
+    },
+    "payload_message_short": "Run technical analysis for Growth & Tech tickers: AMPX, BE, VSEC, ORCL\n\nexport"
+  },
+  {
+    "name": "Watchlist 3/3: BYOP & Utilities",
+    "agentId": "sterling",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "40 16 * * 1-5",
+      "tz": "America/New_York"
+    },
+    "state": {
+      "nextRunAtMs": 1775594400000,
+      "lastRunAtMs": 1775508000035,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 36827,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
+    },
+    "payload_message_short": "Run technical analysis for BYOP & Utilities tickers: ETN, VST, OKLO, SMR, NEE"
   },
   {
     "name": "Grocery Receipt Import (Every 3 Days)",
@@ -340,7 +272,31 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Check for new grocery receipt PDFs in Google Drive and import them.\n\n1. Use t..."
+    "payload_message_short": "Check for new grocery receipt PDFs in Google Drive and import them.\n\n1. Use th"
+  },
+  {
+    "name": "Watchlist Failure Monitor",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "30 17 * * 1-5",
+      "tz": "America/New_York"
+    },
+    "state": {
+      "nextRunAtMs": 1775597400000,
+      "lastRunAtMs": 1775511000036,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 21292,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0,
+      "lastDelivered": false
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload_message_short": "Check if Sterling's 3 watchlist cron jobs ran successfully today. List all cron"
   },
   {
     "name": "FB User Token Expiration Reminder",
@@ -357,7 +313,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "REMINDER: The Meta/Facebook User Token expires around April 13, 2026 (3 days f..."
+    "payload_message_short": "REMINDER: The Meta/Facebook User Token expires around April 13, 2026 (3 days fr"
   },
   {
     "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
@@ -384,7 +340,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Scan GitHub for the most starred/trending repos from the past week related to C..."
+    "payload_message_short": "Scan GitHub for the most starred/trending repos from the past week related to C"
   },
   {
     "name": "Friday Fire: Pocket Holes Debate - April 10",
@@ -403,7 +359,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "payloadMessage": "Execute Friday Fire: Pocket Holes Debate post.\n\npython3 /home/clawuser/.opencl..."
+    "payload_message_short": "Execute Friday Fire: Pocket Holes Debate post.\n\npython3 /home/clawuser/.opencla"
   },
   {
     "name": "Forge Ventures Council — Research (Fri)",
@@ -430,7 +386,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read venture..."
+    "payload_message_short": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventures"
   },
   {
     "name": "Forge Ventures Council — Deliver (Fri)",
@@ -447,7 +403,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Deliver the Ventures Council Memo that was written by the research job 15 minut..."
+    "payload_message_short": "Deliver the Ventures Council Memo that was written by the research job 15 minut"
   },
   {
     "name": "Grocery Receipt Import (Saturday)",
@@ -474,7 +430,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Check for new grocery receipt PDFs in Google Drive and import them.\n\n1. Use t..."
+    "payload_message_short": "Check for new grocery receipt PDFs in Google Drive and import them.\n\n1. Use th"
   },
   {
     "name": "Weekly Competitive Price Tracker (Sun 9pm CT)",
@@ -498,7 +454,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Weekly competitive price tracker run. Do the following:\n1. Scrape current inter..."
+    "payload_message_short": "Weekly competitive price tracker run. Follow these steps exactly:\n\n1. SCRAPE PR"
   },
   {
     "name": "Weekly CWV Report (Mon 8am CT)",
@@ -522,7 +478,7 @@
     "delivery": {
       "mode": "none"
     },
-    "payloadMessage": "Run the Core Web Vitals check:\n\nexport PATH=\"/home/clawuser/.local/bin:$PAT..."
+    "payload_message_short": "Run the Core Web Vitals check:\n\nexport PATH=\"/home/clawuser/.local/bin:$PATH\"\n"
   },
   {
     "name": "👩 Mother's Day Content Planning Reminder",
@@ -541,7 +497,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "payloadMessage": "SEASONAL PLANNING REMINDER: Mother's Day is May 11 (4 weeks away). This is a BI..."
+    "payload_message_short": "SEASONAL PLANNING REMINDER: Mother's Day is May 11 (4 weeks away). This is a BI"
   },
   {
     "name": "ZAG Bi-Weekly Meeting Prep Reminder",
@@ -567,7 +523,57 @@
       "channel": "discord",
       "to": "channel:1471194625367867445"
     },
-    "payloadMessage": "ZAG Meeting Prep Reminder - 30 minutes until Spencer's bi-weekly LeighAnn statu..."
+    "payload_message_short": "ZAG Meeting Prep Reminder - 30 minutes until Spencer's bi-weekly LeighAnn status"
+  },
+  {
+    "name": "Weekly Starred Repo Watch",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 14 * * 1",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1776106800000,
+      "lastRunAtMs": 1775502063210,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 58201,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload_message_short": "Check Spencer's starred GitHub repos for major updates. Read /home/clawuser/.ope"
+  },
+  {
+    "name": "Weekly OpenClaw Update Check",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 14 * * 1",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1776106800000,
+      "lastRunAtMs": 1775502000041,
+      "lastStatus": "ok",
+      "lastDurationMs": 52782,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471193473955664024"
+    },
+    "payload_message_short": "Check for OpenClaw updates. Run `npm view openclaw versions --json` and compare"
   },
   {
     "name": "Wedding Season: Family Sign V1 - Apr 15",
@@ -586,7 +592,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "payloadMessage": "Execute Wedding Season post: Family Sign V1.\n\npython3 /home/clawuser/.opencl..."
+    "payload_message_short": "Execute Wedding Season post: Family Sign V1.\n\npython3 /home/clawuser/.openclaw/"
   },
   {
     "name": "🎓 Graduation Season Content Planning",
@@ -605,7 +611,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "payloadMessage": "SEASONAL PLANNING REMINDER: Graduation season is May-June. Time to start planni..."
+    "payload_message_short": "SEASONAL PLANNING REMINDER: Graduation season is May-June. Time to start planni"
   },
   {
     "name": "Wedding Season: Cutting Board V1 - Apr 23",
@@ -624,7 +630,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "payloadMessage": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.opencl..."
+    "payload_message_short": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.opencla"
   },
   {
     "name": "Wedding Season: Cheese Board V1 - May 1",
@@ -643,7 +649,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "payloadMessage": "Execute Wedding Season post: Cheese Board V1.\n\npython3 /home/clawuser/.opencl..."
+    "payload_message_short": "Execute Wedding Season post: Cheese Board V1.\n\npython3 /home/clawuser/.openclaw"
   },
   {
     "name": "Wedding Season: Family Sign V2 - May 6",
@@ -662,7 +668,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "payloadMessage": "Execute Wedding Season post: Family Sign V2.\n\npython3 /home/clawuser/.opencl..."
+    "payload_message_short": "Execute Wedding Season post: Family Sign V2.\n\npython3 /home/clawuser/.openclaw/"
   },
   {
     "name": "Wedding Season: Cutting Board V2 - May 13",
@@ -681,7 +687,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "payloadMessage": "Execute Wedding Season post: Cutting Board V2.\n\npython3 /home/clawuser/.opencl..."
+    "payload_message_short": "Execute Wedding Season post: Cutting Board V2.\n\npython3 /home/clawuser/.opencla"
   },
   {
     "name": "👨 Father's Day Content Planning Reminder",
@@ -700,7 +706,26 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "payloadMessage": "SEASONAL PLANNING REMINDER: Father's Day is June 15 (4 weeks away). Another BI..."
+    "payload_message_short": "SEASONAL PLANNING REMINDER: Father's Day is June 15 (4 weeks away). Another BI"
+  },
+  {
+    "name": "GrowReviews FB Token Auto-Refresh",
+    "agentId": "forge",
+    "enabled": true,
+    "schedule": {
+      "kind": "every",
+      "everyMs": 4320000000,
+      "anchorMs": 1775502807956
+    },
+    "state": {
+      "nextRunAtMs": 1779822807956
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "1474055023884243112"
+    },
+    "payload_message_short": "Run the Facebook token refresh script: `cd /home/clawuser/.openclaw/workspace-f"
   },
   {
     "name": "Wedding Season: Cutting Board V3 - Jun 3",
@@ -719,7 +744,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "payloadMessage": "Execute Wedding Season post: Cutting Board V3.\n\npython3 /home/clawuser/.opencl..."
+    "payload_message_short": "Execute Wedding Season post: Cutting Board V3.\n\npython3 /home/clawuser/.opencla"
   },
   {
     "name": "🇺🇸 4th of July Content Planning Reminder",
@@ -738,7 +763,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "payloadMessage": "SEASONAL PLANNING REMINDER: 4th of July is July 4 (4 weeks away). HUGE opportu..."
+    "payload_message_short": "SEASONAL PLANNING REMINDER: 4th of July is July 4 (4 weeks away). HUGE opportu"
   },
   {
     "name": "Wedding Season: Cheese Board V2 - Jun 10",
@@ -757,7 +782,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "payloadMessage": "Execute Wedding Season post: Cheese Board V2.\n\npython3 /home/clawuser/.opencl..."
+    "payload_message_short": "Execute Wedding Season post: Cheese Board V2.\n\npython3 /home/clawuser/.openclaw"
   },
   {
     "name": "🏈 Football/Tailgate Season Content Planning",
@@ -776,7 +801,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "payloadMessage": "SEASONAL PLANNING REMINDER: Football/tailgate season starts in September.\n\nRem..."
+    "payload_message_short": "SEASONAL PLANNING REMINDER: Football/tailgate season starts in September.\n\nRem"
   },
   {
     "name": "🎄 Christmas/Holiday Season Content Planning",
@@ -795,6 +820,327 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "payloadMessage": "SEASONAL PLANNING REMINDER: Christmas is December 25. Holiday shopping starts e..."
+    "payload_message_short": "SEASONAL PLANNING REMINDER: Christmas is December 25. Holiday shopping starts e"
+  },
+  {
+    "name": "W3 Thu Mar 5 - Cheese Slicer",
+    "agentId": "sawyer",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-06T01:00:00.000Z"
+    },
+    "state": {
+      "lastRunAtMs": 1772758800096,
+      "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 60053,
+      "lastError": "cron: job execution timed out",
+      "lastDeliveryStatus": "unknown",
+      "consecutiveErrors": 1
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    },
+    "payload_message_short": "Run this command:\n\nexport PATH=\"/home/clawuser/.local/bin:$PATH\"\npython3 /hom"
+  },
+  {
+    "name": "Etsy Ads Performance Check",
+    "agentId": "forge",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 16 * * 6",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastRunAtMs": 1775336400036,
+      "lastStatus": "ok",
+      "lastDurationMs": 48729,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1474055043497070862"
+    },
+    "payload_message_short": "Weekly Etsy Ads check. Go to https://winegardenworkshop.etsy.com and check wha"
+  },
+  {
+    "name": "Forge Ventures Council — Research (Wed)",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "59 4 * * 4",
+      "tz": "UTC"
+    },
+    "state": {
+      "lastRunAtMs": 1775105940042,
+      "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 600046,
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 1,
+      "lastError": "cron: job execution timed out",
+      "lastErrorReason": "timeout"
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload_message_short": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventures"
+  },
+  {
+    "name": "Tools I Trust #5 — Nitrile Gloves - Tue Mar 4 12pm",
+    "agentId": "sawyer",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-04T18:00:00.000Z"
+    },
+    "state": {
+      "lastRunAtMs": 1772647200060,
+      "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 120037,
+      "lastError": "cron: job execution timed out",
+      "lastDeliveryStatus": "unknown",
+      "consecutiveErrors": 1
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    },
+    "payload_message_short": "Time to publish Tools I Trust #5 — Nitrile Gloves. Post to FB + IG at 12pm CT."
+  },
+  {
+    "name": "Friday Fire: Dovetail Hot Take - March 20",
+    "agentId": "sawyer",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-21T01:00:00.000Z"
+    },
+    "state": {
+      "lastRunAtMs": 1774054800134,
+      "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 120033,
+      "lastError": "cron: job execution timed out",
+      "lastErrorReason": "timeout",
+      "lastDeliveryStatus": "unknown",
+      "consecutiveErrors": 1
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    },
+    "payload_message_short": "Execute Friday Fire: Dovetail Hot Take post.\n\npython3 /home/clawuser/.openclaw/"
+  },
+  {
+    "name": "GrowReviews Tomorrow Docket Reminder",
+    "agentId": "forge",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-23T13:00:00.000Z"
+    },
+    "state": {
+      "lastRunAtMs": 1774270862503,
+      "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 12359,
+      "lastError": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs.",
+      "lastDeliveryStatus": "unknown",
+      "consecutiveErrors": 1
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord"
+    },
+    "payload_message_short": "Reminder: Send Spencer a message in #ventures-general about today's GrowReviews "
+  },
+  {
+    "name": "Forge Ventures Council — Deliver (Wed)",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "14 5 * * 4",
+      "tz": "UTC"
+    },
+    "state": {},
+    "delivery": {
+      "mode": "none"
+    },
+    "payload_message_short": "Deliver the Ventures Council Memo that was written by the research job 15 minut"
+  },
+  {
+    "name": "Daily Watchlist Technical Check (RETIRED - split into 3)",
+    "agentId": "sterling",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "30 16 * * 1-5",
+      "tz": "America/New_York"
+    },
+    "state": {
+      "lastRunAtMs": 1775075400036,
+      "lastStatus": "error",
+      "lastDurationMs": 480012,
+      "consecutiveErrors": 2,
+      "lastRunStatus": "error",
+      "lastDeliveryStatus": "not-requested",
+      "lastErrorReason": "timeout",
+      "lastError": "cron: job execution timed out"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471481648347615439"
+    },
+    "payload_message_short": "Daily market close technical analysis for Les's watchlist. Run this command:\n\n"
+  },
+  {
+    "name": "Forge Ventures Council — Deliver (Sun)",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "14 5 * * 1",
+      "tz": "UTC"
+    },
+    "state": {
+      "lastRunAtMs": 1775452440021,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 28002,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload_message_short": "Deliver the Ventures Council Memo that was written by the research job 15 minut"
+  },
+  {
+    "name": "Daily Sub-Agent Workspace Sync (Afternoon)",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 13 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastRunAtMs": 1771959600132,
+      "lastStatus": "ok",
+      "lastDurationMs": 102051,
+      "consecutiveErrors": 0
+    },
+    "payload_message_short": "DAILY SYNC (AFTERNOON): Three tasks.\n\n1) CRON ERROR CHECK: List all cron jobs"
+  },
+  {
+    "name": "onboard-les",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "every",
+      "everyMs": 1800000,
+      "anchorMs": 1770913303087
+    },
+    "state": {
+      "lastRunAtMs": 1770925903100,
+      "lastStatus": "ok",
+      "lastDurationMs": 17310,
+      "consecutiveErrors": 0
+    },
+    "payload_message_short": "Run the Les onboarding check: execute /home/clawuser/.openclaw/workspace/script"
+  },
+  {
+    "name": "Forge Ventures Council — Research (Sun)",
+    "agentId": "main",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "59 4 * * 1",
+      "tz": "UTC"
+    },
+    "state": {
+      "lastRunAtMs": 1775451540051,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 108728,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload_message_short": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventures"
+  },
+  {
+    "name": "Friday Fire: Workshop Space vs Tools - March 27",
+    "agentId": "sawyer",
+    "enabled": false,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-03-28T01:00:00.000Z"
+    },
+    "state": {
+      "lastRunAtMs": 1774659600169,
+      "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 120017,
+      "lastError": "cron: job execution timed out",
+      "lastErrorReason": "timeout",
+      "lastDeliveryStatus": "unknown",
+      "consecutiveErrors": 1
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    },
+    "payload_message_short": "Execute Friday Fire: Workshop Space vs Tools post.\n\npython3 /home/clawuser/.op"
+  },
+  {
+    "name": "Etsy Ads Follow-Up Nag",
+    "agentId": "forge",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 11 * * 1",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "lastRunAtMs": 1775491200027,
+      "lastStatus": "ok",
+      "lastDurationMs": 31620,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1474055043497070862"
+    },
+    "payload_message_short": "Check if Spencer responded to the last Saturday Etsy Ads performance report in "
   }
 ]
