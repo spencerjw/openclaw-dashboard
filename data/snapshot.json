@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-04-09T12:01:55.466071+00:00",
+  "collected_at": "2026-04-10T12:03:03.748036+00:00",
   "system": {
     "disk": {
       "total": "19G",
-      "used": "18G",
-      "available": "1.2G",
-      "percent": "94%"
+      "used": "19G",
+      "available": "156M",
+      "percent": "100%"
     },
     "ram": {
       "total": "1.9Gi",
-      "used": "1.1Gi",
-      "available": "747Mi"
+      "used": "1.3Gi",
+      "available": "614Mi"
     },
-    "uptime": "up 2 weeks, 3 days, 16 hours, 16 minutes",
+    "uptime": "up 12 hours, 58 minutes",
     "openclaw_version": "v2026.3.13",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -25,13 +25,13 @@
       "model": "claude-opus-4-6",
       "workspace": "workspace",
       "workspace_size_mb": 49,
-      "memory_bytes": 251052,
-      "memory_kb": 245.2,
+      "memory_bytes": 252145,
+      "memory_kb": 246.2,
       "memory_files": [
         {
           "name": "MEMORY.md",
-          "bytes": 6126,
-          "chars": 6123
+          "bytes": 6116,
+          "chars": 6113
         },
         {
           "name": "memory/2025-02-11.md",
@@ -222,6 +222,14 @@
           "bytes": 4912
         },
         {
+          "name": "memory/2026-04-09.md",
+          "bytes": 1660
+        },
+        {
+          "name": "memory/2026-04-10.md",
+          "bytes": 708
+        },
+        {
           "name": "memory/agent-roster.md",
           "bytes": 2819
         },
@@ -255,7 +263,7 @@
         },
         {
           "name": "memory/moc-infrastructure.md",
-          "bytes": 9387
+          "bytes": 8122
         },
         {
           "name": "memory/nexusforge.md",
@@ -282,7 +290,7 @@
           "bytes": 4067
         }
       ],
-      "memory_file_count": 63
+      "memory_file_count": 65
     },
     {
       "id": "stratton",
@@ -292,8 +300,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-stratton",
       "workspace_size_mb": 13,
-      "memory_bytes": 98848,
-      "memory_kb": 96.5,
+      "memory_bytes": 100231,
+      "memory_kb": 97.9,
       "memory_files": [
         {
           "name": "memory/2026-02-14.md",
@@ -382,9 +390,13 @@
         {
           "name": "memory/2026-04-08-notion-order.md",
           "bytes": 10759
+        },
+        {
+          "name": "memory/2026-04-10.md",
+          "bytes": 1383
         }
       ],
-      "memory_file_count": 22
+      "memory_file_count": 23
     },
     {
       "id": "rosie",
@@ -394,8 +406,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-rosie",
       "workspace_size_mb": 1,
-      "memory_bytes": 21392,
-      "memory_kb": 20.9,
+      "memory_bytes": 21783,
+      "memory_kb": 21.3,
       "memory_files": [
         {
           "name": "memory/2026-02-16.md",
@@ -530,11 +542,15 @@
           "bytes": 394
         },
         {
+          "name": "memory/2026-04-10.md",
+          "bytes": 391
+        },
+        {
           "name": "memory/git-deploy-sop.md",
           "bytes": 2453
         }
       ],
-      "memory_file_count": 34
+      "memory_file_count": 35
     },
     {
       "id": "sawyer",
@@ -544,8 +560,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sawyer",
       "workspace_size_mb": 22,
-      "memory_bytes": 63987,
-      "memory_kb": 62.5,
+      "memory_bytes": 64380,
+      "memory_kb": 62.9,
       "memory_files": [
         {
           "name": "memory/2026-02-12.md",
@@ -706,9 +722,13 @@
         {
           "name": "memory/2026-04-08.md",
           "bytes": 566
+        },
+        {
+          "name": "memory/2026-04-09.md",
+          "bytes": 393
         }
       ],
-      "memory_file_count": 40
+      "memory_file_count": 41
     },
     {
       "id": "sterling",
@@ -718,8 +738,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sterling",
       "workspace_size_mb": 1,
-      "memory_bytes": 9166,
-      "memory_kb": 9.0,
+      "memory_bytes": 9343,
+      "memory_kb": 9.1,
       "memory_files": [
         {
           "name": "memory/2026-02-14.md",
@@ -840,9 +860,13 @@
         {
           "name": "memory/2026-04-08.md",
           "bytes": 145
+        },
+        {
+          "name": "memory/2026-04-10.md",
+          "bytes": 177
         }
       ],
-      "memory_file_count": 30
+      "memory_file_count": 31
     },
     {
       "id": "sage",
@@ -852,8 +876,8 @@
       "model": "claude-sonnet-4",
       "workspace": "workspace-sage",
       "workspace_size_mb": 1,
-      "memory_bytes": 3631,
-      "memory_kb": 3.5,
+      "memory_bytes": 3745,
+      "memory_kb": 3.7,
       "memory_files": [
         {
           "name": "memory/2026-02-15.md",
@@ -1022,9 +1046,13 @@
         {
           "name": "memory/2026-04-08.md",
           "bytes": 67
+        },
+        {
+          "name": "memory/2026-04-10.md",
+          "bytes": 114
         }
       ],
-      "memory_file_count": 42
+      "memory_file_count": 43
     },
     {
       "id": "forge",
@@ -1169,199 +1197,24 @@
       "name": "Dashboard Snapshot Refresh (Daily 7am CT)",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 7 * * *",
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1775736000000,
-        "lastRunAtMs": 1775649600197,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 11846,
+        "nextRunAtMs": 1775822400000,
+        "lastRunAtMs": 1775736000046,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 122579,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 1,
+        "consecutiveErrors": 0,
         "lastDelivered": false,
-        "lastErrorReason": "billing",
-        "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
-        "runningAtMs": 1775736000046
+        "runningAtMs": 1775822400039
       },
       "delivery": {
         "mode": "none"
-      }
-    },
-    {
-      "name": "GrowReviews Email Campaign Step 1",
-      "agentId": "forge",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-04-09T15:00:00.000Z"
-      },
-      "state": {
-        "nextRunAtMs": 1775746800000
-      },
-      "delivery": {
-        "mode": "announce",
-        "to": "1474055023884243112",
-        "channel": "discord"
-      }
-    },
-    {
-      "name": "Watchlist 1/3: Core Data Center Power",
-      "agentId": "sterling",
-      "enabled": true,
-      "deleteAfterRun": false,
-      "schedule": {
-        "kind": "cron",
-        "expr": "20 16 * * 1-5",
-        "tz": "America/New_York"
-      },
-      "state": {
-        "nextRunAtMs": 1775766000000,
-        "lastRunAtMs": 1775679600064,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 42296,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471194552290377991"
-      }
-    },
-    {
-      "name": "Watchlist 2/3: Growth & Tech",
-      "agentId": "sterling",
-      "enabled": true,
-      "deleteAfterRun": false,
-      "schedule": {
-        "kind": "cron",
-        "expr": "35 16 * * 1-5",
-        "tz": "America/New_York"
-      },
-      "state": {
-        "nextRunAtMs": 1775766900000,
-        "lastRunAtMs": 1775680500086,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 32350,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471194552290377991"
-      }
-    },
-    {
-      "name": "Watchlist 3/3: BYOP & Utilities",
-      "agentId": "sterling",
-      "enabled": true,
-      "deleteAfterRun": false,
-      "schedule": {
-        "kind": "cron",
-        "expr": "40 16 * * 1-5",
-        "tz": "America/New_York"
-      },
-      "state": {
-        "nextRunAtMs": 1775767200000,
-        "lastRunAtMs": 1775680800020,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 44581,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471194552290377991"
-      }
-    },
-    {
-      "name": "Daily Receipt Processing",
-      "agentId": "main",
-      "enabled": true,
-      "deleteAfterRun": false,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 19 * * *",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1775779200000,
-        "lastRunAtMs": 1775692800034,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 31756,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none"
-      }
-    },
-    {
-      "name": "Daily Notion Status Sync",
-      "agentId": "sawyer",
-      "enabled": true,
-      "deleteAfterRun": false,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 22 * * *",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1775790000000,
-        "lastRunAtMs": 1775703600036,
-        "lastStatus": "ok",
-        "lastDurationMs": 15596,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered"
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
-      }
-    },
-    {
-      "name": "Sub-Agent Workspace Sync (Mon/Wed/Fri)",
-      "agentId": "main",
-      "enabled": true,
-      "deleteAfterRun": false,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 5 * * 1,3,5",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1775815200000,
-        "lastRunAtMs": 1775642400026,
-        "lastStatus": "ok",
-        "lastDurationMs": 158123,
-        "consecutiveErrors": 0,
-        "lastRunStatus": "ok",
-        "lastDeliveryStatus": "delivered",
-        "lastDelivered": true
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471194552290377991"
       }
     },
     {
@@ -1381,10 +1234,84 @@
       }
     },
     {
+      "name": "Watchlist 1/3: Core Data Center Power",
+      "agentId": "sterling",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "20 16 * * 1-5",
+        "tz": "America/New_York"
+      },
+      "state": {
+        "nextRunAtMs": 1775852400000,
+        "lastRunAtMs": 1775766000057,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 47912,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
+      }
+    },
+    {
+      "name": "Watchlist 2/3: Growth & Tech",
+      "agentId": "sterling",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "35 16 * * 1-5",
+        "tz": "America/New_York"
+      },
+      "state": {
+        "nextRunAtMs": 1775853300000,
+        "lastRunAtMs": 1775766900023,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 44085,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
+      }
+    },
+    {
+      "name": "Watchlist 3/3: BYOP & Utilities",
+      "agentId": "sterling",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "40 16 * * 1-5",
+        "tz": "America/New_York"
+      },
+      "state": {
+        "nextRunAtMs": 1775853600000,
+        "lastRunAtMs": 1775767200111,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 50191,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
+      }
+    },
+    {
       "name": "Grocery Receipt Import (Every 3 Days)",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "every",
         "everyMs": 259200000,
@@ -1408,7 +1335,6 @@
       "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 17 * * 5",
@@ -1426,6 +1352,29 @@
         "lastError": "Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config.",
         "lastErrorReason": "timeout",
         "lastDeliveryError": "Request timed out before a response was generated. Please try again, or increase `agents.defaults.timeoutSeconds` in your config."
+      },
+      "delivery": {
+        "mode": "none"
+      }
+    },
+    {
+      "name": "Daily Receipt Processing",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 19 * * *",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1775865600000,
+        "lastRunAtMs": 1775779200015,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 88712,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
       },
       "delivery": {
         "mode": "none"
@@ -1450,10 +1399,35 @@
       }
     },
     {
+      "name": "Daily Notion Status Sync",
+      "agentId": "sawyer",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1775876400000,
+        "lastRunAtMs": 1775790000064,
+        "lastStatus": "error",
+        "lastDurationMs": 30051,
+        "consecutiveErrors": 1,
+        "lastRunStatus": "error",
+        "lastDeliveryStatus": "not-requested",
+        "lastError": "cron: job execution timed out",
+        "lastErrorReason": "timeout"
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
+      }
+    },
+    {
       "name": "Forge Ventures Council \u2014 Research (Fri)",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "59 4 * * 6",
@@ -1480,7 +1454,6 @@
       "name": "Forge Ventures Council \u2014 Deliver (Fri)",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "14 5 * * 6",
@@ -1497,7 +1470,6 @@
       "name": "Weekly Competitive Price Tracker (Sun 9pm CT)",
       "agentId": "stratton",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 21 * * 0",
@@ -1515,6 +1487,31 @@
       },
       "delivery": {
         "mode": "none"
+      }
+    },
+    {
+      "name": "Sub-Agent Workspace Sync (Mon/Wed/Fri)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 5 * * 1,3,5",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1776074400000,
+        "lastRunAtMs": 1775815200019,
+        "lastStatus": "ok",
+        "lastDurationMs": 286819,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "delivered",
+        "lastDelivered": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
       }
     },
     {
@@ -1539,7 +1536,6 @@
       "name": "ZAG Bi-Weekly Meeting Prep Reminder",
       "agentId": "stratton",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "every",
         "everyMs": 1209600000,
@@ -1565,7 +1561,6 @@
       "name": "Weekly Starred Repo Watch",
       "agentId": "main",
       "enabled": true,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 14 * * 1",
@@ -1829,7 +1824,6 @@
       "name": "Etsy Ads Performance Check",
       "agentId": "forge",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 16 * * 6",
@@ -1854,7 +1848,6 @@
       "name": "Forge Ventures Council \u2014 Research (Wed)",
       "agentId": "main",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "59 4 * * 4",
@@ -1943,14 +1936,14 @@
       },
       "delivery": {
         "mode": "announce",
-        "channel": "discord"
+        "channel": "discord",
+        "to": "channel:1474055023884243112"
       }
     },
     {
       "name": "Forge Ventures Council \u2014 Deliver (Wed)",
       "agentId": "main",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "14 5 * * 4",
@@ -1965,7 +1958,6 @@
       "name": "Daily Watchlist Technical Check (RETIRED - split into 3)",
       "agentId": "sterling",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "30 16 * * 1-5",
@@ -1991,7 +1983,6 @@
       "name": "Forge Ventures Council \u2014 Deliver (Sun)",
       "agentId": "main",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "14 5 * * 1",
@@ -2014,7 +2005,6 @@
       "name": "Daily Sub-Agent Workspace Sync (Afternoon)",
       "agentId": "main",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 13 * * *",
@@ -2025,13 +2015,13 @@
         "lastStatus": "ok",
         "lastDurationMs": 102051,
         "consecutiveErrors": 0
-      }
+      },
+      "delivery": {}
     },
     {
       "name": "onboard-les",
       "agentId": "main",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -2042,13 +2032,13 @@
         "lastStatus": "ok",
         "lastDurationMs": 17310,
         "consecutiveErrors": 0
-      }
+      },
+      "delivery": {}
     },
     {
       "name": "Forge Ventures Council \u2014 Research (Sun)",
       "agentId": "main",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "59 4 * * 1",
@@ -2096,7 +2086,6 @@
       "name": "Etsy Ads Follow-Up Nag",
       "agentId": "forge",
       "enabled": false,
-      "deleteAfterRun": false,
       "schedule": {
         "kind": "cron",
         "expr": "0 11 * * 1",
