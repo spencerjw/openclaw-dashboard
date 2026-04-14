@@ -9,100 +9,21 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776081600000,
-      "lastRunAtMs": 1775995200019,
+      "nextRunAtMs": 1776168000000,
+      "lastRunAtMs": 1776081600142,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 105716,
+      "lastDurationMs": 107678,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0,
       "lastDelivered": false,
-      "runningAtMs": 1776081600142
+      "runningAtMs": 1776168000314
     },
     "delivery": {
       "mode": "none"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. List all cron jobs (include d"
-    }
-  },
-  {
-    "name": "\ud83d\udc69 Mother's Day Content Planning Reminder",
-    "agentId": "sawyer",
-    "enabled": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-04-13T15:00:00.000Z"
-    },
-    "state": {
-      "nextRunAtMs": 1776092400000
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196032196149278"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "kind": "agentTurn",
-      "message": "SEASONAL PLANNING REMINDER: Mother's Day is May 11 (4 weeks away). This is a BIG"
-    }
-  },
-  {
-    "name": "ZAG Bi-Weekly Meeting Prep Reminder",
-    "agentId": "stratton",
-    "enabled": true,
-    "schedule": {
-      "kind": "every",
-      "everyMs": 1209600000,
-      "anchorMs": 1773675000000
-    },
-    "state": {
-      "nextRunAtMs": 1776094200106,
-      "lastRunAtMs": 1774884600106,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 13514,
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471194625367867445"
-    },
-    "payload": {
-      "kind": "agentTurn",
-      "message": "ZAG Meeting Prep Reminder - 30 minutes until Spencer's bi-weekly LeighAnn status"
-    }
-  },
-  {
-    "name": "Weekly Starred Repo Watch",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 14 * * 1",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1776106800000,
-      "lastRunAtMs": 1775502063210,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 58201,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "kind": "agentTurn",
-      "message": "Check Spencer's starred GitHub repos for major updates. Read /home/clawuser/.ope"
     }
   },
   {
@@ -115,11 +36,11 @@
       "tz": "America/New_York"
     },
     "state": {
-      "nextRunAtMs": 1776111600000,
-      "lastRunAtMs": 1775852400034,
+      "nextRunAtMs": 1776198000000,
+      "lastRunAtMs": 1776111600040,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 49280,
+      "lastDurationMs": 187392,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
@@ -130,8 +51,7 @@
       "to": "channel:1471194552290377991"
     },
     "payload": {
-      "kind": "agentTurn",
-      "message": "Run technical analysis for Core Data Center Power tickers: BW, APLD, GEV, CAT, C"
+      "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/bui"
     }
   },
   {
@@ -144,11 +64,11 @@
       "tz": "America/New_York"
     },
     "state": {
-      "nextRunAtMs": 1776112500000,
-      "lastRunAtMs": 1775853300075,
+      "nextRunAtMs": 1776198900000,
+      "lastRunAtMs": 1776112500120,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 48911,
+      "lastDurationMs": 129849,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
@@ -159,8 +79,7 @@
       "to": "channel:1471194552290377991"
     },
     "payload": {
-      "kind": "agentTurn",
-      "message": "Run technical analysis for Growth & Tech tickers: AMPX, BE, VSEC, ORCL\n\nexport P"
+      "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/bui"
     }
   },
   {
@@ -173,11 +92,11 @@
       "tz": "America/New_York"
     },
     "state": {
-      "nextRunAtMs": 1776112800000,
-      "lastRunAtMs": 1775853600019,
+      "nextRunAtMs": 1776199200000,
+      "lastRunAtMs": 1776112800136,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 39351,
+      "lastDurationMs": 196682,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
@@ -188,35 +107,7 @@
       "to": "channel:1471194552290377991"
     },
     "payload": {
-      "kind": "agentTurn",
-      "message": "Run technical analysis for BYOP & Utilities tickers: ETN, VST, OKLO, SMR, NEE\n\ne"
-    }
-  },
-  {
-    "name": "Grocery Receipt Import (Every 3 Days)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "every",
-      "everyMs": 259200000,
-      "anchorMs": 1774817485488
-    },
-    "state": {
-      "nextRunAtMs": 1776113485567,
-      "lastRunAtMs": 1775854285567,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 54792,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "kind": "agentTurn",
-      "message": "Check for new grocery receipt PDFs in Google Drive and import them.\n\n1. Use the "
+      "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/bui"
     }
   },
   {
@@ -229,11 +120,11 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776124800000,
-      "lastRunAtMs": 1776038400205,
+      "nextRunAtMs": 1776211200000,
+      "lastRunAtMs": 1776124800062,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 232374,
+      "lastDurationMs": 159741,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
@@ -242,7 +133,6 @@
       "mode": "none"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Process new receipts and update family budget dashboard.\n\n1. Run the family budg"
     }
   },
@@ -256,10 +146,10 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776135600000,
-      "lastRunAtMs": 1776049200028,
+      "nextRunAtMs": 1776222000000,
+      "lastRunAtMs": 1776135600176,
       "lastStatus": "ok",
-      "lastDurationMs": 17837,
+      "lastDurationMs": 15139,
       "consecutiveErrors": 0,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-delivered",
@@ -271,7 +161,6 @@
       "to": "channel:1471196140044161228"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
     }
   },
@@ -295,19 +184,19 @@
       "lastDelivered": true
     },
     "delivery": {
-      "mode": "announce",
+      "mode": "none",
       "channel": "discord",
       "to": "channel:1471194552290377991"
     },
     "payload": {
-      "kind": "agentTurn",
-      "message": "DAILY SYNC (MORNING): Three tasks.\n\n1) CRON ERROR CHECK: List all cron jobs. For"
+      "message": "DAILY SYNC (MORNING): Three tasks.\n\n1) CRON HEALTH CHECK\n- Check OpenClaw cron j"
     }
   },
   {
     "name": "Wedding Season: Family Sign V1 - Apr 15",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-15T17:00:00.000Z"
@@ -320,10 +209,34 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "Execute Wedding Season post: Family Sign V1.\n\npython3 /home/clawuser/.openclaw/w"
+    }
+  },
+  {
+    "name": "Grocery Receipt Import (Every 3 Days)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "every",
+      "everyMs": 259200000,
+      "anchorMs": 1774817485488
+    },
+    "state": {
+      "nextRunAtMs": 1776372685585,
+      "lastRunAtMs": 1776114399858,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 223828,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0,
+      "lastDelivered": false
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload": {
+      "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/gro"
     }
   },
   {
@@ -337,26 +250,23 @@
     },
     "state": {
       "nextRunAtMs": 1776463200000,
-      "lastRunAtMs": 1775858400131,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 111153,
+      "lastRunAtMs": 1776085998226,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 146124,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 2,
-      "lastDeliveryError": "\u26a0\ufe0f \ud83d\udcdd Edit: `in memory/2026-04-10.md` failed",
-      "lastError": "\u26a0\ufe0f \ud83d\udcdd Edit: `in memory/2026-04-10.md` failed"
+      "consecutiveErrors": 0
     },
     "delivery": {
       "mode": "none"
     },
     "payload": {
-      "kind": "agentTurn",
-      "message": "Scan GitHub for the most starred/trending repos from the past week related to Cl"
+      "message": "Scan GitHub for the most starred or interesting repos from the past week related"
     }
   },
   {
-    "name": "Forge Ventures Council \u2014 Research (Fri)",
+    "name": "Forge Ventures Council — Research (Fri)",
     "agentId": "main",
     "enabled": true,
     "schedule": {
@@ -378,12 +288,11 @@
       "mode": "none"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventures"
     }
   },
   {
-    "name": "Forge Ventures Council \u2014 Deliver (Fri)",
+    "name": "Forge Ventures Council — Deliver (Fri)",
     "agentId": "main",
     "enabled": true,
     "schedule": {
@@ -405,8 +314,28 @@
       "mode": "none"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Deliver the Ventures Council Memo that was written by the research job 15 minute"
+    }
+  },
+  {
+    "name": "Mother's Day Content Reminder for Spencer",
+    "agentId": "sawyer",
+    "enabled": true,
+    "deleteAfterRun": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-04-18T20:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1776542400000
+    },
+    "delivery": {
+      "mode": "announce",
+      "to": "1471196032196149278",
+      "channel": "discord"
+    },
+    "payload": {
+      "message": "Reminder: Mother's Day is one week away (May 11). Prepare themed social media co"
     }
   },
   {
@@ -427,7 +356,6 @@
       "to": "1480921205107068958"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Work in /home/clawuser/.openclaw/workspace-stratton/competitive-pricing. Do only"
     }
   },
@@ -447,14 +375,14 @@
       "mode": "none"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Run python3 /home/clawuser/.openclaw/workspace-stratton/competitive-pricing/publ"
     }
   },
   {
-    "name": "\ud83c\udf93 Graduation Season Content Planning",
+    "name": "🎓 Graduation Season Content Planning",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-20T15:00:00.000Z"
@@ -467,16 +395,42 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "SEASONAL PLANNING REMINDER: Graduation season is May-June. Time to start plannin"
+    }
+  },
+  {
+    "name": "Weekly Starred Repo Watch",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 14 * * 1",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1776711600000,
+      "lastRunAtMs": 1776106800085,
+      "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 180036,
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 1,
+      "lastError": "cron: job execution timed out",
+      "lastErrorReason": "timeout"
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload": {
+      "message": "Check Spencer's starred GitHub repos for major updates. Read /home/clawuser/.ope"
     }
   },
   {
     "name": "Wedding Season: Cutting Board V1 - Apr 23",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-23T17:00:00.000Z"
@@ -489,9 +443,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.openclaw"
     }
   },
@@ -499,6 +451,7 @@
     "name": "Wedding Season: Cheese Board V1 - May 1",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-01T17:00:00.000Z"
@@ -511,9 +464,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "Execute Wedding Season post: Cheese Board V1.\n\npython3 /home/clawuser/.openclaw/"
     }
   },
@@ -521,6 +472,7 @@
     "name": "Wedding Season: Family Sign V2 - May 6",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-06T17:00:00.000Z"
@@ -533,9 +485,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "Execute Wedding Season post: Family Sign V2.\n\npython3 /home/clawuser/.openclaw/w"
     }
   },
@@ -543,6 +493,7 @@
     "name": "Wedding Season: Cutting Board V2 - May 13",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-13T17:00:00.000Z"
@@ -555,16 +506,15 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "Execute Wedding Season post: Cutting Board V2.\n\npython3 /home/clawuser/.openclaw"
     }
   },
   {
-    "name": "\ud83d\udc68 Father's Day Content Planning Reminder",
+    "name": "👨 Father's Day Content Planning Reminder",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-18T15:00:00.000Z"
@@ -577,9 +527,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "SEASONAL PLANNING REMINDER: Father's Day is June 15 (4 weeks away). Another BIG "
     }
   },
@@ -587,6 +535,7 @@
     "name": "Wedding Season: Cutting Board V3 - Jun 3",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-06-03T17:00:00.000Z"
@@ -599,16 +548,15 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "Execute Wedding Season post: Cutting Board V3.\n\npython3 /home/clawuser/.openclaw"
     }
   },
   {
-    "name": "\ud83c\uddfa\ud83c\uddf8 4th of July Content Planning Reminder",
+    "name": "🇺🇸 4th of July Content Planning Reminder",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-06-08T15:00:00.000Z"
@@ -621,9 +569,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "SEASONAL PLANNING REMINDER: 4th of July is July 4 (4 weeks away). HUGE opportuni"
     }
   },
@@ -631,6 +577,7 @@
     "name": "Wedding Season: Cheese Board V2 - Jun 10",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-06-10T17:00:00.000Z"
@@ -643,16 +590,15 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "Execute Wedding Season post: Cheese Board V2.\n\npython3 /home/clawuser/.openclaw/"
     }
   },
   {
-    "name": "\ud83c\udfc8 Football/Tailgate Season Content Planning",
+    "name": "🏈 Football/Tailgate Season Content Planning",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-08-10T15:00:00.000Z"
@@ -665,16 +611,15 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "SEASONAL PLANNING REMINDER: Football/tailgate season starts in September.\n\nRemin"
     }
   },
   {
-    "name": "\ud83c\udf84 Christmas/Holiday Season Content Planning",
+    "name": "🎄 Christmas/Holiday Season Content Planning",
     "agentId": "sawyer",
     "enabled": true,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-10-15T15:00:00.000Z"
@@ -687,67 +632,8 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
       "message": "SEASONAL PLANNING REMINDER: Christmas is December 25. Holiday shopping starts ea"
-    }
-  },
-  {
-    "name": "Friday Fire: Pocket Holes Debate - April 10",
-    "agentId": "sawyer",
-    "enabled": false,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-04-11T01:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1775869200044,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 120022,
-      "lastError": "cron: job execution timed out",
-      "lastErrorReason": "timeout",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "kind": "agentTurn",
-      "message": "Execute Friday Fire: Pocket Holes Debate post.\n\npython3 /home/clawuser/.openclaw"
-    }
-  },
-  {
-    "name": "W3 Thu Mar 5 - Cheese Slicer",
-    "agentId": "sawyer",
-    "enabled": false,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-06T01:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1772758800096,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 60053,
-      "lastError": "cron: job execution timed out",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "kind": "agentTurn",
-      "message": "Run this command:\n\nexport PATH=\"/home/clawuser/.local/bin:$PATH\"\npython3 /home/c"
     }
   },
   {
@@ -774,152 +660,39 @@
       "to": "channel:1474055043497070862"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Weekly Etsy Ads check. Go to https://winegardenworkshop.etsy.com and check what "
     }
   },
   {
-    "name": "Forge Ventures Council \u2014 Research (Wed)",
-    "agentId": "main",
-    "enabled": false,
-    "schedule": {
-      "kind": "cron",
-      "expr": "59 4 * * 4",
-      "tz": "UTC"
-    },
-    "state": {
-      "lastRunAtMs": 1775105940042,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 600046,
-      "lastDeliveryStatus": "not-requested",
-      "consecutiveErrors": 1,
-      "lastError": "cron: job execution timed out",
-      "lastErrorReason": "timeout"
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "kind": "agentTurn",
-      "message": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventures"
-    }
-  },
-  {
-    "name": "Tools I Trust #5 \u2014 Nitrile Gloves - Tue Mar 4 12pm",
+    "name": "👩 Mother's Day Content Planning Reminder",
     "agentId": "sawyer",
     "enabled": false,
+    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
-      "at": "2026-03-04T18:00:00.000Z"
+      "at": "2026-04-13T15:00:00.000Z"
     },
     "state": {
-      "lastRunAtMs": 1772647200060,
+      "lastRunAtMs": 1776092400154,
       "lastRunStatus": "error",
       "lastStatus": "error",
-      "lastDurationMs": 120037,
-      "lastError": "cron: job execution timed out",
-      "lastDeliveryStatus": "unknown",
+      "lastDurationMs": 23122,
+      "lastError": "⚠️ ✉️ Message failed",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
       "consecutiveErrors": 1
     },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
-      "to": "channel:1471196140044161228"
+      "to": "channel:1471196032196149278"
     },
-    "deleteAfterRun": true,
     "payload": {
-      "kind": "agentTurn",
-      "message": "Time to publish Tools I Trust #5 \u2014 Nitrile Gloves. Post to FB + IG at 12pm CT.\n\n"
+      "message": "SEASONAL PLANNING REMINDER: Mother's Day is May 11 (4 weeks away). This is a BIG"
     }
   },
   {
-    "name": "Friday Fire: Dovetail Hot Take - March 20",
-    "agentId": "sawyer",
-    "enabled": false,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-21T01:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1774054800134,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 120033,
-      "lastError": "cron: job execution timed out",
-      "lastErrorReason": "timeout",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "kind": "agentTurn",
-      "message": "Execute Friday Fire: Dovetail Hot Take post.\n\npython3 /home/clawuser/.openclaw/w"
-    }
-  },
-  {
-    "name": "Weekly Competitive Price Tracker (Sun 9pm CT)",
-    "agentId": "stratton",
-    "enabled": false,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 21 * * 0",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "lastRunAtMs": 1776046831118,
-      "lastStatus": "error",
-      "lastDurationMs": 410889,
-      "consecutiveErrors": 2,
-      "lastRunStatus": "error",
-      "lastDeliveryStatus": "not-delivered",
-      "lastDelivered": false,
-      "lastDeliveryError": "Context overflow: prompt too large for the model. Try /reset (or /new) to start a fresh session, or use a larger-context model.",
-      "lastError": "Context overflow: prompt too large for the model. Try /reset (or /new) to start a fresh session, or use a larger-context model."
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "kind": "agentTurn",
-      "message": "Weekly competitive price tracker run. Follow these steps exactly:\n\n1. SCRAPE PRI"
-    }
-  },
-  {
-    "name": "GrowReviews Tomorrow Docket Reminder",
-    "agentId": "forge",
-    "enabled": false,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-23T13:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1774270862503,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 12359,
-      "lastError": "Discord recipient is required. Use \"channel:<id>\" for channels or \"user:<id>\" for DMs.",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1474055023884243112"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "kind": "agentTurn",
-      "message": "Reminder: Send Spencer a message in #ventures-general about today's GrowReviews "
-    }
-  },
-  {
-    "name": "Forge Ventures Council \u2014 Deliver (Wed)",
+    "name": "Forge Ventures Council — Deliver (Wed)",
     "agentId": "main",
     "enabled": false,
     "schedule": {
@@ -932,41 +705,38 @@
       "mode": "none"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Deliver the Ventures Council Memo that was written by the research job 15 minute"
     }
   },
   {
-    "name": "Daily Watchlist Technical Check (RETIRED - split into 3)",
-    "agentId": "sterling",
+    "name": "ZAG Bi-Weekly Meeting Prep Reminder",
+    "agentId": "stratton",
     "enabled": false,
     "schedule": {
-      "kind": "cron",
-      "expr": "30 16 * * 1-5",
-      "tz": "America/New_York"
+      "kind": "every",
+      "everyMs": 1209600000,
+      "anchorMs": 1773675000000
     },
     "state": {
-      "lastRunAtMs": 1775075400036,
-      "lastStatus": "error",
-      "lastDurationMs": 480012,
-      "consecutiveErrors": 2,
-      "lastRunStatus": "error",
-      "lastDeliveryStatus": "not-requested",
-      "lastErrorReason": "timeout",
-      "lastError": "cron: job execution timed out"
+      "lastRunAtMs": 1776094200131,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 55326,
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "consecutiveErrors": 0
     },
     "delivery": {
-      "mode": "none",
+      "mode": "announce",
       "channel": "discord",
-      "to": "channel:1471481648347615439"
+      "to": "channel:1471194625367867445"
     },
     "payload": {
-      "kind": "agentTurn",
-      "message": "Daily market close technical analysis for Les's watchlist. Run this command:\n\nex"
+      "message": "ZAG Meeting Prep Reminder - 30 minutes until Spencer's bi-weekly LeighAnn status"
     }
   },
   {
-    "name": "Forge Ventures Council \u2014 Deliver (Sun)",
+    "name": "Forge Ventures Council — Deliver (Sun)",
     "agentId": "main",
     "enabled": false,
     "schedule": {
@@ -987,7 +757,6 @@
       "mode": "none"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Deliver the Ventures Council Memo that was written by the research job 15 minute"
     }
   },
@@ -1006,11 +775,7 @@
       "lastDurationMs": 102051,
       "consecutiveErrors": 0
     },
-    "delivery": null,
-    "payload": {
-      "kind": "systemEvent",
-      "text": "DAILY SYNC (AFTERNOON): Three tasks.\n\n1) CRON ERROR CHECK: List all cron jobs. F"
-    }
+    "delivery": null
   },
   {
     "name": "onboard-les",
@@ -1027,14 +792,10 @@
       "lastDurationMs": 17310,
       "consecutiveErrors": 0
     },
-    "delivery": null,
-    "payload": {
-      "kind": "systemEvent",
-      "text": "Run the Les onboarding check: execute /home/clawuser/.openclaw/workspace/scripts"
-    }
+    "delivery": null
   },
   {
-    "name": "Forge Ventures Council \u2014 Research (Sun)",
+    "name": "Forge Ventures Council — Research (Sun)",
     "agentId": "main",
     "enabled": false,
     "schedule": {
@@ -1055,64 +816,7 @@
       "mode": "none"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventures"
-    }
-  },
-  {
-    "name": "Friday Fire: Workshop Space vs Tools - March 27",
-    "agentId": "sawyer",
-    "enabled": false,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-03-28T01:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1774659600169,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 120017,
-      "lastError": "cron: job execution timed out",
-      "lastErrorReason": "timeout",
-      "lastDeliveryStatus": "unknown",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "kind": "agentTurn",
-      "message": "Execute Friday Fire: Workshop Space vs Tools post.\n\npython3 /home/clawuser/.open"
-    }
-  },
-  {
-    "name": "FB User Token Expiration Reminder",
-    "agentId": "main",
-    "enabled": false,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-04-10T14:00:00.000Z"
-    },
-    "state": {
-      "lastRunAtMs": 1775829600049,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 60043,
-      "lastError": "cron: job execution timed out",
-      "lastErrorReason": "timeout",
-      "lastDeliveryStatus": "not-requested",
-      "consecutiveErrors": 1
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "kind": "agentTurn",
-      "message": "REMINDER: The Meta/Facebook User Token expires around April 13, 2026 (3 days fro"
     }
   },
   {
@@ -1139,7 +843,6 @@
       "to": "channel:1474055043497070862"
     },
     "payload": {
-      "kind": "agentTurn",
       "message": "Check if Spencer responded to the last Saturday Etsy Ads performance report in #"
     }
   }
