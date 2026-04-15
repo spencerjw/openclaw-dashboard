@@ -9,21 +9,63 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776168000000,
-      "lastRunAtMs": 1776081600142,
+      "nextRunAtMs": 1776254400000,
+      "lastRunAtMs": 1776168000314,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 107678,
+      "lastDurationMs": 132688,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0,
       "lastDelivered": false,
-      "runningAtMs": 1776168000314
+      "runningAtMs": 1776254400124
     },
     "delivery": {
       "mode": "none"
     },
     "payload": {
       "message": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. List all cron jobs (include d"
+    }
+  },
+  {
+    "name": "Weekly MemPalace Review",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 9 * * 3",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1776261600000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471193473955664024"
+    },
+    "payload": {
+      "message": "Review the official MemPalace project once this week and on future weekly runs.\n"
+    }
+  },
+  {
+    "name": "Wedding Season: Family Sign V1 - Apr 15",
+    "agentId": "sawyer",
+    "enabled": true,
+    "schedule": {
+      "kind": "at",
+      "at": "2026-04-15T17:00:00.000Z"
+    },
+    "state": {
+      "nextRunAtMs": 1776272400000
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    },
+    "deleteAfterRun": true,
+    "payload": {
+      "message": "Execute Wedding Season post: Family Sign V1.\n\npython3 /home/clawuser/.openclaw/w"
     }
   },
   {
@@ -36,11 +78,11 @@
       "tz": "America/New_York"
     },
     "state": {
-      "nextRunAtMs": 1776198000000,
-      "lastRunAtMs": 1776111600040,
+      "nextRunAtMs": 1776284400000,
+      "lastRunAtMs": 1776198360337,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 187392,
+      "lastDurationMs": 26315,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
@@ -51,63 +93,7 @@
       "to": "channel:1471194552290377991"
     },
     "payload": {
-      "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/bui"
-    }
-  },
-  {
-    "name": "Watchlist 2/3: Growth & Tech",
-    "agentId": "sterling",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "35 16 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
-      "nextRunAtMs": 1776198900000,
-      "lastRunAtMs": 1776112500120,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 129849,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payload": {
-      "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/bui"
-    }
-  },
-  {
-    "name": "Watchlist 3/3: BYOP & Utilities",
-    "agentId": "sterling",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "40 16 * * 1-5",
-      "tz": "America/New_York"
-    },
-    "state": {
-      "nextRunAtMs": 1776199200000,
-      "lastRunAtMs": 1776112800136,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 196682,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payload": {
-      "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/bui"
+      "message": "Run exactly this command and capture its stdout:\npython3 /home/clawuser/.opencla"
     }
   },
   {
@@ -120,11 +106,11 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776211200000,
-      "lastRunAtMs": 1776124800062,
+      "nextRunAtMs": 1776297600000,
+      "lastRunAtMs": 1776211200108,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 159741,
+      "lastDurationMs": 177325,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
@@ -146,10 +132,10 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776222000000,
-      "lastRunAtMs": 1776135600176,
+      "nextRunAtMs": 1776308400000,
+      "lastRunAtMs": 1776222000150,
       "lastStatus": "ok",
-      "lastDurationMs": 15139,
+      "lastDurationMs": 14423,
       "consecutiveErrors": 0,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-delivered",
@@ -162,55 +148,6 @@
     },
     "payload": {
       "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
-    }
-  },
-  {
-    "name": "Sub-Agent Workspace Sync (Mon/Wed/Fri)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 5 * * 1,3,5",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1776247200000,
-      "lastRunAtMs": 1776074400157,
-      "lastStatus": "ok",
-      "lastDurationMs": 455624,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "delivered",
-      "lastDelivered": true
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payload": {
-      "message": "DAILY SYNC (MORNING): Three tasks.\n\n1) CRON HEALTH CHECK\n- Check OpenClaw cron j"
-    }
-  },
-  {
-    "name": "Wedding Season: Family Sign V1 - Apr 15",
-    "agentId": "sawyer",
-    "enabled": true,
-    "deleteAfterRun": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-04-15T17:00:00.000Z"
-    },
-    "state": {
-      "nextRunAtMs": 1776272400000
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "payload": {
-      "message": "Execute Wedding Season post: Family Sign V1.\n\npython3 /home/clawuser/.openclaw/w"
     }
   },
   {
@@ -240,6 +177,34 @@
     }
   },
   {
+    "name": "Sub-Agent Workspace Sync (Mon/Wed/Fri)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 5 * * 1,3,5",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1776420000000,
+      "lastRunAtMs": 1776247200151,
+      "lastStatus": "ok",
+      "lastDurationMs": 491038,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-delivered",
+      "lastDelivered": false
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
+    },
+    "payload": {
+      "message": "DAILY SYNC (MORNING): Three tasks.\n\n1) CRON HEALTH CHECK\n- Check OpenClaw cron j"
+    }
+  },
+  {
     "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
     "agentId": "main",
     "enabled": true,
@@ -266,7 +231,7 @@
     }
   },
   {
-    "name": "Forge Ventures Council — Research (Fri)",
+    "name": "Forge Ventures Council \u2014 Research (Fri)",
     "agentId": "main",
     "enabled": true,
     "schedule": {
@@ -292,7 +257,7 @@
     }
   },
   {
-    "name": "Forge Ventures Council — Deliver (Fri)",
+    "name": "Forge Ventures Council \u2014 Deliver (Fri)",
     "agentId": "main",
     "enabled": true,
     "schedule": {
@@ -321,7 +286,6 @@
     "name": "Mother's Day Content Reminder for Spencer",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-18T20:00:00.000Z"
@@ -334,6 +298,7 @@
       "to": "1471196032196149278",
       "channel": "discord"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "Reminder: Mother's Day is one week away (May 11). Prepare themed social media co"
     }
@@ -379,10 +344,9 @@
     }
   },
   {
-    "name": "🎓 Graduation Season Content Planning",
+    "name": "\ud83c\udf93 Graduation Season Content Planning",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-20T15:00:00.000Z"
@@ -395,6 +359,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "SEASONAL PLANNING REMINDER: Graduation season is May-June. Time to start plannin"
     }
@@ -430,7 +395,6 @@
     "name": "Wedding Season: Cutting Board V1 - Apr 23",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-04-23T17:00:00.000Z"
@@ -443,6 +407,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.openclaw"
     }
@@ -451,7 +416,6 @@
     "name": "Wedding Season: Cheese Board V1 - May 1",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-01T17:00:00.000Z"
@@ -464,6 +428,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "Execute Wedding Season post: Cheese Board V1.\n\npython3 /home/clawuser/.openclaw/"
     }
@@ -472,7 +437,6 @@
     "name": "Wedding Season: Family Sign V2 - May 6",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-06T17:00:00.000Z"
@@ -485,6 +449,7 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "Execute Wedding Season post: Family Sign V2.\n\npython3 /home/clawuser/.openclaw/w"
     }
@@ -493,7 +458,6 @@
     "name": "Wedding Season: Cutting Board V2 - May 13",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-13T17:00:00.000Z"
@@ -506,15 +470,15 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "Execute Wedding Season post: Cutting Board V2.\n\npython3 /home/clawuser/.openclaw"
     }
   },
   {
-    "name": "👨 Father's Day Content Planning Reminder",
+    "name": "\ud83d\udc68 Father's Day Content Planning Reminder",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-05-18T15:00:00.000Z"
@@ -527,6 +491,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "SEASONAL PLANNING REMINDER: Father's Day is June 15 (4 weeks away). Another BIG "
     }
@@ -535,7 +500,6 @@
     "name": "Wedding Season: Cutting Board V3 - Jun 3",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-06-03T17:00:00.000Z"
@@ -548,15 +512,15 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "Execute Wedding Season post: Cutting Board V3.\n\npython3 /home/clawuser/.openclaw"
     }
   },
   {
-    "name": "🇺🇸 4th of July Content Planning Reminder",
+    "name": "\ud83c\uddfa\ud83c\uddf8 4th of July Content Planning Reminder",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-06-08T15:00:00.000Z"
@@ -569,6 +533,7 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "SEASONAL PLANNING REMINDER: 4th of July is July 4 (4 weeks away). HUGE opportuni"
     }
@@ -577,7 +542,6 @@
     "name": "Wedding Season: Cheese Board V2 - Jun 10",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-06-10T17:00:00.000Z"
@@ -590,15 +554,15 @@
       "channel": "discord",
       "to": "channel:1471196140044161228"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "Execute Wedding Season post: Cheese Board V2.\n\npython3 /home/clawuser/.openclaw/"
     }
   },
   {
-    "name": "🏈 Football/Tailgate Season Content Planning",
+    "name": "\ud83c\udfc8 Football/Tailgate Season Content Planning",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-08-10T15:00:00.000Z"
@@ -611,15 +575,15 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "SEASONAL PLANNING REMINDER: Football/tailgate season starts in September.\n\nRemin"
     }
   },
   {
-    "name": "🎄 Christmas/Holiday Season Content Planning",
+    "name": "\ud83c\udf84 Christmas/Holiday Season Content Planning",
     "agentId": "sawyer",
     "enabled": true,
-    "deleteAfterRun": true,
     "schedule": {
       "kind": "at",
       "at": "2026-10-15T15:00:00.000Z"
@@ -632,8 +596,36 @@
       "channel": "discord",
       "to": "channel:1471196032196149278"
     },
+    "deleteAfterRun": true,
     "payload": {
       "message": "SEASONAL PLANNING REMINDER: Christmas is December 25. Holiday shopping starts ea"
+    }
+  },
+  {
+    "name": "Watchlist 3/3: BYOP & Utilities",
+    "agentId": "sterling",
+    "enabled": false,
+    "schedule": {
+      "kind": "cron",
+      "expr": "40 16 * * 1-5",
+      "tz": "America/New_York"
+    },
+    "state": {
+      "lastRunAtMs": 1776198400930,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 16300,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
+    },
+    "payload": {
+      "message": "Run exactly this command and capture its stdout:\npython3 /home/clawuser/.opencla"
     }
   },
   {
@@ -664,35 +656,34 @@
     }
   },
   {
-    "name": "👩 Mother's Day Content Planning Reminder",
-    "agentId": "sawyer",
+    "name": "Watchlist 2/3: Growth & Tech",
+    "agentId": "sterling",
     "enabled": false,
-    "deleteAfterRun": true,
     "schedule": {
-      "kind": "at",
-      "at": "2026-04-13T15:00:00.000Z"
+      "kind": "cron",
+      "expr": "35 16 * * 1-5",
+      "tz": "America/New_York"
     },
     "state": {
-      "lastRunAtMs": 1776092400154,
-      "lastRunStatus": "error",
-      "lastStatus": "error",
-      "lastDurationMs": 23122,
-      "lastError": "⚠️ ✉️ Message failed",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "consecutiveErrors": 1
+      "lastRunAtMs": 1776198386753,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 14137,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
     },
     "delivery": {
-      "mode": "announce",
+      "mode": "none",
       "channel": "discord",
-      "to": "channel:1471196032196149278"
+      "to": "channel:1471194552290377991"
     },
     "payload": {
-      "message": "SEASONAL PLANNING REMINDER: Mother's Day is May 11 (4 weeks away). This is a BIG"
+      "message": "Run exactly this command and capture its stdout:\npython3 /home/clawuser/.opencla"
     }
   },
   {
-    "name": "Forge Ventures Council — Deliver (Wed)",
+    "name": "Forge Ventures Council \u2014 Deliver (Wed)",
     "agentId": "main",
     "enabled": false,
     "schedule": {
@@ -736,7 +727,7 @@
     }
   },
   {
-    "name": "Forge Ventures Council — Deliver (Sun)",
+    "name": "Forge Ventures Council \u2014 Deliver (Sun)",
     "agentId": "main",
     "enabled": false,
     "schedule": {
@@ -795,7 +786,7 @@
     "delivery": null
   },
   {
-    "name": "Forge Ventures Council — Research (Sun)",
+    "name": "Forge Ventures Council \u2014 Research (Sun)",
     "agentId": "main",
     "enabled": false,
     "schedule": {
