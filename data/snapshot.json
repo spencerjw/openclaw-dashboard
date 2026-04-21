@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-04-20T12:01:26.760379+00:00",
+  "collected_at": "2026-04-21T12:00:42.880585+00:00",
   "system": {
     "disk": {
       "total": "19G",
       "used": "15G",
-      "available": "3.5G",
-      "percent": "81%"
+      "available": "3.4G",
+      "percent": "82%"
     },
     "ram": {
       "total": "3.7Gi",
-      "used": "1.7Gi",
-      "available": "2.1Gi"
+      "used": "1.8Gi",
+      "available": "1.9Gi"
     },
-    "uptime": "up 1 week, 1 day, 22 hours, 16 minutes",
+    "uptime": "up 1 week, 2 days, 22 hours, 15 minutes",
     "openclaw_version": "v2026.4.10",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -130,8 +130,8 @@
       "workspace": "workspace",
       "model": "gpt-5.4",
       "workspace_size_mb": 72,
-      "memory_bytes": 297911,
-      "memory_kb": 290.9,
+      "memory_bytes": 299932,
+      "memory_kb": 292.9,
       "memory_files": [
         {
           "name": "MEMORY.md",
@@ -372,7 +372,11 @@
         },
         {
           "name": "memory/2026-04-20.md",
-          "bytes": 675
+          "bytes": 2772
+        },
+        {
+          "name": "memory/2026-04-21.md",
+          "bytes": 604
         },
         {
           "name": "memory/agent-roster.md",
@@ -408,7 +412,7 @@
         },
         {
           "name": "memory/moc-infrastructure.md",
-          "bytes": 7980
+          "bytes": 7300
         },
         {
           "name": "memory/nexusforge.md",
@@ -435,7 +439,7 @@
           "bytes": 4067
         }
       ],
-      "memory_file_count": 75
+      "memory_file_count": 76
     },
     {
       "id": "pearl",
@@ -1028,7 +1032,7 @@
       "emoji": "\ud83d\udcb0",
       "domain": "Finance & Markets",
       "workspace": "workspace-sterling",
-      "model": "gpt-5.4",
+      "model": "gpt-4.1-mini",
       "workspace_size_mb": 1,
       "memory_bytes": 11781,
       "memory_kb": 11.5,
@@ -1184,8 +1188,8 @@
       "workspace": "workspace-stratton",
       "model": "gpt-5.4",
       "workspace_size_mb": 14,
-      "memory_bytes": 107999,
-      "memory_kb": 105.5,
+      "memory_bytes": 114979,
+      "memory_kb": 112.3,
       "memory_files": [
         {
           "name": "memory/2026-02-14.md",
@@ -1286,9 +1290,13 @@
         {
           "name": "memory/2026-04-15.md",
           "bytes": 6376
+        },
+        {
+          "name": "memory/2026-04-20.md",
+          "bytes": 6980
         }
       ],
-      "memory_file_count": 25
+      "memory_file_count": 26
     },
     {
       "id": "tribune",
@@ -1328,68 +1336,21 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1776686400000,
-        "lastRunAtMs": 1776600000132,
+        "nextRunAtMs": 1776772800000,
+        "lastRunAtMs": 1776686400109,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 97133,
+        "lastDurationMs": 109494,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false,
-        "runningAtMs": 1776686400109
+        "runningAtMs": 1776772800180
       },
       "delivery": {
         "mode": "none"
       },
       "payload": {
-        "message": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. List all cron jobs (include d"
-      }
-    },
-    {
-      "name": "\ud83c\udf93 Graduation Season Content Planning",
-      "agentId": "sawyer",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "schedule": {
-        "kind": "at",
-        "at": "2026-04-20T15:00:00.000Z"
-      },
-      "state": {
-        "nextRunAtMs": 1776697200000
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1471196032196149278"
-      },
-      "payload": {
-        "message": "SEASONAL PLANNING REMINDER: Graduation season is May-June. Time to start plannin"
-      }
-    },
-    {
-      "name": "Weekly Starred Repo Watch",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 14 * * 1",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1776711600000,
-        "lastRunAtMs": 1776431482273,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 16461,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "payload": {
-        "message": "Run exactly this command and capture its stdout:\npython3 /home/clawuser/.opencla"
+        "message": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. Run exactly this command to e"
       }
     },
     {
@@ -1402,11 +1363,11 @@
         "tz": "America/New_York"
       },
       "state": {
-        "nextRunAtMs": 1776716400000,
-        "lastRunAtMs": 1776457200152,
+        "nextRunAtMs": 1776802800000,
+        "lastRunAtMs": 1776716400168,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 30283,
+        "lastDurationMs": 53697,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0
@@ -1430,14 +1391,14 @@
         "tz": "America/New_York"
       },
       "state": {
-        "lastRunAtMs": 1776458100084,
+        "lastRunAtMs": 1776717300059,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 25963,
+        "lastDurationMs": 18912,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "nextRunAtMs": 1776717300000
+        "nextRunAtMs": 1776803700000
       },
       "delivery": {
         "mode": "none",
@@ -1458,14 +1419,14 @@
         "tz": "America/New_York"
       },
       "state": {
-        "lastRunAtMs": 1776458400099,
+        "lastRunAtMs": 1776717600045,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 44168,
+        "lastDurationMs": 23526,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "nextRunAtMs": 1776717600000
+        "nextRunAtMs": 1776804000000
       },
       "delivery": {
         "mode": "none",
@@ -1474,32 +1435,6 @@
       },
       "payload": {
         "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-      }
-    },
-    {
-      "name": "Receipt Processing (Mon/Wed/Sat 7pm CT)",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 19 * * 1,3,6",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1776729600000,
-        "lastRunAtMs": 1776556800049,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 179018,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "payload": {
-        "message": "Process new receipts and update family budget dashboard.\n\n1. Run the family budg"
       }
     },
     {
@@ -1512,10 +1447,10 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1776740400000,
-        "lastRunAtMs": 1776654000138,
+        "nextRunAtMs": 1776826800000,
+        "lastRunAtMs": 1776740400145,
         "lastStatus": "ok",
-        "lastDurationMs": 7419,
+        "lastDurationMs": 7811,
         "consecutiveErrors": 0,
         "lastRunStatus": "ok",
         "lastDeliveryStatus": "not-delivered",
@@ -1541,14 +1476,13 @@
       },
       "state": {
         "nextRunAtMs": 1776852000000,
-        "lastRunAtMs": 1776679200055,
-        "lastStatus": "error",
-        "lastDurationMs": 600031,
-        "consecutiveErrors": 1,
-        "lastRunStatus": "error",
-        "lastDeliveryStatus": "not-requested",
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
+        "lastRunAtMs": 1776691881503,
+        "lastStatus": "ok",
+        "lastDurationMs": 22757,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "not-delivered",
+        "lastDelivered": false
       },
       "delivery": {
         "mode": "none",
@@ -1556,14 +1490,41 @@
         "to": "channel:1471194552290377991"
       },
       "payload": {
-        "message": "DAILY SYNC (MORNING): Three tasks.\n\n1) CRON HEALTH CHECK\n- Check OpenClaw cron j"
+        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+      }
+    },
+    {
+      "name": "Sub-Agent Workspace Sync Dispatch (Mon/Wed/Fri)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "8 5 * * 1,3,5",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1776852480000,
+        "lastRunAtMs": 1776691247818,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 23607,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
+      },
+      "payload": {
+        "message": "WORKSPACE SYNC DISPATCH ONLY.\n\nSend this exact message with sessions_send to eac"
       }
     },
     {
       "name": "GrowReviews Safe Email 3 Batch - 2026-04-22 7:05am CDT",
       "agentId": "forge",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-04-22T12:05:00.000Z"
@@ -1574,6 +1535,7 @@
       "delivery": {
         "mode": "none"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "Run exactly this command and report the JSON output only:\npython3 /home/clawuser"
       }
@@ -1633,10 +1595,35 @@
       }
     },
     {
+      "name": "Receipt Processing (Mon/Wed/Sat 7pm CT)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 19 * * 1,3,6",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1776902400000,
+        "lastRunAtMs": 1776729600038,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 152733,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "payload": {
+        "message": "Process new receipts and update family budget dashboard.\n\n1. Run the family budg"
+      }
+    },
+    {
       "name": "Wedding Season: Cutting Board V1 - Apr 23",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-04-23T17:00:00.000Z"
@@ -1649,6 +1636,7 @@
         "channel": "discord",
         "to": "channel:1471196140044161228"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.openclaw"
       }
@@ -1716,14 +1704,13 @@
       },
       "state": {
         "nextRunAtMs": 1777094040000,
-        "lastRunAtMs": 1776489240070,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 120061,
-        "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 1,
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
+        "lastRunAtMs": 1776691086097,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 20432,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       },
       "delivery": {
         "mode": "none"
@@ -1743,14 +1730,13 @@
       },
       "state": {
         "nextRunAtMs": 1777255200000,
-        "lastRunAtMs": 1776650400204,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 420018,
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout",
-        "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 1
+        "lastRunAtMs": 1776718083482,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 75909,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       },
       "delivery": {
         "mode": "none",
@@ -1759,6 +1745,32 @@
       },
       "payload": {
         "message": "Work in /home/clawuser/.openclaw/workspace-stratton/competitive-pricing. Do only"
+      }
+    },
+    {
+      "name": "Weekly Competitive Price Tracker - Freshness Check",
+      "agentId": "stratton",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "8 21 * * 0",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1777255680000,
+        "lastRunAtMs": 1776718752216,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 7561,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "payload": {
+        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
       }
     },
     {
@@ -1784,14 +1796,39 @@
         "mode": "none"
       },
       "payload": {
-        "message": "Run python3 /home/clawuser/.openclaw/workspace-stratton/competitive-pricing/publ"
+        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+      }
+    },
+    {
+      "name": "Weekly Starred Repo Watch",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 14 * * 1",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1777316400000,
+        "lastRunAtMs": 1776711600140,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 19331,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "payload": {
+        "message": "Run exactly this command and capture its stdout:\npython3 /home/clawuser/.opencla"
       }
     },
     {
       "name": "Wedding Season: Cheese Board V1 - May 1",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-05-01T17:00:00.000Z"
@@ -1804,6 +1841,7 @@
         "channel": "discord",
         "to": "channel:1471196140044161228"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "Execute Wedding Season post: Cheese Board V1.\n\npython3 /home/clawuser/.openclaw/"
       }
@@ -1812,7 +1850,6 @@
       "name": "Wedding Season: Family Sign V2 - May 6",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-05-06T17:00:00.000Z"
@@ -1825,6 +1862,7 @@
         "channel": "discord",
         "to": "channel:1471196140044161228"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "Execute Wedding Season post: Family Sign V2.\n\npython3 /home/clawuser/.openclaw/w"
       }
@@ -1833,7 +1871,6 @@
       "name": "Wedding Season: Cutting Board V2 - May 13",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-05-13T17:00:00.000Z"
@@ -1846,6 +1883,7 @@
         "channel": "discord",
         "to": "channel:1471196140044161228"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "Execute Wedding Season post: Cutting Board V2.\n\npython3 /home/clawuser/.openclaw"
       }
@@ -1854,7 +1892,6 @@
       "name": "\ud83d\udc68 Father's Day Content Planning Reminder",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-05-18T15:00:00.000Z"
@@ -1867,6 +1904,7 @@
         "channel": "discord",
         "to": "channel:1471196032196149278"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "SEASONAL PLANNING REMINDER: Father's Day is June 15 (4 weeks away). Another BIG "
       }
@@ -1875,7 +1913,6 @@
       "name": "Wedding Season: Cutting Board V3 - Jun 3",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-06-03T17:00:00.000Z"
@@ -1888,6 +1925,7 @@
         "channel": "discord",
         "to": "channel:1471196140044161228"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "Execute Wedding Season post: Cutting Board V3.\n\npython3 /home/clawuser/.openclaw"
       }
@@ -1896,7 +1934,6 @@
       "name": "\ud83c\uddfa\ud83c\uddf8 4th of July Content Planning Reminder",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-06-08T15:00:00.000Z"
@@ -1909,6 +1946,7 @@
         "channel": "discord",
         "to": "channel:1471196032196149278"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "SEASONAL PLANNING REMINDER: 4th of July is July 4 (4 weeks away). HUGE opportuni"
       }
@@ -1917,7 +1955,6 @@
       "name": "Wedding Season: Cheese Board V2 - Jun 10",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-06-10T17:00:00.000Z"
@@ -1930,6 +1967,7 @@
         "channel": "discord",
         "to": "channel:1471196140044161228"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "Execute Wedding Season post: Cheese Board V2.\n\npython3 /home/clawuser/.openclaw/"
       }
@@ -1938,7 +1976,6 @@
       "name": "\ud83c\udfc8 Football/Tailgate Season Content Planning",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-08-10T15:00:00.000Z"
@@ -1951,6 +1988,7 @@
         "channel": "discord",
         "to": "channel:1471196032196149278"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "SEASONAL PLANNING REMINDER: Football/tailgate season starts in September.\n\nRemin"
       }
@@ -1959,7 +1997,6 @@
       "name": "\ud83c\udf84 Christmas/Holiday Season Content Planning",
       "agentId": "sawyer",
       "enabled": true,
-      "deleteAfterRun": true,
       "schedule": {
         "kind": "at",
         "at": "2026-10-15T15:00:00.000Z"
@@ -1972,6 +2009,7 @@
         "channel": "discord",
         "to": "channel:1471196032196149278"
       },
+      "deleteAfterRun": true,
       "payload": {
         "message": "SEASONAL PLANNING REMINDER: Christmas is December 25. Holiday shopping starts ea"
       }
@@ -2132,6 +2170,34 @@
       }
     },
     {
+      "name": "\ud83c\udf93 Graduation Season Content Planning",
+      "agentId": "sawyer",
+      "enabled": false,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-04-20T15:00:00.000Z"
+      },
+      "state": {
+        "lastRunAtMs": 1776697200055,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 38302,
+        "lastError": "\u26a0\ufe0f \u2709\ufe0f Message failed",
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 1
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1471196032196149278"
+      },
+      "deleteAfterRun": true,
+      "payload": {
+        "message": "SEASONAL PLANNING REMINDER: Graduation season is May-June. Time to start plannin"
+      }
+    },
+    {
       "name": "Etsy Ads Follow-Up Nag",
       "agentId": "forge",
       "enabled": false,
@@ -2162,87 +2228,87 @@
   "model_costs": {
     "source": "openclaw-session-logs",
     "window_days": 30,
-    "generated_at": "2026-04-20T12:01:26.270249+00:00",
+    "generated_at": "2026-04-21T12:00:42.209303+00:00",
     "totals": {
       "last_24h": {
-        "calls": 248,
+        "calls": 551,
         "errors": 0,
-        "input_tokens": 3180018,
-        "output_tokens": 39053,
-        "cache_read_tokens": 14286464,
+        "input_tokens": 7213258,
+        "output_tokens": 171577,
+        "cache_read_tokens": 31383296,
         "cache_write_tokens": 0,
-        "total_tokens": 17505535,
-        "input_cost": 7.217091,
-        "output_cost": 0.57134,
-        "cache_read_cost": 3.450547,
+        "total_tokens": 38768131,
+        "input_cost": 16.92854,
+        "output_cost": 2.5123,
+        "cache_read_cost": 7.820141,
         "cache_write_cost": 0.0,
-        "total_cost": 11.238979,
+        "total_cost": 27.260981,
         "name": "last_24h"
       },
       "last_7d": {
-        "calls": 1467,
+        "calls": 1588,
         "errors": 0,
-        "input_tokens": 29408648,
-        "output_tokens": 355805,
-        "cache_read_tokens": 98328448,
+        "input_tokens": 26275747,
+        "output_tokens": 424940,
+        "cache_read_tokens": 109903232,
         "cache_write_tokens": 0,
-        "total_tokens": 128092901,
-        "input_cost": 67.265562,
-        "output_cost": 5.245529,
-        "cache_read_cost": 23.644122,
+        "total_tokens": 136603919,
+        "input_cost": 59.981881,
+        "output_cost": 6.226858,
+        "cache_read_cost": 26.62864,
         "cache_write_cost": 0.0,
-        "total_cost": 96.155213,
+        "total_cost": 92.837379,
         "name": "last_7d"
       },
       "last_30d": {
-        "calls": 1948,
+        "calls": 2156,
         "errors": 14,
-        "input_tokens": 32481298,
-        "output_tokens": 431526,
-        "cache_read_tokens": 159897473,
-        "cache_write_tokens": 20640796,
-        "total_tokens": 213451093,
-        "input_cost": 70.440769,
-        "output_cost": 6.427005,
-        "cache_read_cost": 41.085863,
-        "cache_write_cost": 77.748895,
-        "total_cost": 195.702531,
+        "input_tokens": 30564531,
+        "output_tokens": 541586,
+        "cache_read_tokens": 176463701,
+        "cache_write_tokens": 18947550,
+        "total_tokens": 226517368,
+        "input_cost": 64.564853,
+        "output_cost": 8.0176,
+        "cache_read_cost": 45.10135,
+        "cache_write_cost": 71.399223,
+        "total_cost": 189.083025,
         "name": "last_30d"
       }
     },
     "by_provider_30d": [
       {
-        "calls": 1534,
+        "calls": 1766,
         "errors": 2,
-        "input_tokens": 32480030,
-        "output_tokens": 371489,
-        "cache_read_tokens": 106137088,
+        "input_tokens": 30563411,
+        "output_tokens": 485971,
+        "cache_read_tokens": 124711040,
         "cache_write_tokens": 0,
-        "total_tokens": 138988607,
-        "input_cost": 70.436937,
-        "output_cost": 5.50923,
-        "cache_read_cost": 24.846042,
+        "total_tokens": 155760422,
+        "input_cost": 64.561465,
+        "output_cost": 7.166155,
+        "cache_read_cost": 29.463846,
         "cache_write_cost": 0.0,
-        "total_cost": 100.792208,
+        "total_cost": 101.191466,
         "provider": "openai"
       },
       {
-        "calls": 367,
+        "calls": 341,
         "errors": 12,
-        "input_tokens": 1268,
-        "output_tokens": 60037,
-        "cache_read_tokens": 53760385,
-        "cache_write_tokens": 20640796,
-        "total_tokens": 74462486,
-        "input_cost": 0.003832,
-        "output_cost": 0.917775,
-        "cache_read_cost": 16.239821,
-        "cache_write_cost": 77.748895,
-        "total_cost": 94.910323,
+        "input_tokens": 1120,
+        "output_tokens": 55615,
+        "cache_read_tokens": 51752661,
+        "cache_write_tokens": 18947550,
+        "total_tokens": 70756946,
+        "input_cost": 0.003388,
+        "output_cost": 0.851445,
+        "cache_read_cost": 15.637504,
+        "cache_write_cost": 71.399223,
+        "total_cost": 87.891559,
         "provider": "anthropic"
       },
       {
-        "calls": 47,
+        "calls": 49,
         "errors": 0,
         "input_tokens": 0,
         "output_tokens": 0,
@@ -2259,36 +2325,20 @@
     ],
     "by_model_30d": [
       {
-        "calls": 1397,
+        "calls": 1580,
         "errors": 0,
-        "input_tokens": 26805328,
-        "output_tokens": 359059,
-        "cache_read_tokens": 92610560,
+        "input_tokens": 24308591,
+        "output_tokens": 468435,
+        "cache_read_tokens": 110670848,
         "cache_write_tokens": 0,
-        "total_tokens": 119774947,
-        "input_cost": 67.905055,
-        "output_cost": 5.477865,
-        "cache_read_cost": 23.34304,
+        "total_tokens": 135447874,
+        "input_cost": 61.663213,
+        "output_cost": 7.118505,
+        "cache_read_cost": 27.858112,
         "cache_write_cost": 0.0,
-        "total_cost": 96.72596,
+        "total_cost": 96.63983,
         "provider": "openai",
         "model": "gpt-5.4"
-      },
-      {
-        "calls": 172,
-        "errors": 0,
-        "input_tokens": 1013,
-        "output_tokens": 28468,
-        "cache_read_tokens": 13161337,
-        "cache_write_tokens": 11968867,
-        "total_tokens": 25159685,
-        "input_cost": 0.003039,
-        "output_cost": 0.42702,
-        "cache_read_cost": 3.948401,
-        "cache_write_cost": 44.883251,
-        "total_cost": 49.261711,
-        "provider": "anthropic",
-        "model": "claude-sonnet-4-20250514"
       },
       {
         "calls": 185,
@@ -2307,18 +2357,34 @@
         "model": "claude-sonnet-4-6"
       },
       {
-        "calls": 137,
+        "calls": 146,
+        "errors": 0,
+        "input_tokens": 865,
+        "output_tokens": 24046,
+        "cache_read_tokens": 11153613,
+        "cache_write_tokens": 10275621,
+        "total_tokens": 21454145,
+        "input_cost": 0.002595,
+        "output_cost": 0.36069,
+        "cache_read_cost": 3.346084,
+        "cache_write_cost": 38.533579,
+        "total_cost": 42.242948,
+        "provider": "anthropic",
+        "model": "claude-sonnet-4-20250514"
+      },
+      {
+        "calls": 186,
         "errors": 2,
-        "input_tokens": 5674702,
-        "output_tokens": 12430,
-        "cache_read_tokens": 13526528,
+        "input_tokens": 6254820,
+        "output_tokens": 17536,
+        "cache_read_tokens": 14040192,
         "cache_write_tokens": 0,
-        "total_tokens": 19213660,
-        "input_cost": 2.531882,
-        "output_cost": 0.031365,
-        "cache_read_cost": 1.503002,
+        "total_tokens": 20312548,
+        "input_cost": 2.898252,
+        "output_cost": 0.04765,
+        "cache_read_cost": 1.605734,
         "cache_write_cost": 0.0,
-        "total_cost": 4.066248,
+        "total_cost": 4.551636,
         "provider": "openai",
         "model": "gpt-4.1-mini"
       },
@@ -2339,7 +2405,7 @@
         "model": "claude-opus-4-6"
       },
       {
-        "calls": 47,
+        "calls": 49,
         "errors": 0,
         "input_tokens": 0,
         "output_tokens": 0,
@@ -2357,114 +2423,114 @@
     ],
     "by_agent_30d": [
       {
-        "calls": 1128,
+        "calls": 1146,
         "errors": 0,
-        "input_tokens": 23878292,
-        "output_tokens": 227282,
-        "cache_read_tokens": 67509311,
+        "input_tokens": 20224276,
+        "output_tokens": 252539,
+        "cache_read_tokens": 74995007,
         "cache_write_tokens": 138364,
-        "total_tokens": 91753249,
-        "input_cost": 59.68113,
-        "output_cost": 3.426037,
-        "cache_read_cost": 17.016543,
+        "total_tokens": 95610186,
+        "input_cost": 50.483732,
+        "output_cost": 3.767557,
+        "cache_read_cost": 18.88167,
         "cache_write_cost": 0.864775,
-        "total_cost": 80.988485,
+        "total_cost": 73.997734,
         "agent_id": "main",
         "agent_name": "Nexus"
       },
       {
-        "calls": 180,
+        "calls": 172,
         "errors": 5,
-        "input_tokens": 2387537,
-        "output_tokens": 31278,
-        "cache_read_tokens": 38591541,
-        "cache_write_tokens": 9298204,
-        "total_tokens": 50308560,
-        "input_cost": 0.969907,
-        "output_cost": 0.41956,
-        "cache_read_cost": 9.699638,
-        "cache_write_cost": 34.868265,
-        "total_cost": 45.95737,
+        "input_tokens": 2405910,
+        "output_tokens": 28975,
+        "cache_read_tokens": 37575047,
+        "cache_write_tokens": 8562387,
+        "total_tokens": 48572319,
+        "input_cost": 0.984488,
+        "output_cost": 0.384319,
+        "cache_read_cost": 9.393052,
+        "cache_write_cost": 32.108951,
+        "total_cost": 42.87081,
         "agent_id": "sawyer",
         "agent_name": "Sawyer"
       },
       {
-        "calls": 214,
+        "calls": 226,
         "errors": 3,
-        "input_tokens": 1119743,
-        "output_tokens": 44645,
-        "cache_read_tokens": 20338270,
-        "cache_write_tokens": 5081046,
-        "total_tokens": 26583704,
-        "input_cost": 3.488652,
-        "output_cost": 0.677125,
-        "cache_read_cost": 5.801039,
-        "cache_write_cost": 19.053922,
-        "total_cost": 29.020738,
+        "input_tokens": 1197970,
+        "output_tokens": 45326,
+        "cache_read_tokens": 19988821,
+        "cache_write_tokens": 4604180,
+        "total_tokens": 25836297,
+        "input_cost": 3.597897,
+        "output_cost": 0.68282,
+        "cache_read_cost": 5.681805,
+        "cache_write_cost": 17.265675,
+        "total_cost": 27.228197,
         "agent_id": "sterling",
         "agent_name": "Sterling"
       },
       {
-        "calls": 96,
+        "calls": 93,
         "errors": 3,
-        "input_tokens": 2667046,
-        "output_tokens": 12222,
-        "cache_read_tokens": 13768966,
-        "cache_write_tokens": 5166196,
-        "total_tokens": 21614430,
-        "input_cost": 1.067396,
-        "output_cost": 0.157481,
-        "cache_read_cost": 3.597391,
-        "cache_write_cost": 19.373235,
-        "total_cost": 24.195503,
+        "input_tokens": 2911327,
+        "output_tokens": 11540,
+        "cache_read_tokens": 13421398,
+        "cache_write_tokens": 4761883,
+        "total_tokens": 21106148,
+        "input_cost": 1.165035,
+        "output_cost": 0.146796,
+        "cache_read_cost": 3.49312,
+        "cache_write_cost": 17.857061,
+        "total_cost": 22.662012,
         "agent_id": "rosie",
         "agent_name": "Rosie"
       },
       {
-        "calls": 126,
+        "calls": 305,
         "errors": 0,
-        "input_tokens": 681407,
-        "output_tokens": 60983,
-        "cache_read_tokens": 11798400,
+        "input_tokens": 2538563,
+        "output_tokens": 132951,
+        "cache_read_tokens": 16349952,
         "cache_write_tokens": 0,
-        "total_tokens": 12540790,
-        "input_cost": 1.703518,
-        "output_cost": 0.914745,
-        "cache_read_cost": 2.9496,
+        "total_tokens": 19021466,
+        "input_cost": 6.177213,
+        "output_cost": 2.045094,
+        "cache_read_cost": 4.143686,
         "cache_write_cost": 0.0,
-        "total_cost": 5.567862,
-        "agent_id": "forge",
-        "agent_name": "Forge"
-      },
-      {
-        "calls": 112,
-        "errors": 0,
-        "input_tokens": 1173586,
-        "output_tokens": 44732,
-        "cache_read_tokens": 5623296,
-        "cache_write_tokens": 0,
-        "total_tokens": 6841614,
-        "input_cost": 3.070893,
-        "output_cost": 0.73794,
-        "cache_read_cost": 1.47312,
-        "cache_write_cost": 0.0,
-        "total_cost": 5.281953,
+        "total_cost": 12.365993,
         "agent_id": "stratton",
         "agent_name": "Stratton"
       },
       {
-        "calls": 56,
+        "calls": 121,
+        "errors": 0,
+        "input_tokens": 662948,
+        "output_tokens": 60144,
+        "cache_read_tokens": 11771776,
+        "cache_write_tokens": 0,
+        "total_tokens": 12494868,
+        "input_cost": 1.65737,
+        "output_cost": 0.90216,
+        "cache_read_cost": 2.942944,
+        "cache_write_cost": 0.0,
+        "total_cost": 5.502474,
+        "agent_id": "forge",
+        "agent_name": "Forge"
+      },
+      {
+        "calls": 57,
         "errors": 3,
-        "input_tokens": 166273,
-        "output_tokens": 6172,
-        "cache_read_tokens": 1797417,
-        "cache_write_tokens": 956986,
-        "total_tokens": 2926848,
-        "input_cost": 0.133344,
-        "output_cost": 0.080638,
-        "cache_read_cost": 0.454476,
-        "cache_write_cost": 3.588697,
-        "total_cost": 4.257156,
+        "input_tokens": 216123,
+        "output_tokens": 5899,
+        "cache_read_tokens": 1891428,
+        "cache_write_tokens": 880736,
+        "total_tokens": 2994186,
+        "input_cost": 0.173187,
+        "output_cost": 0.075375,
+        "cache_read_cost": 0.471019,
+        "cache_write_cost": 3.30276,
+        "total_cost": 4.022341,
         "agent_id": "sage",
         "agent_name": "Sage"
       },
@@ -2534,10 +2600,6 @@
       }
     ],
     "daily_30d": [
-      {
-        "date": "2026-03-22",
-        "total_cost": 7.018764
-      },
       {
         "date": "2026-03-23",
         "total_cost": 7.220502
@@ -2624,7 +2686,7 @@
       },
       {
         "date": "2026-04-13",
-        "total_cost": 5.505376
+        "total_cost": 5.122411
       },
       {
         "date": "2026-04-14",
@@ -2632,15 +2694,15 @@
       },
       {
         "date": "2026-04-15",
-        "total_cost": 15.266871
+        "total_cost": 7.040682
       },
       {
         "date": "2026-04-16",
-        "total_cost": 20.459067
+        "total_cost": 7.851889
       },
       {
         "date": "2026-04-17",
-        "total_cost": 19.242023
+        "total_cost": 15.853482
       },
       {
         "date": "2026-04-18",
@@ -2648,27 +2710,31 @@
       },
       {
         "date": "2026-04-19",
-        "total_cost": 8.68464
+        "total_cost": 8.487613
       },
       {
         "date": "2026-04-20",
-        "total_cost": 7.893602
+        "total_cost": 26.973036
+      },
+      {
+        "date": "2026-04-21",
+        "total_cost": 6.121724
       }
     ],
     "top_sessions_30d": [
       {
-        "calls": 173,
+        "calls": 162,
         "errors": 5,
-        "input_tokens": 2353343,
-        "output_tokens": 30853,
-        "cache_read_tokens": 38526389,
-        "cache_write_tokens": 9298204,
-        "total_tokens": 50208789,
-        "input_cost": 0.942551,
-        "output_cost": 0.4182,
-        "cache_read_cost": 9.686608,
-        "cache_write_cost": 34.868265,
-        "total_cost": 45.915624,
+        "input_tokens": 2353290,
+        "output_tokens": 28491,
+        "cache_read_tokens": 37493511,
+        "cache_write_tokens": 8562387,
+        "total_tokens": 48437679,
+        "input_cost": 0.942392,
+        "output_cost": 0.38277,
+        "cache_read_cost": 9.376745,
+        "cache_write_cost": 32.108951,
+        "total_cost": 42.810858,
         "session_id": "311773d4-2538-4472-911f-39face7dccd0-pruned-20260418",
         "agent_id": "sawyer",
         "agent_name": "Sawyer",
@@ -2678,18 +2744,18 @@
         "model": "gpt-4.1-mini"
       },
       {
-        "calls": 191,
+        "calls": 183,
         "errors": 3,
-        "input_tokens": 1043146,
-        "output_tokens": 40312,
-        "cache_read_tokens": 20159838,
-        "cache_write_tokens": 5081046,
-        "total_tokens": 26324342,
-        "input_cost": 3.362881,
-        "output_cost": 0.6297,
-        "cache_read_cost": 5.762044,
-        "cache_write_cost": 19.053922,
-        "total_cost": 28.808548,
+        "input_tokens": 1043096,
+        "output_tokens": 39340,
+        "cache_read_tokens": 19555157,
+        "cache_write_tokens": 4604180,
+        "total_tokens": 25241773,
+        "input_cost": 3.362731,
+        "output_cost": 0.61512,
+        "cache_read_cost": 5.58064,
+        "cache_write_cost": 17.265675,
+        "total_cost": 26.824166,
         "session_id": "b9687530-3ca4-4220-a539-4f1df9ea8066-pruned-20260418",
         "agent_id": "sterling",
         "agent_name": "Sterling",
@@ -2699,46 +2765,25 @@
         "model": "gpt-5.4"
       },
       {
-        "calls": 96,
+        "calls": 93,
         "errors": 3,
-        "input_tokens": 2667046,
-        "output_tokens": 12222,
-        "cache_read_tokens": 13768966,
-        "cache_write_tokens": 5166196,
-        "total_tokens": 21614430,
-        "input_cost": 1.067396,
-        "output_cost": 0.157481,
-        "cache_read_cost": 3.597391,
-        "cache_write_cost": 19.373235,
-        "total_cost": 24.195503,
+        "input_tokens": 2911327,
+        "output_tokens": 11540,
+        "cache_read_tokens": 13421398,
+        "cache_write_tokens": 4761883,
+        "total_tokens": 21106148,
+        "input_cost": 1.165035,
+        "output_cost": 0.146796,
+        "cache_read_cost": 3.49312,
+        "cache_write_cost": 17.857061,
+        "total_cost": 22.662012,
         "session_id": "6560dda5-0e1b-4b41-9212-afa05d632a87",
         "agent_id": "rosie",
         "agent_name": "Rosie",
         "file": "agents/rosie/sessions/6560dda5-0e1b-4b41-9212-afa05d632a87.jsonl",
-        "last_timestamp": "2026-04-20T10:12:12.719000+00:00",
+        "last_timestamp": "2026-04-20T13:24:07.986000+00:00",
         "provider": "openai",
         "model": "gpt-4.1-mini"
-      },
-      {
-        "calls": 194,
-        "errors": 0,
-        "input_tokens": 8436309,
-        "output_tokens": 12981,
-        "cache_read_tokens": 9625984,
-        "cache_write_tokens": 0,
-        "total_tokens": 18075274,
-        "input_cost": 21.090772,
-        "output_cost": 0.194715,
-        "cache_read_cost": 2.406496,
-        "cache_write_cost": 0.0,
-        "total_cost": 23.691983,
-        "session_id": "728ce8b2-63d5-408c-b96d-d1e103247a95-pruned-20260417",
-        "agent_id": "main",
-        "agent_name": "Nexus",
-        "file": "agents/main/sessions/archive/728ce8b2-63d5-408c-b96d-d1e103247a95-pruned-20260417.jsonl",
-        "last_timestamp": "2026-04-17T05:40:29.356000+00:00",
-        "provider": "openai",
-        "model": "gpt-5.4"
       },
       {
         "calls": 289,
@@ -2783,6 +2828,27 @@
         "model": "gpt-5.4"
       },
       {
+        "calls": 180,
+        "errors": 0,
+        "input_tokens": 4780026,
+        "output_tokens": 8219,
+        "cache_read_tokens": 11411968,
+        "cache_write_tokens": 0,
+        "total_tokens": 16200213,
+        "input_cost": 11.950065,
+        "output_cost": 0.123285,
+        "cache_read_cost": 2.852992,
+        "cache_write_cost": 0.0,
+        "total_cost": 14.926342,
+        "session_id": "bc6615ac-7e48-4af8-b9b3-da213665dd97",
+        "agent_id": "main",
+        "agent_name": "Nexus",
+        "file": "agents/main/sessions/bc6615ac-7e48-4af8-b9b3-da213665dd97.jsonl",
+        "last_timestamp": "2026-04-21T11:40:33.185000+00:00",
+        "provider": "openai",
+        "model": "gpt-5.4"
+      },
+      {
         "calls": 114,
         "errors": 0,
         "input_tokens": 4336186,
@@ -2800,6 +2866,27 @@
         "agent_name": "Nexus",
         "file": "agents/main/sessions/archive/d8e0da2e-9354-4193-a0a5-e24e7777dc88-pruned-20260418.jsonl",
         "last_timestamp": "2026-04-18T05:40:28.615000+00:00",
+        "provider": "openai",
+        "model": "gpt-5.4"
+      },
+      {
+        "calls": 176,
+        "errors": 0,
+        "input_tokens": 934523,
+        "output_tokens": 87652,
+        "cache_read_tokens": 10787072,
+        "cache_write_tokens": 0,
+        "total_tokens": 11809247,
+        "input_cost": 2.336307,
+        "output_cost": 1.31478,
+        "cache_read_cost": 2.696768,
+        "cache_write_cost": 0.0,
+        "total_cost": 6.347855,
+        "session_id": "c17ae293-2f47-4e78-88be-44113cc1ca5f-pruned-20260421",
+        "agent_id": "stratton",
+        "agent_name": "Stratton",
+        "file": "agents/stratton/sessions/archive/c17ae293-2f47-4e78-88be-44113cc1ca5f-pruned-20260421.jsonl",
+        "last_timestamp": "2026-04-20T21:04:09.200000+00:00",
         "provider": "openai",
         "model": "gpt-5.4"
       },
@@ -2825,46 +2912,67 @@
         "model": "gpt-5.4"
       },
       {
-        "calls": 56,
-        "errors": 3,
-        "input_tokens": 166273,
-        "output_tokens": 6172,
-        "cache_read_tokens": 1797417,
-        "cache_write_tokens": 956986,
-        "total_tokens": 2926848,
-        "input_cost": 0.133344,
-        "output_cost": 0.080638,
-        "cache_read_cost": 0.454476,
-        "cache_write_cost": 3.588697,
-        "total_cost": 4.257156,
-        "session_id": "073be9b5-5e9f-4408-9f30-077e9e0061c5",
-        "agent_id": "sage",
-        "agent_name": "Sage",
-        "file": "agents/sage/sessions/073be9b5-5e9f-4408-9f30-077e9e0061c5.jsonl",
-        "last_timestamp": "2026-04-20T10:12:36.222000+00:00",
-        "provider": "openai",
-        "model": "gpt-4.1-mini"
+        "calls": 133,
+        "errors": 0,
+        "input_tokens": 690066,
+        "output_tokens": 45459,
+        "cache_read_tokens": 7377599,
+        "cache_write_tokens": 138364,
+        "total_tokens": 8251488,
+        "input_cost": 1.7252,
+        "output_cost": 0.699105,
+        "cache_read_cost": 1.984031,
+        "cache_write_cost": 0.864775,
+        "total_cost": 5.273112,
+        "session_id": "64fe472e-c4a0-4992-b461-26c5a58a4eb8",
+        "agent_id": "main",
+        "agent_name": "Nexus",
+        "file": "agents/main/sessions/64fe472e-c4a0-4992-b461-26c5a58a4eb8.jsonl",
+        "last_timestamp": "2026-04-20T13:36:20.164000+00:00",
+        "provider": "openclaw",
+        "model": "delivery-mirror"
       },
       {
-        "calls": 75,
+        "calls": 78,
         "errors": 0,
-        "input_tokens": 874237,
-        "output_tokens": 33009,
-        "cache_read_tokens": 4498560,
+        "input_tokens": 1005059,
+        "output_tokens": 33353,
+        "cache_read_tokens": 4752000,
         "cache_write_tokens": 0,
-        "total_tokens": 5405806,
-        "input_cost": 2.32252,
-        "output_cost": 0.562095,
-        "cache_read_cost": 1.191936,
+        "total_tokens": 5790412,
+        "input_cost": 2.649575,
+        "output_cost": 0.567255,
+        "cache_read_cost": 1.255296,
         "cache_write_cost": 0.0,
-        "total_cost": 4.076551,
+        "total_cost": 4.472126,
         "session_id": "c4fa9cfe-b02c-4909-9ef2-0ee01849ba81",
         "agent_id": "stratton",
         "agent_name": "Stratton",
         "file": "agents/stratton/sessions/c4fa9cfe-b02c-4909-9ef2-0ee01849ba81.jsonl",
-        "last_timestamp": "2026-04-20T10:10:33.900000+00:00",
+        "last_timestamp": "2026-04-20T13:24:50.105000+00:00",
         "provider": "openai",
         "model": "gpt-5.4"
+      },
+      {
+        "calls": 57,
+        "errors": 3,
+        "input_tokens": 216123,
+        "output_tokens": 5899,
+        "cache_read_tokens": 1891428,
+        "cache_write_tokens": 880736,
+        "total_tokens": 2994186,
+        "input_cost": 0.173187,
+        "output_cost": 0.075375,
+        "cache_read_cost": 0.471019,
+        "cache_write_cost": 3.30276,
+        "total_cost": 4.022341,
+        "session_id": "073be9b5-5e9f-4408-9f30-077e9e0061c5",
+        "agent_id": "sage",
+        "agent_name": "Sage",
+        "file": "agents/sage/sessions/073be9b5-5e9f-4408-9f30-077e9e0061c5.jsonl",
+        "last_timestamp": "2026-04-20T13:24:26.006000+00:00",
+        "provider": "openai",
+        "model": "gpt-4.1-mini"
       },
       {
         "calls": 62,
@@ -2888,86 +2996,44 @@
         "model": "gpt-5.4"
       },
       {
-        "calls": 36,
+        "calls": 16,
         "errors": 0,
-        "input_tokens": 904055,
-        "output_tokens": 3125,
-        "cache_read_tokens": 1572480,
+        "input_tokens": 423137,
+        "output_tokens": 9804,
+        "cache_read_tokens": 668160,
         "cache_write_tokens": 0,
-        "total_tokens": 2479660,
-        "input_cost": 2.260138,
-        "output_cost": 0.046875,
-        "cache_read_cost": 0.39312,
+        "total_tokens": 1101101,
+        "input_cost": 1.057843,
+        "output_cost": 0.14706,
+        "cache_read_cost": 0.16704,
         "cache_write_cost": 0.0,
-        "total_cost": 2.700132,
-        "session_id": "bc6615ac-7e48-4af8-b9b3-da213665dd97",
+        "total_cost": 1.371943,
+        "session_id": "caea614d-85c9-4861-84f3-1d2693046587",
         "agent_id": "main",
         "agent_name": "Nexus",
-        "file": "agents/main/sessions/bc6615ac-7e48-4af8-b9b3-da213665dd97.jsonl",
-        "last_timestamp": "2026-04-20T11:41:03.263000+00:00",
+        "file": "agents/main/sessions/caea614d-85c9-4861-84f3-1d2693046587.jsonl",
+        "last_timestamp": "2026-04-20T23:43:10.283000+00:00",
         "provider": "openai",
         "model": "gpt-5.4"
       },
       {
-        "calls": 63,
+        "calls": 26,
         "errors": 0,
-        "input_tokens": 108195,
-        "output_tokens": 10574,
-        "cache_read_tokens": 2168255,
-        "cache_write_tokens": 138364,
-        "total_tokens": 2425388,
-        "input_cost": 0.270522,
-        "output_cost": 0.17583,
-        "cache_read_cost": 0.681695,
-        "cache_write_cost": 0.864775,
-        "total_cost": 1.992823,
-        "session_id": "64fe472e-c4a0-4992-b461-26c5a58a4eb8",
-        "agent_id": "main",
-        "agent_name": "Nexus",
-        "file": "agents/main/sessions/64fe472e-c4a0-4992-b461-26c5a58a4eb8.jsonl",
-        "last_timestamp": "2026-04-20T10:05:45.455000+00:00",
-        "provider": "openclaw",
-        "model": "delivery-mirror"
-      },
-      {
-        "calls": 31,
-        "errors": 0,
-        "input_tokens": 288579,
-        "output_tokens": 11327,
-        "cache_read_tokens": 1080448,
+        "input_tokens": 408139,
+        "output_tokens": 10183,
+        "cache_read_tokens": 544640,
         "cache_write_tokens": 0,
-        "total_tokens": 1380354,
-        "input_cost": 0.721448,
-        "output_cost": 0.169905,
-        "cache_read_cost": 0.270112,
+        "total_tokens": 962962,
+        "input_cost": 1.020348,
+        "output_cost": 0.152745,
+        "cache_read_cost": 0.13616,
         "cache_write_cost": 0.0,
-        "total_cost": 1.161465,
-        "session_id": "d9cf4f0b-3d46-4d1c-b314-b07baad26e99",
+        "total_cost": 1.309252,
+        "session_id": "5c3f8ba7-c42c-4620-b4c7-3dedb966fe02-pruned-20260421",
         "agent_id": "stratton",
         "agent_name": "Stratton",
-        "file": "agents/stratton/sessions/d9cf4f0b-3d46-4d1c-b314-b07baad26e99.jsonl",
-        "last_timestamp": "2026-04-20T02:07:00.222000+00:00",
-        "provider": "openai",
-        "model": "gpt-5.4"
-      },
-      {
-        "calls": 22,
-        "errors": 0,
-        "input_tokens": 179611,
-        "output_tokens": 11689,
-        "cache_read_tokens": 1392128,
-        "cache_write_tokens": 0,
-        "total_tokens": 1583428,
-        "input_cost": 0.449028,
-        "output_cost": 0.175335,
-        "cache_read_cost": 0.348032,
-        "cache_write_cost": 0.0,
-        "total_cost": 0.972394,
-        "session_id": "96dea46d-9308-49c5-92da-de5a87762d99",
-        "agent_id": "main",
-        "agent_name": "Nexus",
-        "file": "agents/main/sessions/96dea46d-9308-49c5-92da-de5a87762d99.jsonl",
-        "last_timestamp": "2026-04-18T05:04:14.827000+00:00",
+        "file": "agents/stratton/sessions/archive/5c3f8ba7-c42c-4620-b4c7-3dedb966fe02-pruned-20260421.jsonl",
+        "last_timestamp": "2026-04-20T19:23:48.821000+00:00",
         "provider": "openai",
         "model": "gpt-5.4"
       }
@@ -2990,7 +3056,7 @@
       },
       "main": {
         "model": "gpt-5.4",
-        "timestamp": "2026-04-20T12:01:23.321000+00:00",
+        "timestamp": "2026-04-21T12:00:42.134000+00:00",
         "agent_name": "Nexus"
       },
       "pearl": {
@@ -3000,27 +3066,27 @@
       },
       "rosie": {
         "model": "gpt-4.1-mini",
-        "timestamp": "2026-04-20T10:12:12.719000+00:00",
+        "timestamp": "2026-04-20T13:24:07.986000+00:00",
         "agent_name": "Rosie"
       },
       "sage": {
         "model": "gpt-4.1-mini",
-        "timestamp": "2026-04-20T10:12:36.222000+00:00",
+        "timestamp": "2026-04-20T13:24:26.006000+00:00",
         "agent_name": "Sage"
       },
       "sawyer": {
         "model": "gpt-4.1-mini",
-        "timestamp": "2026-04-20T10:14:42.886000+00:00",
+        "timestamp": "2026-04-21T03:00:07.790000+00:00",
         "agent_name": "Sawyer"
       },
       "sterling": {
-        "model": "gpt-5.4",
-        "timestamp": "2026-04-20T10:14:36.704000+00:00",
+        "model": "gpt-4.1-mini",
+        "timestamp": "2026-04-20T20:40:23.282000+00:00",
         "agent_name": "Sterling"
       },
       "stratton": {
         "model": "gpt-5.4",
-        "timestamp": "2026-04-20T10:10:33.900000+00:00",
+        "timestamp": "2026-04-20T21:04:09.200000+00:00",
         "agent_name": "Stratton"
       },
       "tribune": {
