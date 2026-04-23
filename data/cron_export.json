@@ -9,15 +9,15 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776859200000,
-      "lastRunAtMs": 1776772800180,
+      "nextRunAtMs": 1776945600000,
+      "lastRunAtMs": 1776859200237,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 60328,
+      "lastDurationMs": 62155,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0,
       "lastDelivered": false,
-      "runningAtMs": 1776859200237
+      "runningAtMs": 1776945600180
     },
     "delivery": {
       "mode": "none"
@@ -27,50 +27,24 @@
     }
   },
   {
-    "name": "GrowReviews Safe Email 3 Batch - 2026-04-22 7:05am CDT",
-    "agentId": "forge",
+    "name": "Wedding Season: Cutting Board V1 - Apr 23",
+    "agentId": "sawyer",
     "enabled": true,
     "schedule": {
       "kind": "at",
-      "at": "2026-04-22T12:05:00.000Z"
+      "at": "2026-04-23T17:00:00.000Z"
     },
     "state": {
-      "nextRunAtMs": 1776859500000
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "message": "Run exactly this command and report the JSON output only:\npython3 /home/clawuser"
-    }
-  },
-  {
-    "name": "Weekly MemPalace Review",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 9 * * 3",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1776866400000,
-      "lastRunAtMs": 1776261600182,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 25865,
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "consecutiveErrors": 0
+      "nextRunAtMs": 1776963600000
     },
     "delivery": {
       "mode": "announce",
       "channel": "discord",
-      "to": "channel:1471193473955664024"
+      "to": "channel:1471196140044161228"
     },
+    "deleteAfterRun": true,
     "payload": {
-      "message": "Review the official MemPalace project once this week and on future weekly runs.\n"
+      "message": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.openclaw"
     }
   },
   {
@@ -83,11 +57,11 @@
       "tz": "America/New_York"
     },
     "state": {
-      "nextRunAtMs": 1776889200000,
-      "lastRunAtMs": 1776802800101,
+      "nextRunAtMs": 1776975600000,
+      "lastRunAtMs": 1776889200211,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 36358,
+      "lastDurationMs": 32105,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0
@@ -111,14 +85,14 @@
       "tz": "America/New_York"
     },
     "state": {
-      "lastRunAtMs": 1776803700148,
+      "lastRunAtMs": 1776890100098,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 19382,
+      "lastDurationMs": 19329,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0,
-      "nextRunAtMs": 1776890100000
+      "nextRunAtMs": 1776976500000
     },
     "delivery": {
       "mode": "none",
@@ -139,14 +113,14 @@
       "tz": "America/New_York"
     },
     "state": {
-      "lastRunAtMs": 1776804000185,
+      "lastRunAtMs": 1776890400055,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 20828,
+      "lastDurationMs": 35275,
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0,
-      "nextRunAtMs": 1776890400000
+      "nextRunAtMs": 1776976800000
     },
     "delivery": {
       "mode": "none",
@@ -155,58 +129,6 @@
     },
     "payload": {
       "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-    }
-  },
-  {
-    "name": "Grocery Receipt Import (Every 3 Days)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "every",
-      "everyMs": 259200000,
-      "anchorMs": 1774817485488
-    },
-    "state": {
-      "nextRunAtMs": 1776891085683,
-      "lastRunAtMs": 1776631885683,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 29313,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0,
-      "lastDelivered": false
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/gro"
-    }
-  },
-  {
-    "name": "Receipt Processing (Mon/Wed/Sat 7pm CT)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 19 * * 1,3,6",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1776902400000,
-      "lastRunAtMs": 1776729600038,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 152733,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "message": "Process new receipts and update family budget dashboard.\n\n1. Run the family budg"
     }
   },
   {
@@ -219,10 +141,10 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776913200000,
-      "lastRunAtMs": 1776826800102,
+      "nextRunAtMs": 1776999600000,
+      "lastRunAtMs": 1776913200108,
       "lastStatus": "ok",
-      "lastDurationMs": 7529,
+      "lastDurationMs": 19737,
       "consecutiveErrors": 0,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-delivered",
@@ -235,27 +157,6 @@
     },
     "payload": {
       "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
-    }
-  },
-  {
-    "name": "Wedding Season: Cutting Board V1 - Apr 23",
-    "agentId": "sawyer",
-    "enabled": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-04-23T17:00:00.000Z"
-    },
-    "state": {
-      "nextRunAtMs": 1776963600000
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "message": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.openclaw"
     }
   },
   {
@@ -393,6 +294,58 @@
     }
   },
   {
+    "name": "Grocery Receipt Import (Every 3 Days)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "every",
+      "everyMs": 259200000,
+      "anchorMs": 1774817485488
+    },
+    "state": {
+      "nextRunAtMs": 1777150285738,
+      "lastRunAtMs": 1776891085738,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 34947,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0,
+      "lastDelivered": false
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload": {
+      "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/gro"
+    }
+  },
+  {
+    "name": "Receipt Processing (Mon/Wed/Sat 7pm CT)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 19 * * 1,3,6",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777161600000,
+      "lastRunAtMs": 1776902400062,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 120190,
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload": {
+      "message": "Process new receipts and update family budget dashboard.\n\n1. Run the family budg"
+    }
+  },
+  {
     "name": "Weekly Competitive Price Tracker - Snapshot",
     "agentId": "stratton",
     "enabled": true,
@@ -496,6 +449,34 @@
     },
     "payload": {
       "message": "Run exactly this command and capture its stdout:\npython3 /home/clawuser/.opencla"
+    }
+  },
+  {
+    "name": "Weekly MemPalace Review",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 9 * * 3",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777471200000,
+      "lastRunAtMs": 1776866400155,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 22080,
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "announce",
+      "channel": "discord",
+      "to": "channel:1471193473955664024"
+    },
+    "payload": {
+      "message": "Review the official MemPalace project once this week and on future weekly runs.\n"
     }
   },
   {
