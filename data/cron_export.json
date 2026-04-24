@@ -9,42 +9,21 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1776945600000,
-      "lastRunAtMs": 1776859200237,
+      "nextRunAtMs": 1777032000000,
+      "lastRunAtMs": 1776945600180,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 62155,
+      "lastDurationMs": 63525,
       "lastDeliveryStatus": "not-delivered",
       "consecutiveErrors": 0,
       "lastDelivered": false,
-      "runningAtMs": 1776945600180
+      "runningAtMs": 1777032000074
     },
     "delivery": {
       "mode": "none"
     },
     "payload": {
       "message": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. Run exactly this command to e"
-    }
-  },
-  {
-    "name": "Wedding Season: Cutting Board V1 - Apr 23",
-    "agentId": "sawyer",
-    "enabled": true,
-    "schedule": {
-      "kind": "at",
-      "at": "2026-04-23T17:00:00.000Z"
-    },
-    "state": {
-      "nextRunAtMs": 1776963600000
-    },
-    "delivery": {
-      "mode": "announce",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "deleteAfterRun": true,
-    "payload": {
-      "message": "Execute Wedding Season post: Cutting Board V1.\n\npython3 /home/clawuser/.openclaw"
     }
   },
   {
@@ -57,13 +36,12 @@
       "tz": "America/New_York"
     },
     "state": {
-      "nextRunAtMs": 1776975600000,
-      "lastRunAtMs": 1776889200211,
+      "nextRunAtMs": 1777062000000,
+      "lastRunAtMs": 1776975600220,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 32105,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
+      "lastDurationMs": 79883,
+      "lastDeliveryStatus": "not-requested",
       "consecutiveErrors": 0
     },
     "delivery": {
@@ -85,14 +63,13 @@
       "tz": "America/New_York"
     },
     "state": {
-      "lastRunAtMs": 1776890100098,
+      "lastRunAtMs": 1776976500159,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 19329,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
+      "lastDurationMs": 30666,
+      "lastDeliveryStatus": "not-requested",
       "consecutiveErrors": 0,
-      "nextRunAtMs": 1776976500000
+      "nextRunAtMs": 1777062900000
     },
     "delivery": {
       "mode": "none",
@@ -113,14 +90,13 @@
       "tz": "America/New_York"
     },
     "state": {
-      "lastRunAtMs": 1776890400055,
+      "lastRunAtMs": 1776976800135,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 35275,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
+      "lastDurationMs": 72679,
+      "lastDeliveryStatus": "not-requested",
       "consecutiveErrors": 0,
-      "nextRunAtMs": 1776976800000
+      "nextRunAtMs": 1777063200000
     },
     "delivery": {
       "mode": "none",
@@ -129,90 +105,6 @@
     },
     "payload": {
       "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-    }
-  },
-  {
-    "name": "Daily Notion Status Sync",
-    "agentId": "sawyer",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 22 * * *",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1776999600000,
-      "lastRunAtMs": 1776913200108,
-      "lastStatus": "ok",
-      "lastDurationMs": 19737,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-delivered",
-      "lastDelivered": false
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "payload": {
-      "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
-    }
-  },
-  {
-    "name": "Sub-Agent Workspace Sync (Mon/Wed/Fri)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 5 * * 1,3,5",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777024800000,
-      "lastRunAtMs": 1776852000190,
-      "lastStatus": "ok",
-      "lastDurationMs": 37089,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-delivered",
-      "lastDelivered": false
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payload": {
-      "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-    }
-  },
-  {
-    "name": "Sub-Agent Workspace Sync Dispatch (Mon/Wed/Fri)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "8 5 * * 1,3,5",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777025280000,
-      "lastRunAtMs": 1776852480171,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 31781,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payload": {
-      "message": "WORKSPACE SYNC DISPATCH ONLY.\n\nSend this exact message with sessions_send to eac"
     }
   },
   {
@@ -239,6 +131,35 @@
     },
     "payload": {
       "message": "Scan GitHub for the most starred or interesting repos from the past week related"
+    }
+  },
+  {
+    "name": "Daily Notion Status Sync",
+    "agentId": "sawyer",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 22 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777086000000,
+      "lastRunAtMs": 1776999600166,
+      "lastStatus": "error",
+      "lastDurationMs": 30054,
+      "consecutiveErrors": 1,
+      "lastRunStatus": "error",
+      "lastDeliveryStatus": "not-requested",
+      "lastError": "cron: job execution timed out",
+      "lastErrorReason": "timeout"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    },
+    "payload": {
+      "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
     }
   },
   {
@@ -423,6 +344,60 @@
     },
     "payload": {
       "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+    }
+  },
+  {
+    "name": "Sub-Agent Workspace Sync (Mon/Wed/Fri)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 5 * * 1,3,5",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777284000000,
+      "lastRunAtMs": 1777024800052,
+      "lastStatus": "ok",
+      "lastDurationMs": 40567,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
+    },
+    "payload": {
+      "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+    }
+  },
+  {
+    "name": "Sub-Agent Workspace Sync Dispatch (Mon/Wed/Fri)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "8 5 * * 1,3,5",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777284480000,
+      "lastRunAtMs": 1777025280126,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 98921,
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
+    },
+    "payload": {
+      "message": "WORKSPACE SYNC DISPATCH ONLY.\n\nSend this exact message with sessions_send to eac"
     }
   },
   {
