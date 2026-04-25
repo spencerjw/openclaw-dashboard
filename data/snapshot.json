@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-04-24T12:01:10.487969+00:00",
+  "collected_at": "2026-04-25T12:00:41.497669+00:00",
   "system": {
     "disk": {
       "total": "19G",
       "used": "16G",
-      "available": "3.1G",
+      "available": "3.0G",
       "percent": "84%"
     },
     "ram": {
       "total": "3.7Gi",
       "used": "1.9Gi",
-      "available": "1.9Gi"
+      "available": "1.8Gi"
     },
-    "uptime": "up 1 week, 5 days, 22 hours, 15 minutes",
+    "uptime": "up 1 week, 6 days, 22 hours, 15 minutes",
     "openclaw_version": "v2026.4.22",
     "instance": "AWS t3.small (2GB RAM)"
   },
@@ -130,8 +130,8 @@
       "workspace": "workspace",
       "model": "gpt-5.4",
       "workspace_size_mb": 72,
-      "memory_bytes": 304380,
-      "memory_kb": 297.2,
+      "memory_bytes": 305110,
+      "memory_kb": 298.0,
       "memory_files": [
         {
           "name": "MEMORY.md",
@@ -387,6 +387,10 @@
           "bytes": 2941
         },
         {
+          "name": "memory/2026-04-24.md",
+          "bytes": 730
+        },
+        {
           "name": "memory/agent-roster.md",
           "bytes": 2819
         },
@@ -447,7 +451,7 @@
           "bytes": 4067
         }
       ],
-      "memory_file_count": 78
+      "memory_file_count": 79
     },
     {
       "id": "pearl",
@@ -1052,7 +1056,7 @@
       "emoji": "\ud83d\udcb0",
       "domain": "Finance & Markets",
       "workspace": "workspace-sterling",
-      "model": "gpt-5.4",
+      "model": "gpt-4.1-mini",
       "workspace_size_mb": 1,
       "memory_bytes": 11781,
       "memory_kb": 11.5,
@@ -1360,209 +1364,20 @@
         "tz": "America/Chicago"
       },
       "state": {
-        "nextRunAtMs": 1777032000000,
-        "lastRunAtMs": 1776945600180,
+        "nextRunAtMs": 1777118400000,
+        "lastRunAtMs": 1777032000074,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 63525,
-        "lastDeliveryStatus": "not-delivered",
+        "lastDurationMs": 83476,
+        "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1777032000074
+        "runningAtMs": 1777118400201
       },
       "delivery": {
         "mode": "none"
       },
       "payload": {
         "message": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. Run exactly this command to e"
-      }
-    },
-    {
-      "name": "Watchlist 1/3: Core Data Center Power",
-      "agentId": "sterling",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "20 16 * * 1-5",
-        "tz": "America/New_York"
-      },
-      "state": {
-        "nextRunAtMs": 1777062000000,
-        "lastRunAtMs": 1776975600220,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 79883,
-        "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471194552290377991"
-      },
-      "payload": {
-        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-      }
-    },
-    {
-      "name": "Watchlist 2/3: Growth & Tech",
-      "agentId": "sterling",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "35 16 * * 1-5",
-        "tz": "America/New_York"
-      },
-      "state": {
-        "lastRunAtMs": 1776976500159,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 30666,
-        "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "nextRunAtMs": 1777062900000
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471194552290377991"
-      },
-      "payload": {
-        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-      }
-    },
-    {
-      "name": "Watchlist 3/3: BYOP & Utilities",
-      "agentId": "sterling",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "40 16 * * 1-5",
-        "tz": "America/New_York"
-      },
-      "state": {
-        "lastRunAtMs": 1776976800135,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 72679,
-        "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "nextRunAtMs": 1777063200000
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471194552290377991"
-      },
-      "payload": {
-        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-      }
-    },
-    {
-      "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 17 * * 5",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1777068000000,
-        "lastRunAtMs": 1776463200213,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 128891,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "payload": {
-        "message": "Scan GitHub for the most starred or interesting repos from the past week related"
-      }
-    },
-    {
-      "name": "Daily Notion Status Sync",
-      "agentId": "sawyer",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 22 * * *",
-        "tz": "America/Chicago"
-      },
-      "state": {
-        "nextRunAtMs": 1777086000000,
-        "lastRunAtMs": 1776999600166,
-        "lastStatus": "error",
-        "lastDurationMs": 30054,
-        "consecutiveErrors": 1,
-        "lastRunStatus": "error",
-        "lastDeliveryStatus": "not-requested",
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "discord",
-        "to": "channel:1471196140044161228"
-      },
-      "payload": {
-        "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
-      }
-    },
-    {
-      "name": "Forge Ventures Council \u2014 Research (Fri)",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "59 4 * * 6",
-        "tz": "UTC"
-      },
-      "state": {
-        "nextRunAtMs": 1777093140000,
-        "lastRunAtMs": 1776488340073,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 315003,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "payload": {
-        "message": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventures"
-      }
-    },
-    {
-      "name": "Forge Ventures Council \u2014 Deliver (Fri)",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "14 5 * * 6",
-        "tz": "UTC"
-      },
-      "state": {
-        "nextRunAtMs": 1777094040000,
-        "lastRunAtMs": 1776691086097,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 20432,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "payload": {
-        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
       }
     },
     {
@@ -1615,6 +1430,33 @@
       },
       "payload": {
         "message": "Process new receipts and update family budget dashboard.\n\n1. Run the family budg"
+      }
+    },
+    {
+      "name": "Daily Notion Status Sync",
+      "agentId": "sawyer",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1777172400000,
+        "lastRunAtMs": 1777086000045,
+        "lastStatus": "ok",
+        "lastDurationMs": 23441,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "not-requested"
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471196140044161228"
+      },
+      "payload": {
+        "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
       }
     },
     {
@@ -1778,6 +1620,87 @@
       }
     },
     {
+      "name": "Watchlist 1/3: Core Data Center Power",
+      "agentId": "sterling",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "20 16 * * 1-5",
+        "tz": "America/New_York"
+      },
+      "state": {
+        "nextRunAtMs": 1777321200000,
+        "lastRunAtMs": 1777062000054,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 30998,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
+      },
+      "payload": {
+        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+      }
+    },
+    {
+      "name": "Watchlist 2/3: Growth & Tech",
+      "agentId": "sterling",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "35 16 * * 1-5",
+        "tz": "America/New_York"
+      },
+      "state": {
+        "lastRunAtMs": 1777062900120,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 19249,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "nextRunAtMs": 1777322100000
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
+      },
+      "payload": {
+        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+      }
+    },
+    {
+      "name": "Watchlist 3/3: BYOP & Utilities",
+      "agentId": "sterling",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "40 16 * * 1-5",
+        "tz": "America/New_York"
+      },
+      "state": {
+        "lastRunAtMs": 1777063200041,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 78298,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "nextRunAtMs": 1777322400000
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "discord",
+        "to": "channel:1471194552290377991"
+      },
+      "payload": {
+        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+      }
+    },
+    {
       "name": "Weekly MemPalace Review",
       "agentId": "main",
       "enabled": true,
@@ -1824,6 +1747,81 @@
       "deleteAfterRun": true,
       "payload": {
         "message": "Execute Wedding Season post: Cheese Board V1.\n\npython3 /home/clawuser/.openclaw/"
+      }
+    },
+    {
+      "name": "Weekly GitHub Trending: Claude Code & OpenClaw",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 17 * * 5",
+        "tz": "America/Chicago"
+      },
+      "state": {
+        "nextRunAtMs": 1777672800000,
+        "lastRunAtMs": 1777068000206,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 137622,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "payload": {
+        "message": "Scan GitHub for the most starred or interesting repos from the past week related"
+      }
+    },
+    {
+      "name": "Forge Ventures Council \u2014 Research (Fri)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "59 4 * * 6",
+        "tz": "UTC"
+      },
+      "state": {
+        "nextRunAtMs": 1777697940000,
+        "lastRunAtMs": 1777093140125,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 285804,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "payload": {
+        "message": "You are Forge, the ventures/revenue agent. Read your SOUL.md, then read ventures"
+      }
+    },
+    {
+      "name": "Forge Ventures Council \u2014 Deliver (Fri)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "14 5 * * 6",
+        "tz": "UTC"
+      },
+      "state": {
+        "nextRunAtMs": 1777698840000,
+        "lastRunAtMs": 1777094040172,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 22064,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "payload": {
+        "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
       }
     },
     {
@@ -2180,87 +2178,87 @@
   "model_costs": {
     "source": "openclaw-session-logs",
     "window_days": 30,
-    "generated_at": "2026-04-24T12:01:09.895207+00:00",
+    "generated_at": "2026-04-25T12:00:40.855518+00:00",
     "totals": {
       "last_24h": {
-        "calls": 221,
-        "errors": 0,
-        "input_tokens": 5841760,
-        "output_tokens": 66522,
-        "cache_read_tokens": 9880576,
+        "calls": 176,
+        "errors": 1,
+        "input_tokens": 4641843,
+        "output_tokens": 80369,
+        "cache_read_tokens": 5905536,
         "cache_write_tokens": 0,
-        "total_tokens": 15788858,
-        "input_cost": 13.902227,
-        "output_cost": 0.972529,
-        "cache_read_cost": 2.348877,
+        "total_tokens": 10627748,
+        "input_cost": 11.560747,
+        "output_cost": 1.196956,
+        "cache_read_cost": 1.475322,
         "cache_write_cost": 0.0,
-        "total_cost": 17.223633,
+        "total_cost": 14.233025,
         "name": "last_24h"
       },
       "last_7d": {
-        "calls": 1162,
-        "errors": 2,
-        "input_tokens": 23298329,
-        "output_tokens": 276437,
-        "cache_read_tokens": 66723328,
+        "calls": 944,
+        "errors": 3,
+        "input_tokens": 24920897,
+        "output_tokens": 187426,
+        "cache_read_tokens": 50110080,
         "cache_write_tokens": 0,
-        "total_tokens": 90298094,
-        "input_cost": 53.804004,
-        "output_cost": 4.067475,
-        "cache_read_cost": 16.125549,
+        "total_tokens": 75218403,
+        "input_cost": 58.142019,
+        "output_cost": 2.74772,
+        "cache_read_cost": 11.985581,
         "cache_write_cost": 0.0,
-        "total_cost": 73.997027,
+        "total_cost": 72.87532,
         "name": "last_7d"
       },
       "last_30d": {
-        "calls": 1328,
-        "errors": 8,
-        "input_tokens": 25840118,
-        "output_tokens": 293827,
-        "cache_read_tokens": 80564007,
-        "cache_write_tokens": 5028947,
-        "total_tokens": 111726899,
-        "input_cost": 54.884913,
-        "output_cost": 4.315613,
-        "cache_read_cost": 19.932626,
-        "cache_write_cost": 19.204461,
-        "total_cost": 98.337613,
+        "calls": 1053,
+        "errors": 9,
+        "input_tokens": 27462575,
+        "output_tokens": 201007,
+        "cache_read_tokens": 62275786,
+        "cache_write_tokens": 4122052,
+        "total_tokens": 94061420,
+        "input_cost": 59.222567,
+        "output_cost": 2.921504,
+        "cache_read_cost": 15.178461,
+        "cache_write_cost": 15.457695,
+        "total_cost": 92.780226,
         "name": "last_30d"
       }
     },
     "by_provider_30d": [
       {
-        "calls": 1191,
-        "errors": 2,
-        "input_tokens": 25839868,
-        "output_tokens": 279981,
-        "cache_read_tokens": 69369216,
+        "calls": 975,
+        "errors": 3,
+        "input_tokens": 27462436,
+        "output_tokens": 190970,
+        "cache_read_tokens": 52755968,
         "cache_write_tokens": 0,
-        "total_tokens": 95489065,
-        "input_cost": 54.884135,
-        "output_cost": 4.090703,
-        "cache_read_cost": 16.462483,
+        "total_tokens": 80409374,
+        "input_cost": 59.22215,
+        "output_cost": 2.770949,
+        "cache_read_cost": 12.322515,
         "cache_write_cost": 0.0,
-        "total_cost": 75.437321,
+        "total_cost": 74.315614,
         "provider": "openai"
       },
       {
-        "calls": 99,
+        "calls": 74,
         "errors": 6,
-        "input_tokens": 250,
-        "output_tokens": 13846,
-        "cache_read_tokens": 11194791,
-        "cache_write_tokens": 5028947,
-        "total_tokens": 16237834,
-        "input_cost": 0.000778,
-        "output_cost": 0.22491,
-        "cache_read_cost": 3.470143,
-        "cache_write_cost": 19.204461,
-        "total_cost": 22.900292,
+        "input_tokens": 139,
+        "output_tokens": 10037,
+        "cache_read_tokens": 9519818,
+        "cache_write_tokens": 4122052,
+        "total_tokens": 13652046,
+        "input_cost": 0.000417,
+        "output_cost": 0.150555,
+        "cache_read_cost": 2.855945,
+        "cache_write_cost": 15.457695,
+        "total_cost": 18.464612,
         "provider": "anthropic"
       },
       {
-        "calls": 38,
+        "calls": 4,
         "errors": 0,
         "input_tokens": 0,
         "output_tokens": 0,
@@ -2277,18 +2275,18 @@
     ],
     "by_model_30d": [
       {
-        "calls": 1062,
-        "errors": 2,
-        "input_tokens": 20989749,
-        "output_tokens": 271182,
-        "cache_read_tokens": 62148736,
+        "calls": 868,
+        "errors": 3,
+        "input_tokens": 22777961,
+        "output_tokens": 183477,
+        "cache_read_tokens": 45802368,
         "cache_write_tokens": 0,
-        "total_tokens": 83409667,
-        "input_cost": 52.474372,
-        "output_cost": 4.06773,
-        "cache_read_cost": 15.537184,
+        "total_tokens": 68763806,
+        "input_cost": 56.944902,
+        "output_cost": 2.752155,
+        "cache_read_cost": 11.450592,
         "cache_write_cost": 0.0,
-        "total_cost": 72.079287,
+        "total_cost": 71.14765,
         "provider": "openai",
         "model": "gpt-5.4"
       },
@@ -2309,55 +2307,39 @@
         "model": "claude-sonnet-4-6"
       },
       {
-        "calls": 22,
+        "calls": 107,
         "errors": 0,
-        "input_tokens": 139,
-        "output_tokens": 3186,
-        "cache_read_tokens": 1654771,
-        "cache_write_tokens": 1160926,
-        "total_tokens": 2819022,
-        "input_cost": 0.000417,
-        "output_cost": 0.04779,
-        "cache_read_cost": 0.496431,
-        "cache_write_cost": 4.353472,
-        "total_cost": 4.898111,
-        "provider": "anthropic",
-        "model": "claude-sonnet-4-20250514"
-      },
-      {
-        "calls": 129,
-        "errors": 0,
-        "input_tokens": 4850119,
-        "output_tokens": 8799,
-        "cache_read_tokens": 7220480,
+        "input_tokens": 4684475,
+        "output_tokens": 7493,
+        "cache_read_tokens": 6953600,
         "cache_write_tokens": 0,
-        "total_tokens": 12079398,
-        "input_cost": 2.409763,
-        "output_cost": 0.022973,
-        "cache_read_cost": 0.925299,
+        "total_tokens": 11645568,
+        "input_cost": 2.277248,
+        "output_cost": 0.018794,
+        "cache_read_cost": 0.871923,
         "cache_write_cost": 0.0,
-        "total_cost": 3.358035,
+        "total_cost": 3.167964,
         "provider": "openai",
         "model": "gpt-4.1-mini"
       },
       {
-        "calls": 10,
+        "calls": 7,
         "errors": 0,
-        "input_tokens": 14,
-        "output_tokens": 1722,
-        "cache_read_tokens": 558527,
-        "cache_write_tokens": 138364,
-        "total_tokens": 698627,
-        "input_cost": 7e-05,
-        "output_cost": 0.04305,
-        "cache_read_cost": 0.279263,
-        "cache_write_cost": 0.864775,
-        "total_cost": 1.187158,
+        "input_tokens": 42,
+        "output_tokens": 1099,
+        "cache_read_tokens": 538325,
+        "cache_write_tokens": 392395,
+        "total_tokens": 931861,
+        "input_cost": 0.000126,
+        "output_cost": 0.016485,
+        "cache_read_cost": 0.161497,
+        "cache_write_cost": 1.471481,
+        "total_cost": 1.64959,
         "provider": "anthropic",
-        "model": "claude-opus-4-6"
+        "model": "claude-sonnet-4-20250514"
       },
       {
-        "calls": 38,
+        "calls": 4,
         "errors": 0,
         "input_tokens": 0,
         "output_tokens": 0,
@@ -2375,84 +2357,52 @@
     ],
     "by_agent_30d": [
       {
-        "calls": 839,
+        "calls": 799,
         "errors": 1,
-        "input_tokens": 19184847,
-        "output_tokens": 147894,
-        "cache_read_tokens": 48967615,
-        "cache_write_tokens": 138364,
-        "total_tokens": 68438720,
-        "input_cost": 47.897932,
-        "output_cost": 2.220042,
-        "cache_read_cost": 12.379532,
-        "cache_write_cost": 0.864775,
-        "total_cost": 63.362281,
+        "input_tokens": 22179198,
+        "output_tokens": 156091,
+        "cache_read_tokens": 43333504,
+        "cache_write_tokens": 0,
+        "total_tokens": 65668793,
+        "input_cost": 55.400494,
+        "output_cost": 2.326473,
+        "cache_read_cost": 10.832435,
+        "cache_write_cost": 0.0,
+        "total_cost": 68.559402,
         "agent_id": "main",
         "agent_name": "Nexus"
       },
       {
-        "calls": 100,
+        "calls": 90,
         "errors": 3,
-        "input_tokens": 4177971,
-        "output_tokens": 11789,
-        "cache_read_tokens": 15457212,
-        "cache_write_tokens": 4203774,
-        "total_tokens": 23850746,
-        "input_cost": 1.872361,
-        "output_cost": 0.12864,
-        "cache_read_cost": 3.54956,
-        "cache_write_cost": 15.764153,
-        "total_cost": 21.314714,
+        "input_tokens": 4177913,
+        "output_tokens": 10601,
+        "cache_read_tokens": 14439766,
+        "cache_write_tokens": 3600985,
+        "total_tokens": 22229265,
+        "input_cost": 1.872187,
+        "output_cost": 0.11082,
+        "cache_read_cost": 3.244327,
+        "cache_write_cost": 13.503694,
+        "total_cost": 18.731028,
         "agent_id": "rosie",
         "agent_name": "Rosie"
       },
       {
-        "calls": 225,
-        "errors": 0,
-        "input_tokens": 1604481,
-        "output_tokens": 102975,
-        "cache_read_tokens": 11797760,
-        "cache_write_tokens": 0,
-        "total_tokens": 13505216,
-        "input_cost": 3.746713,
-        "output_cost": 1.53456,
-        "cache_read_cost": 2.939424,
-        "cache_write_cost": 0.0,
-        "total_cost": 8.220697,
-        "agent_id": "stratton",
-        "agent_name": "Stratton"
-      },
-      {
-        "calls": 60,
+        "calls": 55,
         "errors": 3,
-        "input_tokens": 386964,
-        "output_tokens": 5485,
-        "cache_read_tokens": 2058796,
-        "cache_write_tokens": 686809,
-        "total_tokens": 3138054,
-        "input_cost": 0.309774,
-        "output_cost": 0.064516,
-        "cache_read_cost": 0.498471,
-        "cache_write_cost": 2.575534,
-        "total_cost": 3.448294,
+        "input_tokens": 386925,
+        "output_tokens": 4586,
+        "cache_read_tokens": 1959796,
+        "cache_write_tokens": 521067,
+        "total_tokens": 2872374,
+        "input_cost": 0.309657,
+        "output_cost": 0.051031,
+        "cache_read_cost": 0.468771,
+        "cache_write_cost": 1.954001,
+        "total_cost": 2.78346,
         "agent_id": "sage",
         "agent_name": "Sage"
-      },
-      {
-        "calls": 60,
-        "errors": 0,
-        "input_tokens": 234543,
-        "output_tokens": 9845,
-        "cache_read_tokens": 1147776,
-        "cache_write_tokens": 0,
-        "total_tokens": 1392164,
-        "input_cost": 0.564008,
-        "output_cost": 0.13748,
-        "cache_read_cost": 0.286003,
-        "cache_write_cost": 0.0,
-        "total_cost": 0.987491,
-        "agent_id": "sterling",
-        "agent_name": "Sterling"
       },
       {
         "calls": 32,
@@ -2471,18 +2421,50 @@
         "agent_name": "Forge"
       },
       {
-        "calls": 12,
+        "calls": 55,
         "errors": 0,
-        "input_tokens": 78914,
-        "output_tokens": 611,
-        "cache_read_tokens": 81536,
+        "input_tokens": 214991,
+        "output_tokens": 8196,
+        "cache_read_tokens": 1116928,
         "cache_write_tokens": 0,
-        "total_tokens": 161061,
-        "input_cost": 0.063131,
-        "output_cost": 0.001955,
-        "cache_read_cost": 0.016307,
+        "total_tokens": 1340115,
+        "input_cost": 0.517074,
+        "output_cost": 0.115105,
+        "cache_read_cost": 0.278227,
         "cache_write_cost": 0.0,
-        "total_cost": 0.081394,
+        "total_cost": 0.910406,
+        "agent_id": "sterling",
+        "agent_name": "Sterling"
+      },
+      {
+        "calls": 14,
+        "errors": 1,
+        "input_tokens": 251318,
+        "output_tokens": 5888,
+        "cache_read_tokens": 337536,
+        "cache_write_tokens": 0,
+        "total_tokens": 594742,
+        "input_cost": 0.628295,
+        "output_cost": 0.08832,
+        "cache_read_cost": 0.084384,
+        "cache_write_cost": 0.0,
+        "total_cost": 0.800999,
+        "agent_id": "stratton",
+        "agent_name": "Stratton"
+      },
+      {
+        "calls": 8,
+        "errors": 0,
+        "input_tokens": 79832,
+        "output_tokens": 417,
+        "cache_read_tokens": 34944,
+        "cache_write_tokens": 0,
+        "total_tokens": 115193,
+        "input_cost": 0.063866,
+        "output_cost": 0.001334,
+        "cache_read_cost": 0.006989,
+        "cache_write_cost": 0.0,
+        "total_cost": 0.072189,
         "agent_id": "sawyer",
         "agent_name": "Sawyer"
       },
@@ -2553,10 +2535,6 @@
     ],
     "daily_30d": [
       {
-        "date": "2026-03-26",
-        "total_cost": 1.650314
-      },
-      {
         "date": "2026-03-27",
         "total_cost": 0.0
       },
@@ -2574,7 +2552,7 @@
       },
       {
         "date": "2026-03-31",
-        "total_cost": 1.925443
+        "total_cost": 1.582834
       },
       {
         "date": "2026-04-01",
@@ -2586,7 +2564,7 @@
       },
       {
         "date": "2026-04-03",
-        "total_cost": 0.84455
+        "total_cost": 0.0
       },
       {
         "date": "2026-04-04",
@@ -2642,7 +2620,7 @@
       },
       {
         "date": "2026-04-17",
-        "total_cost": 1.131133
+        "total_cost": 0.325469
       },
       {
         "date": "2026-04-18",
@@ -2654,7 +2632,7 @@
       },
       {
         "date": "2026-04-20",
-        "total_cost": 22.892199
+        "total_cost": 11.678777
       },
       {
         "date": "2026-04-21",
@@ -2666,14 +2644,39 @@
       },
       {
         "date": "2026-04-23",
-        "total_cost": 15.267487
+        "total_cost": 12.250915
       },
       {
         "date": "2026-04-24",
-        "total_cost": 7.915296
+        "total_cost": 15.823727
+      },
+      {
+        "date": "2026-04-25",
+        "total_cost": 6.005519
       }
     ],
     "top_sessions_30d": [
+      {
+        "calls": 199,
+        "errors": 0,
+        "input_tokens": 8884831,
+        "output_tokens": 74647,
+        "cache_read_tokens": 8582656,
+        "cache_write_tokens": 0,
+        "total_tokens": 17542134,
+        "input_cost": 22.212077,
+        "output_cost": 1.119705,
+        "cache_read_cost": 2.145664,
+        "cache_write_cost": 0.0,
+        "total_cost": 25.477446,
+        "session_id": "c6e5953a-8ae8-4d61-9a09-99ee86034049-pruned-20260425",
+        "agent_id": "main",
+        "agent_name": "Nexus",
+        "file": "agents/main/sessions/archive/c6e5953a-8ae8-4d61-9a09-99ee86034049-pruned-20260425.jsonl",
+        "last_timestamp": "2026-04-25T05:40:50.592000+00:00",
+        "provider": "openai",
+        "model": "gpt-5.4"
+      },
       {
         "calls": 290,
         "errors": 0,
@@ -2696,18 +2699,18 @@
         "model": "gpt-5.4"
       },
       {
-        "calls": 100,
+        "calls": 90,
         "errors": 3,
-        "input_tokens": 4177971,
-        "output_tokens": 11789,
-        "cache_read_tokens": 15457212,
-        "cache_write_tokens": 4203774,
-        "total_tokens": 23850746,
-        "input_cost": 1.872361,
-        "output_cost": 0.12864,
-        "cache_read_cost": 3.54956,
-        "cache_write_cost": 15.764153,
-        "total_cost": 21.314714,
+        "input_tokens": 4177913,
+        "output_tokens": 10601,
+        "cache_read_tokens": 14439766,
+        "cache_write_tokens": 3600985,
+        "total_tokens": 22229265,
+        "input_cost": 1.872187,
+        "output_cost": 0.11082,
+        "cache_read_cost": 3.244327,
+        "cache_write_cost": 13.503694,
+        "total_cost": 18.731028,
         "session_id": "6560dda5-0e1b-4b41-9212-afa05d632a87",
         "agent_id": "rosie",
         "agent_name": "Rosie",
@@ -2715,27 +2718,6 @@
         "last_timestamp": "2026-04-24T10:11:52.589000+00:00",
         "provider": "openai",
         "model": "gpt-4.1-mini"
-      },
-      {
-        "calls": 124,
-        "errors": 0,
-        "input_tokens": 5557806,
-        "output_tokens": 34311,
-        "cache_read_tokens": 5113728,
-        "cache_write_tokens": 0,
-        "total_tokens": 10705845,
-        "input_cost": 13.894515,
-        "output_cost": 0.514665,
-        "cache_read_cost": 1.278432,
-        "cache_write_cost": 0.0,
-        "total_cost": 15.687612,
-        "session_id": "c6e5953a-8ae8-4d61-9a09-99ee86034049",
-        "agent_id": "main",
-        "agent_name": "Nexus",
-        "file": "agents/main/sessions/c6e5953a-8ae8-4d61-9a09-99ee86034049.jsonl",
-        "last_timestamp": "2026-04-24T11:41:00.830000+00:00",
-        "provider": "openai",
-        "model": "gpt-5.4"
       },
       {
         "calls": 144,
@@ -2759,60 +2741,18 @@
         "model": "gpt-5.4"
       },
       {
-        "calls": 176,
-        "errors": 0,
-        "input_tokens": 934523,
-        "output_tokens": 87652,
-        "cache_read_tokens": 10787072,
-        "cache_write_tokens": 0,
-        "total_tokens": 11809247,
-        "input_cost": 2.336307,
-        "output_cost": 1.31478,
-        "cache_read_cost": 2.696768,
-        "cache_write_cost": 0.0,
-        "total_cost": 6.347855,
-        "session_id": "c17ae293-2f47-4e78-88be-44113cc1ca5f-pruned-20260421",
-        "agent_id": "stratton",
-        "agent_name": "Stratton",
-        "file": "agents/stratton/sessions/archive/c17ae293-2f47-4e78-88be-44113cc1ca5f-pruned-20260421.jsonl",
-        "last_timestamp": "2026-04-20T21:04:09.200000+00:00",
-        "provider": "openai",
-        "model": "gpt-5.4"
-      },
-      {
-        "calls": 130,
-        "errors": 0,
-        "input_tokens": 690066,
-        "output_tokens": 45459,
-        "cache_read_tokens": 7377599,
-        "cache_write_tokens": 138364,
-        "total_tokens": 8251488,
-        "input_cost": 1.7252,
-        "output_cost": 0.699105,
-        "cache_read_cost": 1.984031,
-        "cache_write_cost": 0.864775,
-        "total_cost": 5.273112,
-        "session_id": "64fe472e-c4a0-4992-b461-26c5a58a4eb8",
-        "agent_id": "main",
-        "agent_name": "Nexus",
-        "file": "agents/main/sessions/64fe472e-c4a0-4992-b461-26c5a58a4eb8.jsonl",
-        "last_timestamp": "2026-04-20T13:36:20.164000+00:00",
-        "provider": "openclaw",
-        "model": "delivery-mirror"
-      },
-      {
-        "calls": 60,
+        "calls": 55,
         "errors": 3,
-        "input_tokens": 386964,
-        "output_tokens": 5485,
-        "cache_read_tokens": 2058796,
-        "cache_write_tokens": 686809,
-        "total_tokens": 3138054,
-        "input_cost": 0.309774,
-        "output_cost": 0.064516,
-        "cache_read_cost": 0.498471,
-        "cache_write_cost": 2.575534,
-        "total_cost": 3.448294,
+        "input_tokens": 386925,
+        "output_tokens": 4586,
+        "cache_read_tokens": 1959796,
+        "cache_write_tokens": 521067,
+        "total_tokens": 2872374,
+        "input_cost": 0.309657,
+        "output_cost": 0.051031,
+        "cache_read_cost": 0.468771,
+        "cache_write_cost": 1.954001,
+        "total_cost": 2.78346,
         "session_id": "073be9b5-5e9f-4408-9f30-077e9e0061c5",
         "agent_id": "sage",
         "agent_name": "Sage",
@@ -2820,27 +2760,6 @@
         "last_timestamp": "2026-04-24T10:10:05.223000+00:00",
         "provider": "openai",
         "model": "gpt-4.1-mini"
-      },
-      {
-        "calls": 54,
-        "errors": 0,
-        "input_tokens": 773574,
-        "output_tokens": 23689,
-        "cache_read_tokens": 3962624,
-        "cache_write_tokens": 0,
-        "total_tokens": 4759887,
-        "input_cost": 1.933935,
-        "output_cost": 0.355335,
-        "cache_read_cost": 0.990656,
-        "cache_write_cost": 0.0,
-        "total_cost": 3.279926,
-        "session_id": "34613e21-9924-49d7-b40d-b04f65d4a6ec",
-        "agent_id": "main",
-        "agent_name": "Nexus",
-        "file": "agents/main/sessions/34613e21-9924-49d7-b40d-b04f65d4a6ec.jsonl",
-        "last_timestamp": "2026-04-24T01:57:39.769000+00:00",
-        "provider": "openai",
-        "model": "gpt-5.4"
       },
       {
         "calls": 30,
@@ -2864,23 +2783,23 @@
         "model": "gpt-5.4"
       },
       {
-        "calls": 26,
+        "calls": 25,
         "errors": 0,
-        "input_tokens": 408139,
-        "output_tokens": 10183,
-        "cache_read_tokens": 544640,
+        "input_tokens": 737930,
+        "output_tokens": 8238,
+        "cache_read_tokens": 749056,
         "cache_write_tokens": 0,
-        "total_tokens": 962962,
-        "input_cost": 1.020348,
-        "output_cost": 0.152745,
-        "cache_read_cost": 0.13616,
+        "total_tokens": 1495224,
+        "input_cost": 1.844825,
+        "output_cost": 0.12357,
+        "cache_read_cost": 0.187264,
         "cache_write_cost": 0.0,
-        "total_cost": 1.309252,
-        "session_id": "5c3f8ba7-c42c-4620-b4c7-3dedb966fe02-pruned-20260421",
-        "agent_id": "stratton",
-        "agent_name": "Stratton",
-        "file": "agents/stratton/sessions/archive/5c3f8ba7-c42c-4620-b4c7-3dedb966fe02-pruned-20260421.jsonl",
-        "last_timestamp": "2026-04-20T19:23:48.821000+00:00",
+        "total_cost": 2.155659,
+        "session_id": "e35a76b2-d1c4-415f-8ce8-49482d2a91eb",
+        "agent_id": "main",
+        "agent_name": "Nexus",
+        "file": "agents/main/sessions/e35a76b2-d1c4-415f-8ce8-49482d2a91eb.jsonl",
+        "last_timestamp": "2026-04-25T11:40:41.582000+00:00",
         "provider": "openai",
         "model": "gpt-5.4"
       },
@@ -2906,6 +2825,69 @@
         "model": "gpt-5.4"
       },
       {
+        "calls": 14,
+        "errors": 1,
+        "input_tokens": 251318,
+        "output_tokens": 5888,
+        "cache_read_tokens": 337536,
+        "cache_write_tokens": 0,
+        "total_tokens": 594742,
+        "input_cost": 0.628295,
+        "output_cost": 0.08832,
+        "cache_read_cost": 0.084384,
+        "cache_write_cost": 0.0,
+        "total_cost": 0.800999,
+        "session_id": "79c09b53-406f-4eef-8936-93c7df21e066",
+        "agent_id": "stratton",
+        "agent_name": "Stratton",
+        "file": "agents/stratton/sessions/79c09b53-406f-4eef-8936-93c7df21e066.jsonl",
+        "last_timestamp": "2026-04-24T21:18:53.375000+00:00",
+        "provider": "openai",
+        "model": "gpt-5.4"
+      },
+      {
+        "calls": 22,
+        "errors": 0,
+        "input_tokens": 135680,
+        "output_tokens": 12280,
+        "cache_read_tokens": 783104,
+        "cache_write_tokens": 0,
+        "total_tokens": 931064,
+        "input_cost": 0.3392,
+        "output_cost": 0.1842,
+        "cache_read_cost": 0.195776,
+        "cache_write_cost": 0.0,
+        "total_cost": 0.719176,
+        "session_id": "68c63a40-61a8-4076-9116-c7f557450410",
+        "agent_id": "main",
+        "agent_name": "Nexus",
+        "file": "agents/main/sessions/68c63a40-61a8-4076-9116-c7f557450410.jsonl",
+        "last_timestamp": "2026-04-25T05:03:45.391000+00:00",
+        "provider": "openai",
+        "model": "gpt-5.4"
+      },
+      {
+        "calls": 11,
+        "errors": 0,
+        "input_tokens": 128324,
+        "output_tokens": 10082,
+        "cache_read_tokens": 444416,
+        "cache_write_tokens": 0,
+        "total_tokens": 582822,
+        "input_cost": 0.32081,
+        "output_cost": 0.15123,
+        "cache_read_cost": 0.111104,
+        "cache_write_cost": 0.0,
+        "total_cost": 0.583144,
+        "session_id": "b71b9499-2579-4a95-b705-982c86630404",
+        "agent_id": "main",
+        "agent_name": "Nexus",
+        "file": "agents/main/sessions/b71b9499-2579-4a95-b705-982c86630404.jsonl",
+        "last_timestamp": "2026-04-24T22:02:15.767000+00:00",
+        "provider": "openclaw",
+        "model": "delivery-mirror"
+      },
+      {
         "calls": 30,
         "errors": 0,
         "input_tokens": 122131,
@@ -2927,23 +2909,23 @@
         "model": "gpt-5.4"
       },
       {
-        "calls": 9,
+        "calls": 8,
         "errors": 0,
-        "input_tokens": 106237,
-        "output_tokens": 4287,
-        "cache_read_tokens": 265728,
+        "input_tokens": 116579,
+        "output_tokens": 5209,
+        "cache_read_tokens": 197888,
         "cache_write_tokens": 0,
-        "total_tokens": 376252,
-        "input_cost": 0.265593,
-        "output_cost": 0.064305,
-        "cache_read_cost": 0.066432,
+        "total_tokens": 319676,
+        "input_cost": 0.291447,
+        "output_cost": 0.078135,
+        "cache_read_cost": 0.049472,
         "cache_write_cost": 0.0,
-        "total_cost": 0.39633,
-        "session_id": "79c09b53-406f-4eef-8936-93c7df21e066",
-        "agent_id": "stratton",
-        "agent_name": "Stratton",
-        "file": "agents/stratton/sessions/79c09b53-406f-4eef-8936-93c7df21e066.jsonl",
-        "last_timestamp": "2026-04-24T10:10:20.443000+00:00",
+        "total_cost": 0.419055,
+        "session_id": "8952437f-d763-4a26-adc5-644e3f9fa982",
+        "agent_id": "main",
+        "agent_name": "Nexus",
+        "file": "agents/main/sessions/8952437f-d763-4a26-adc5-644e3f9fa982.jsonl",
+        "last_timestamp": "2026-04-24T22:02:17.535000+00:00",
         "provider": "openai",
         "model": "gpt-5.4"
       },
@@ -3008,7 +2990,7 @@
       },
       "main": {
         "model": "gpt-5.4",
-        "timestamp": "2026-04-24T12:01:09.821000+00:00",
+        "timestamp": "2026-04-25T12:00:40.785000+00:00",
         "agent_name": "Nexus"
       },
       "pearl": {
@@ -3028,17 +3010,17 @@
       },
       "sawyer": {
         "model": "gpt-4.1-mini",
-        "timestamp": "2026-04-24T10:09:44.915000+00:00",
+        "timestamp": "2026-04-25T03:00:23.332000+00:00",
         "agent_name": "Sawyer"
       },
       "sterling": {
-        "model": "gpt-5.4",
-        "timestamp": "2026-04-24T10:10:17.570000+00:00",
+        "model": "gpt-4.1-mini",
+        "timestamp": "2026-04-24T20:41:18.192000+00:00",
         "agent_name": "Sterling"
       },
       "stratton": {
         "model": "gpt-5.4",
-        "timestamp": "2026-04-24T10:10:20.443000+00:00",
+        "timestamp": "2026-04-24T21:18:53.375000+00:00",
         "agent_name": "Stratton"
       },
       "tribune": {
