@@ -9,181 +9,20 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1777204800000,
-      "lastRunAtMs": 1777118400201,
+      "nextRunAtMs": 1777291200000,
+      "lastRunAtMs": 1777204800116,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 54900,
+      "lastDurationMs": 67001,
       "lastDeliveryStatus": "not-requested",
       "consecutiveErrors": 0,
-      "runningAtMs": 1777204800116
+      "runningAtMs": 1777291200111
     },
     "delivery": {
       "mode": "none"
     },
     "payload": {
       "message": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. Run exactly this command to e"
-    }
-  },
-  {
-    "name": "Weekly Competitive Price Tracker - Snapshot",
-    "agentId": "stratton",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 21 * * 0",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777255200000,
-      "lastRunAtMs": 1776718083482,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 75909,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0,
-      "lastDelivered": false
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "1480921205107068958"
-    },
-    "payload": {
-      "message": "Work in /home/clawuser/.openclaw/workspace-stratton/competitive-pricing. Do only"
-    }
-  },
-  {
-    "name": "Weekly Competitive Price Tracker - Freshness Check",
-    "agentId": "stratton",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "8 21 * * 0",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777255680000,
-      "lastRunAtMs": 1776718752216,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 7561,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-    }
-  },
-  {
-    "name": "Weekly Competitive Price Tracker - Publish",
-    "agentId": "stratton",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "12 21 * * 0",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777255920000,
-      "lastRunAtMs": 1776651120100,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 62661,
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-    }
-  },
-  {
-    "name": "Daily Notion Status Sync",
-    "agentId": "sawyer",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 22 * * *",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777258800000,
-      "lastRunAtMs": 1777172400154,
-      "lastStatus": "ok",
-      "lastDurationMs": 9718,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested"
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "payload": {
-      "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
-    }
-  },
-  {
-    "name": "Sub-Agent Workspace Sync (Mon/Wed/Fri)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 5 * * 1,3,5",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777284000000,
-      "lastRunAtMs": 1777024800052,
-      "lastStatus": "ok",
-      "lastDurationMs": 40567,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested"
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payload": {
-      "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-    }
-  },
-  {
-    "name": "Sub-Agent Workspace Sync Dispatch (Mon/Wed/Fri)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "8 5 * * 1,3,5",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777284480000,
-      "lastRunAtMs": 1777025280126,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 98921,
-      "lastDeliveryStatus": "not-requested",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471194552290377991"
-    },
-    "payload": {
-      "message": "WORKSPACE SYNC DISPATCH ONLY.\n\nSend this exact message with sessions_send to eac"
     }
   },
   {
@@ -319,6 +158,33 @@
     }
   },
   {
+    "name": "Daily Notion Status Sync",
+    "agentId": "sawyer",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 22 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777345200000,
+      "lastRunAtMs": 1777258800141,
+      "lastStatus": "ok",
+      "lastDurationMs": 10491,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    },
+    "payload": {
+      "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
+    }
+  },
+  {
     "name": "Grocery Receipt Import (Every 3 Days)",
     "agentId": "main",
     "enabled": true,
@@ -341,6 +207,60 @@
     },
     "payload": {
       "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/gro"
+    }
+  },
+  {
+    "name": "Sub-Agent Workspace Sync (Mon/Wed/Fri)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 5 * * 1,3,5",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777456800000,
+      "lastRunAtMs": 1777284000108,
+      "lastStatus": "ok",
+      "lastDurationMs": 26516,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
+    },
+    "payload": {
+      "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+    }
+  },
+  {
+    "name": "Sub-Agent Workspace Sync Dispatch (Mon/Wed/Fri)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "8 5 * * 1,3,5",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777457280000,
+      "lastRunAtMs": 1777284480036,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 57609,
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471194552290377991"
+    },
+    "payload": {
+      "message": "WORKSPACE SYNC DISPATCH ONLY.\n\nSend this exact message with sessions_send to eac"
     }
   },
   {
@@ -457,6 +377,83 @@
       "lastRunStatus": "ok",
       "lastStatus": "ok",
       "lastDurationMs": 22064,
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload": {
+      "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+    }
+  },
+  {
+    "name": "Weekly Competitive Price Tracker - Snapshot",
+    "agentId": "stratton",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 21 * * 0",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777860000000,
+      "lastRunAtMs": 1777255200100,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 189208,
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "1480921205107068958"
+    },
+    "payload": {
+      "message": "Work in /home/clawuser/.openclaw/workspace-stratton/competitive-pricing. Do only"
+    }
+  },
+  {
+    "name": "Weekly Competitive Price Tracker - Freshness Check",
+    "agentId": "stratton",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "8 21 * * 0",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777860480000,
+      "lastRunAtMs": 1777255680144,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 8509,
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload": {
+      "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+    }
+  },
+  {
+    "name": "Weekly Competitive Price Tracker - Publish",
+    "agentId": "stratton",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "12 21 * * 0",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777860720000,
+      "lastRunAtMs": 1777255920070,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 9209,
       "lastDeliveryStatus": "not-requested",
       "consecutiveErrors": 0
     },
