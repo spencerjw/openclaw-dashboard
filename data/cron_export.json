@@ -9,46 +9,20 @@
       "tz": "America/Chicago"
     },
     "state": {
-      "nextRunAtMs": 1777291200000,
-      "lastRunAtMs": 1777204800116,
+      "nextRunAtMs": 1777377600000,
+      "lastRunAtMs": 1777291200111,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 67001,
+      "lastDurationMs": 57827,
       "lastDeliveryStatus": "not-requested",
       "consecutiveErrors": 0,
-      "runningAtMs": 1777291200111
+      "runningAtMs": 1777377600167
     },
     "delivery": {
       "mode": "none"
     },
     "payload": {
       "message": "Refresh the OpenClaw agent dashboard snapshot.\n\n1. Run exactly this command to e"
-    }
-  },
-  {
-    "name": "Weekly Starred Repo Watch",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 14 * * 1",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777316400000,
-      "lastRunAtMs": 1776711600140,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 19331,
-      "lastDeliveryStatus": "not-delivered",
-      "consecutiveErrors": 0,
-      "lastDelivered": false
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "message": "Run exactly this command and capture its stdout:\npython3 /home/clawuser/.opencla"
     }
   },
   {
@@ -61,11 +35,11 @@
       "tz": "America/New_York"
     },
     "state": {
-      "nextRunAtMs": 1777321200000,
-      "lastRunAtMs": 1777062000054,
+      "nextRunAtMs": 1777407600000,
+      "lastRunAtMs": 1777321200139,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 30998,
+      "lastDurationMs": 34258,
       "lastDeliveryStatus": "not-requested",
       "consecutiveErrors": 0
     },
@@ -88,13 +62,13 @@
       "tz": "America/New_York"
     },
     "state": {
-      "lastRunAtMs": 1777062900120,
+      "lastRunAtMs": 1777322100035,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 19249,
+      "lastDurationMs": 21461,
       "lastDeliveryStatus": "not-requested",
       "consecutiveErrors": 0,
-      "nextRunAtMs": 1777322100000
+      "nextRunAtMs": 1777408500000
     },
     "delivery": {
       "mode": "none",
@@ -115,13 +89,13 @@
       "tz": "America/New_York"
     },
     "state": {
-      "lastRunAtMs": 1777063200041,
+      "lastRunAtMs": 1777322400157,
       "lastRunStatus": "ok",
       "lastStatus": "ok",
-      "lastDurationMs": 78298,
+      "lastDurationMs": 72091,
       "lastDeliveryStatus": "not-requested",
       "consecutiveErrors": 0,
-      "nextRunAtMs": 1777322400000
+      "nextRunAtMs": 1777408800000
     },
     "delivery": {
       "mode": "none",
@@ -130,58 +104,6 @@
     },
     "payload": {
       "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
-    }
-  },
-  {
-    "name": "Receipt Processing (Mon/Wed/Sat 7pm CT)",
-    "agentId": "main",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 19 * * 1,3,6",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777334400000,
-      "lastRunAtMs": 1777161600173,
-      "lastRunStatus": "ok",
-      "lastStatus": "ok",
-      "lastDurationMs": 112287,
-      "lastDeliveryStatus": "not-requested",
-      "consecutiveErrors": 0
-    },
-    "delivery": {
-      "mode": "none"
-    },
-    "payload": {
-      "message": "Process new receipts and update family budget dashboard.\n\n1. Run the family budg"
-    }
-  },
-  {
-    "name": "Daily Notion Status Sync",
-    "agentId": "sawyer",
-    "enabled": true,
-    "schedule": {
-      "kind": "cron",
-      "expr": "0 22 * * *",
-      "tz": "America/Chicago"
-    },
-    "state": {
-      "nextRunAtMs": 1777345200000,
-      "lastRunAtMs": 1777258800141,
-      "lastStatus": "ok",
-      "lastDurationMs": 10491,
-      "consecutiveErrors": 0,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested"
-    },
-    "delivery": {
-      "mode": "none",
-      "channel": "discord",
-      "to": "channel:1471196140044161228"
-    },
-    "payload": {
-      "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
     }
   },
   {
@@ -207,6 +129,33 @@
     },
     "payload": {
       "message": "Run exactly this command:\npython3 /home/clawuser/.openclaw/workspace/scripts/gro"
+    }
+  },
+  {
+    "name": "Daily Notion Status Sync",
+    "agentId": "sawyer",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 22 * * *",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777431600000,
+      "lastRunAtMs": 1777345200149,
+      "lastStatus": "ok",
+      "lastDurationMs": 20586,
+      "consecutiveErrors": 0,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested"
+    },
+    "delivery": {
+      "mode": "none",
+      "channel": "discord",
+      "to": "channel:1471196140044161228"
+    },
+    "payload": {
+      "message": "Run: python3 /home/clawuser/.openclaw/workspace/scripts/notion_sync_check.py\n\nIf"
     }
   },
   {
@@ -289,6 +238,33 @@
     },
     "payload": {
       "message": "Review the official MemPalace project once this week and on future weekly runs.\n"
+    }
+  },
+  {
+    "name": "Receipt Processing (Mon/Wed/Sat 7pm CT)",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 19 * * 1,3,6",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777507200000,
+      "lastRunAtMs": 1777334400192,
+      "lastRunStatus": "error",
+      "lastStatus": "error",
+      "lastDurationMs": 300021,
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 1,
+      "lastError": "cron: job execution timed out",
+      "lastErrorReason": "timeout"
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload": {
+      "message": "Process new receipts and update family budget dashboard.\n\n1. Run the family budg"
     }
   },
   {
@@ -462,6 +438,31 @@
     },
     "payload": {
       "message": "Run exactly this command and do nothing else:\npython3 /home/clawuser/.openclaw/w"
+    }
+  },
+  {
+    "name": "Weekly Starred Repo Watch",
+    "agentId": "main",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 14 * * 1",
+      "tz": "America/Chicago"
+    },
+    "state": {
+      "nextRunAtMs": 1777921200000,
+      "lastRunAtMs": 1777316400145,
+      "lastRunStatus": "ok",
+      "lastStatus": "ok",
+      "lastDurationMs": 24015,
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 0
+    },
+    "delivery": {
+      "mode": "none"
+    },
+    "payload": {
+      "message": "Run exactly this command and capture its stdout:\npython3 /home/clawuser/.opencla"
     }
   },
   {
